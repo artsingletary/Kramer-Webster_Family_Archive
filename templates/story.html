@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "google-analytics.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <title>{{ story.title }} | Kramer-Webster Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+        <p>Preserving the stories and memories of our family.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+    </nav>
+
+    <main class="story-page">
+
+        <p><a href="../stories.html">&larr; Back to Stories</a></p>
+
+        <h2>{{ story.title }}</h2>
+
+        <p class="story-category">{{ story.category }}</p>
+
+        {% if story.cover_photo %}
+        <div class="story-cover">
+            <img src="../photos/{{ story.cover_photo }}"
+                 alt="{{ story.title }}">
+        </div>
+        {% endif %}
+
+        {% if story.author %}
+        <p><strong>Author:</strong> {{ story.author }}</p>
+        {% endif %}
+
+        <!-- Story chapters -->
+
+        {% for section in story.sections %}
+
+        <section class="story-section">
+
+            {% if section.heading %}
+            <h3>{{ section.heading }}</h3>
+            {% endif %}
+
+            {% if section.text %}
+            <p>{{ section.text }}</p>
+            {% endif %}
+
+            {% if section.photo %}
+            <figure>
+                <img src="../photos/{{ section.photo }}"
+                     alt="{{ section.caption | default('Family photograph') }}">
+
+                {% if section.caption %}
+                <figcaption>{{ section.caption }}</figcaption>
+                {% endif %}
+            </figure>
+            {% endif %}
+
+        </section>
+
+
+        {% endfor %}
+
+        <!-- Related family members -->
+
+        {% if story.people_details %}
+        <section class="story-related">
+
+            <h3>People in This Story</h3>
+
+            <ul>
+                {% for person in story.people_details %}
+                <li>
+                    <a href="../people/{{ person.id }}.html">
+                        {{ person.display_name }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+
+        </section>
+        {% endif %}
+
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+# macOS files
+.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary files
+tempCodeRunnerFile.py
+
+# Local editor settings
+.vscode/
+
+docs_old_backup/
+documents_old_backup/
+photos_old_backup/
+data/people_backup.json
+data/sources_backup.json

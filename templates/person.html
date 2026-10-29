@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "google-analytics.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ person.display_name }} | Kramer-Webster Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+
+        <p>
+            Preserving our family's history for future generations
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+    </nav>
+
+    <main>
+
+        <p>
+            <a href="../index.html">← Back to Family Members</a>
+        </p>
+
+        <h1>{{ person.display_name }}</h1>
+
+        {% if person.years %}
+            <p><strong>{{ person.years }}</strong></p>
+        {% endif %}
+
+        {% if person.profile_photo %}
+
+            <div class="profile-photo">
+
+                <img
+                    src="../photos/{{ person.profile_photo }}"
+                     alt="{{ person.display_name }}"
+                 >
+
+            </div>
+
+        {% endif %}
+
+        <section class="person-section">
+
+            <h2>Life Events</h2>
+            {% if person.display_birth_date or person.birth_year %}
+                <p>
+                    <strong>Born:</strong>
+
+                    {% if person.display_birth_date %}
+                        {{ person.display_birth_date }}
+                    {% else %}
+                        {{ person.birth_year }}
+                    {% endif %}
+
+                    {% if person.birth_place %}
+                        — {{ person.birth_place }}
+                    {% endif %}
+                </p>
+            {% endif %}
+
+
+            {% if person.display_death_date %}
+                 <p>
+                    <strong>Died:</strong>
+                    {{ person.display_death_date }}
+
+                    {% if person.death_place %}
+                        — {{ person.death_place }}
+                    {% endif %}
+                 </p>
+             {% endif %}
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Family</h2>
+
+            {% if father %}
+                <p>
+                    <strong>Father:</strong>
+
+                    <a href="{{ father.id }}.html">
+                        {{ father.display_name }}
+                    </a>
+                </p>
+            {% endif %}
+
+
+            {% if mother %}
+                <p>
+                    <strong>Mother:</strong>
+
+                    <a href="{{ mother.id }}.html">
+                        {{ mother.display_name }}
+                    </a>
+                </p>
+            {% endif %}
+
+            {% if siblings %}
+
+                <h3>Siblings</h3>
+
+                <ul>
+
+                    {% for sibling in siblings %}
+
+                        <li>
+                            <a href="{{ sibling.id }}.html">
+                                {{ sibling.display_name }}
+                            </a>
+                        </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            {% endif %}
+
+            {% if spouses %}
+                <p>
+                    <strong>Spouse{% if spouses|length > 1 %}s{% endif %}:</strong>
+                </p>
+
+                <ul>
+                    {% for spouse in spouses %}
+                        <li>
+                            <a href="{{ spouse.id }}.html">
+                              {{ spouse.display_name }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if children %}
+
+                <h3>Children</h3>
+
+                <ul>
+
+                    {% for child in children %}
+
+                        <li>
+                            <a href="{{ child.id }}.html">
+                                {{ child.display_name }}
+                            </a>
+                        </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            {% endif %}
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Military Service</h2>
+
+            {% if person.military_service %}
+
+                {% for service in person.military_service %}
+
+                    {% if service.branch %}
+                        <p>
+                            <strong>Branch:</strong>
+                            {{ service.branch }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.conflict %}
+                         <p>
+                            <strong>Conflict:</strong>
+                            {{ service.conflict }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.side %}
+                        <p>
+                            <strong>Side:</strong>
+                            {{ service.side }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.unit %}
+                        <p>
+                             <strong>Unit:</strong>
+                             {{ service.unit }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.company %}
+                        <p>
+                            <strong>Company:</strong>
+                            {{ service.company }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.rank %}
+                        <p>
+                            <strong>Rank:</strong>
+                            {{ service.rank }}
+                        </p>
+                    {% elif service.rank_in %}
+                        <p>
+                            <strong>Rank:</strong>
+                            {{ service.rank_in }}
+                            {% if service.rank_out and service.rank_out != service.rank_in %}
+                                → {{ service.rank_out }}
+                            {% endif %}
+                        </p>
+                    {% endif %}
+
+                    {% if service.service_year %}
+                        <p>
+                            <strong>Service Year:</strong>
+                            {{ service.service_year }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.commanders %}
+                        <p>
+                            <strong>Commanders:</strong>
+                            {{ service.commanders | join(", ") }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.enlistment_date %}
+                        <p>
+                            <strong>Enlisted:</strong>
+                            {{ service.enlistment_date | format_date }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.enlistment_place %}
+                        <p>
+                            <strong>Enlistment Place:</strong>
+                            {{ service.enlistment_place }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.discharge_date %}
+                        <p>
+                            <strong>Discharged:</strong>
+                            {{ service.discharge_date | format_date }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.pension_application %}
+                        <p>
+                            <strong>Pension Application:</strong>
+                            {{ service.pension_application }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.notes %}
+                        <p>
+                            <strong>Research Notes:</strong>
+                            {{ service.notes }}
+                        </p>
+                    {% endif %}
+
+                {% endfor %}
+
+            {% else %}
+
+                <p>No military service information has been added.</p>
+
+            {% endif %}
+
+        </section>
+
+        <section class="person-section">
+
+            <h2>Biography</h2>
+
+            {% if person.biography %}
+
+                {% for paragraph in person.biography %}
+                 <p>{{ paragraph }}</p>
+                {% endfor %}
+
+            {% else %}
+
+             <p>
+                 Biography information has not yet been added.
+             </p>
+
+            {% endif %}
+
+        </section>
+
+
+        <section class="person-section">
+
+            <h2>Photos</h2>
+
+            {% if photos %}
+
+                <div class="photo-gallery">
+
+                    {% for photo in photos %}
+
+                        <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/{{ photo.file }}"
+                            alt="{{ photo.caption }}"
+                        >
+
+                        {% if photo.caption %}
+                            <figcaption>
+                                {{ photo.caption }}
+                            </figcaption>
+                         {% endif %}
+
+                        </figure>
+
+                    {% endfor %}
+
+                </div>
+
+            {% else %}
+
+                 <p>No additional photographs have been added.</p>
+
+            {% endif %}
+
+        </section>
+
+
+        {% if grave_photos %}
+
+        <section class="person-section">
+
+            <h2>Grave &amp; Burial</h2>
+
+            <div class="photo-gallery">
+
+                {% for photo in grave_photos %}
+
+                    <figure class="gallery-photo">
+
+                        <img
+                            src="../photos/{{ photo.file }}"
+                            alt="{{ photo.caption }}"
+                        >
+
+                        {% if photo.caption %}
+
+                            <figcaption>
+                                {{ photo.caption }}
+
+                                {% if photo.location %}
+                                    <br>
+                                    {{ photo.location }}
+                                {% endif %}
+
+                            </figcaption>
+
+                        {% endif %}
+
+                    </figure>
+
+                {% endfor %}
+
+            </div>
+
+        </section>
+
+        {% endif %}
+
+
+        <section class="person-section">
+
+            <h2>Sources</h2>
+
+            {% if sources %}
+
+             <ol>
+
+                {% for source in sources %}
+
+                    <li>
+
+                        <strong>{{ source.title }}</strong>
+
+                        {% if source.type %}
+                            <br>
+                            Type: {{ source.type }}
+                        {% endif %}
+
+                        {% if source.description %}
+                            <p>
+                                 {{ source.description }}
+                            </p>
+                        {% endif %}
+
+                        {% if source.caption %}
+                            <p>{{ source.caption }}</p>
+                        {% endif %}
+
+                        {% if source.location %}
+                            <p>
+                                <strong>Location:</strong>
+                                {{ source.location }}
+                            </p>
+                        {% endif %}
+
+                        {% if source.household %}
+                            <p>
+                                <strong>Household:</strong>
+                                {{ source.household }}
+                            </p>
+                        {% endif %}
+
+                        {% if source.household_members %}
+
+                            <p>
+                                <strong>Household Members:</strong>
+                            </p>
+
+                            <ul>
+
+                                {% for member in source.household_members %}
+                                    <li>
+                                        {{ member }}
+                                    </li>
+                                {% endfor %}
+
+                            </ul>
+
+                    {% endif %}
+
+                    {% if source.supports %}
+
+                        <p>
+                            <strong>Supports:</strong>
+                            {{ source.supports | join(", ") }}
+                        </p>
+
+                    {% endif %}
+
+
+                    {% if source.file %}
+
+                        <p>
+                            <a href="../documents/{{ source.file }}" target="_blank">
+                                View Document
+                            </a>
+                        </p>
+
+                    {% endif %}
+
+
+                    {% if source.documents %}
+
+                        <p>
+
+                            {% if source.documents | length == 1 %}
+
+                                <a href="../documents/{{ source.documents[0] }}" target="_blank">
+                                    View Document
+                                </a>
+
+                            {% else %}
+
+                                {% for document in source.documents %}
+
+                                    <a href="../documents/{{ document }}" target="_blank">
+                                        View Page {{ loop.index }}
+                                    </a>
+
+                                    {% if not loop.last %}
+                                        |
+                                    {% endif %}
+
+                                {% endfor %}
+
+                            {% endif %}
+
+                        </p>
+
+                    {% endif %}
+
+                </li>
+
+            {% endfor %}
+
+        </ol>
+
+    {% else %}
+
+        <p>
+            No sources have been added yet.
+        </p>
+
+    {% endif %}
+    </section>
+
+    </main>
+
+
+    <footer>
+        Kramer-Webster Family Archive 
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

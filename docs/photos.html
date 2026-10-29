@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics disabled for Kramer-Webster Family Archive -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Family Photos | Kramer-Webster Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+        <p>Preserving our family's photographs and memories.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="family-tree.html">Family Tree</a>
+        <a href="photos.html">Photos</a>
+        <a href="stories.html">Stories</a>
+        <a href="documents.html">Documents</a>
+    </nav>
+
+    <main>
+        <h2>Family Photo Gallery</h2>
+
+        <p>
+            Explore photographs from the Kramer and Webster
+            families, including family portraits, historical
+            photographs, and gravestones.
+        </p>
+
+
+        <div class="gallery-filters">
+            <button type="button" class="active" data-filter="all" aria-pressed="true">All Photos</button>
+            <button type="button" data-filter="webster" aria-pressed="false">Webster Family</button>
+            <button type="button" data-filter="kramer" aria-pressed="false">Kramer Family</button>
+        </div>
+
+
+        <div class="photo-gallery">
+            
+        </div>
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+
+    <script>
+        const buttons = document.querySelectorAll("[data-filter]");
+        const items = document.querySelectorAll(".gallery-item");
+
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                const filter = button.dataset.filter;
+
+                // Highlight the selected filter
+                buttons.forEach(btn => {
+                    const selected = btn === button;
+                    btn.classList.toggle("active", selected);
+                    btn.setAttribute("aria-pressed", String(selected));
+                });
+
+                // Show photographs matching the selected family
+                items.forEach(item => {
+                    const families = item.dataset.families.split(" ");
+
+                    item.hidden = filter !== "all" &&
+                              !families.includes(filter);
+                });
+        });
+    });
+</script>
+
+</body>
+</html>

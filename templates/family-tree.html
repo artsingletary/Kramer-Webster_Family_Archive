@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "google-analytics.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Family Tree | Kramer-Webster Family Archive</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Kramer and Webster families across generations. 
+        </p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="family-tree.html">Family Tree</a>
+        <a href="photos.html">Photos</a>
+        <a href="stories.html">Stories</a>
+        <a href="documents.html">Documents</a>
+    </nav>
+
+    <main>
+        <h2>Family Tree</h2>
+
+
+        <div class="tree-controls">
+            <label for="tree-person-select">
+                <strong>Choose a family member:</strong>
+            </label>
+
+            <select id="tree-person-select">
+                {% for person in people | sort(attribute="display_name") %}
+                <option value="{{ person.id }}">
+                    {{ person.display_name }}
+                </option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <p>
+            Explore the generations and family connections
+            of the Kramer and Webster families.
+        </p>
+
+        <section class="family-tree">
+            <h2>Kramer-Webster Family Tree</h2>
+
+            <p>
+                Click "Show Children" to expand the family.
+                Select a person's name to view their biography.
+            </p>
+
+            {% if tree_root %}
+            <div class="tree-generation">
+                <div class="tree-person">
+                    <a href="people/{{ tree_root.id }}.html">
+                        <strong>{{ tree_root.display_name }}</strong>
+                        <span>{{ tree_root.years }}</span>
+                    </a>
+                </div>
+            </div>
+
+            <details>
+                <summary>Show Children ({{ tree_children | length }})</summary>
+
+                <div class="tree-connector">│</div>
+                <div class="tree-connector">▼</div>
+
+                <div class="tree-generation">
+                    {% for child in tree_children %}
+                    <div class="tree-person">
+                        <a href="people/{{ child.id }}.html">
+                            <strong>{{ child.display_name }}</strong>
+                            <span>{{ child.years }}</span>
+                        </a>
+                    </div>
+                    {% endfor %}
+                </div>
+            </details>
+            {% else %}
+            <p>Family tree information will be added as family records are documented.</p>
+            {% endif %}
+        </section>
+
+
+        <h2>Browse Family Members</h2>
+
+        <p>
+            <a href="webster-family.html">Webster Family</a>
+        </p>
+
+        <p>
+            <a href="kramer-family.html">Kramer Family</a>
+        </p>
+
+        <p>
+            <a href="all-family.html">All Family Members</a>
+        </p>
+    </main>
+
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="privacy.html">Privacy Notice</a>
+        </p>
+    </footer>
+
+    <script id="tree-data" type="application/json">
+            {{ tree_people_json | safe }}
+    </script>
+
+    <script>
+        const treePeople = JSON.parse(
+            document.getElementById("tree-data").textContent
+        );
+        const personSelect = document.getElementById("tree-person-select");
+        const familyTree = document.querySelector(".family-tree");
+
+        const peopleById = Object.fromEntries(
+            treePeople.map(person => [person.id, person])
+        );
+
+        function createPersonCard(person) {
+            const card = document.createElement("div");
+            card.className = "tree-person";
+
+            const link = document.createElement("a");
+            link.href = "people/" + encodeURIComponent(person.id) + ".html";
+
+            const name = document.createElement("strong");
+            name.textContent = person.name;
+
+            const years = document.createElement("span");
+            years.textContent = person.years || "";
+
+            link.append(name, years);
+            card.appendChild(link);
+
+            // Allow visitors to explore this person's family.
+            const exploreButton = document.createElement("button");
+            exploreButton.type = "button";
+            exploreButton.textContent = "Explore Family";
+
+            exploreButton.addEventListener("click", function () {
+                personSelect.value = person.id;
+                showFamily(person.id);
+            });
+
+
+            card.appendChild(exploreButton);
+
+            // Check whether this person has documented children.
+            const children = treePeople.filter(child =>
+                child.father === person.id ||
+                child.mother === person.id
+            );
+
+            if (children.length > 0) {
+                const expandButton = document.createElement("button");
+                expandButton.type = "button";
+                expandButton.textContent = "Expand Descendants";
+
+                const descendantsContainer = document.createElement("div");
+                descendantsContainer.className = "tree-descendants";
+                descendantsContainer.hidden = true;
+
+                expandButton.addEventListener("click", function () {
+                    if (descendantsContainer.hidden) {
+                        descendantsContainer.replaceChildren();
+
+                        const generation = document.createElement("div");
+                        generation.className = "tree-generation";
+
+                        children
+                            .sort((a, b) =>
+                                (Number(a.birth_year) || 9999) -
+                                (Number(b.birth_year) || 9999)
+                            )
+                            .forEach(child => {
+                                generation.appendChild(createPersonCard(child));
+                            });
+
+                        descendantsContainer.appendChild(generation);
+                        descendantsContainer.hidden = false;
+                        expandButton.textContent = "Collapse Descendants";
+                    } else {
+                        descendantsContainer.hidden = true;
+                        expandButton.textContent = "Expand Descendants";
+                    }
+                });
+
+
+                card.appendChild(expandButton);
+
+                // Keep descendants outside the person's card.
+                // The wrapper will contain both the card and descendants.
+                const wrapper = document.createElement("div");
+                wrapper.className = "tree-branch";
+
+                wrapper.appendChild(card);
+                wrapper.appendChild(descendantsContainer);
+
+                return wrapper;
+
+            }
+
+
+            return card;
+        }
+
+        function showFamily(personId) {
+            const person = peopleById[personId];
+            if (!person) return;
+
+            // Remove the previous tree display.
+            familyTree.replaceChildren();
+
+            const heading = document.createElement("h2");
+            heading.textContent = person.name + " — Family Tree";
+            familyTree.appendChild(heading);
+
+            // Display documented parents above the selected person.
+            const parents = [person.father, person.mother]
+                .filter(Boolean)
+                .map(id => peopleById[id])
+                .filter(Boolean);
+
+            if (parents.length > 0) {
+                const parentHeading = document.createElement("h3");
+                parentHeading.textContent = "Parents";
+                familyTree.appendChild(parentHeading);
+
+                const parentGeneration = document.createElement("div");
+                parentGeneration.className = "tree-generation";
+
+                parents.forEach(parent => {
+                    parentGeneration.appendChild(createPersonCard(parent));
+                });
+
+                familyTree.appendChild(parentGeneration);
+
+                const connector = document.createElement("div");
+                connector.className = "tree-connector";
+                connector.textContent = "↓";
+                familyTree.appendChild(connector);
+            }
+            
+            // Display the selected person and documented spouses.
+            const generation = document.createElement("div");
+            generation.className = "tree-generation";
+
+            // Add the selected person.
+            generation.appendChild(createPersonCard(person));
+
+            // Find documented spouses.
+            const spouseIds = person.spouses || [];
+
+            const spouses = spouseIds
+                .map(id => peopleById[id])
+                .filter(Boolean);
+
+            // Display spouses alongside the selected person.
+            spouses.forEach(spouse => {
+                generation.appendChild(createPersonCard(spouse));
+            });
+
+            familyTree.appendChild(generation);
+
+
+            // Find all documented children
+            const children = treePeople.filter(child =>
+                child.father === personId || child.mother === personId
+            );
+
+            // Create expandable children section
+            const details = document.createElement("details");
+
+            const summary = document.createElement("summary");
+            summary.textContent = "Show Children (" + children.length + ")";
+            details.appendChild(summary);
+
+            const childGeneration = document.createElement("div");
+            childGeneration.className = "tree-generation";
+
+            // Group children by their other documented parent.
+            const childGroups = new Map();
+
+            children.forEach(child => {
+                const otherParentId =
+                    child.father === personId
+                        ? child.mother
+                        : child.father;
+
+                const groupId = otherParentId || "unknown";
+
+                if (!childGroups.has(groupId)) {
+                    childGroups.set(groupId, []);
+                }
+
+                childGroups.get(groupId).push(child);
+            });
+
+            // Display a separate section for each parent pair.
+            childGroups.forEach((groupChildren, otherParentId) => {
+                const group = document.createElement("div");
+                group.className = "tree-child-group";
+
+                const groupHeading = document.createElement("h3");
+
+                if (otherParentId === "unknown") {
+                    groupHeading.textContent = "Other parent not documented";
+                } else {
+                    const otherParent = peopleById[otherParentId];
+
+                    groupHeading.textContent = otherParent
+                        ? "Children with " + otherParent.name
+                        : "Children with an unlisted parent";
+                }
+
+                group.appendChild(groupHeading);
+
+                const groupGeneration = document.createElement("div");
+                groupGeneration.className = "tree-generation";
+
+                // Sort children by birth year, oldest first.
+                // Unknown birth years appear last.
+                groupChildren.sort((a, b) => {
+                    const yearA = Number(a.birth_year) || 9999;
+                    const yearB = Number(b.birth_year) || 9999;
+
+                    return yearA - yearB ||
+                        a.name.localeCompare(b.name);
+                });
+
+                groupChildren.forEach(child => {
+                    groupGeneration.appendChild(createPersonCard(child));
+                });
+
+                group.appendChild(groupGeneration);
+                childGeneration.appendChild(group);
+            });
+
+            if (children.length === 0) {
+                const message = document.createElement("p");
+                message.textContent = "No children documented yet.";
+                details.appendChild(message);
+            } else {
+                details.appendChild(childGeneration);
+            }
+
+            familyTree.appendChild(details);
+        }
+
+        personSelect.addEventListener("change", function () {
+            showFamily(this.value);
+        });
+
+        showFamily(personSelect.value);
+    </script>
+
+</body>
+</html>

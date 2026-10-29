@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google Analytics disabled for Kramer-Webster Family Archive -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Historical Documents | Kramer-Webster Family Archive</title>
+</head>
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+        <p>Preserving our family's history through original records.</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="family-tree.html">Family Tree</a>
+        <a href="photos.html">Photos</a>
+        <a href="stories.html">Stories</a>
+        <a href="documents.html">Documents</a>
+    </nav>
+
+    <main>
+        <h2>Historical Documents</h2>
+
+        <p>
+            Explore census records, marriage certificates, military
+            registrations, obituaries, and other documents from
+            the Kramer and Webster families.
+        </p>
+
+        <div class="document-controls">
+            <input
+                type="search"
+                id="document-search"
+                placeholder="Search documents or family members..."
+                aria-label="Search historical documents"
+            >
+
+            <select id="document-type" aria-label="Filter by document type">
+                <option value="all">All Documents</option>
+
+                
+            </select>
+
+        </div>
+
+        <div class="document-gallery">
+            
+        </div>
+
+        <p id="no-results" hidden>No matching documents found.</p>
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="privacy.html">Privacy Notice</a>
+        </p>
+
+    </footer>
+
+    <script>
+        const searchInput = document.getElementById("document-search");
+        const typeSelect = document.getElementById("document-type");
+        const documents = document.querySelectorAll(".document-item");
+        const noResults = document.getElementById("no-results");
+
+        function filterDocuments() {
+            const query = searchInput.value.trim().toLowerCase();
+            const type = typeSelect.value;
+            let visibleCount = 0;
+
+            documents.forEach(item => {
+                const matchesSearch = item.dataset.search.includes(query);
+                const matchesType =
+                    type === "all" || item.dataset.type === type;
+
+                const visible = matchesSearch && matchesType;
+                item.hidden = !visible;
+
+                if (visible) visibleCount++;
+            });
+
+            noResults.hidden = visibleCount !== 0;
+        }
+
+        searchInput.addEventListener("input", filterDocuments);
+        typeSelect.addEventListener("change", filterDocuments);
+    </script>
+
+</body>
+</html>
