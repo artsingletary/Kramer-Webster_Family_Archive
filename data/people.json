@@ -1,1 +1,165 @@
-[]
+[
+
+{
+  "id": "william-gabriel-snead-webster-1871",
+  "first_name": "William",
+  "middle_name": "Gabriel Snead",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1871,
+  "birth_date": "1871-06-29",
+  "death_year": 1939,
+  "death_date": "1939-04-17",
+  "spouses": "addie-leola-daniel-1881",
+  "biography": [
+    "William Gabriel Snead Webster was born on June 29, 1871, in Somerset County, Maryland. In his earlier years, he was known as William Snead Webster and was recorded as William S. Webster in the 1910 United States Federal Census. Later in life, he went by Gabriel Snead Webster. He married Addie Leola Daniel. He died on April 17, 1939, in Baltimore County, Maryland."
+  ]
+},
+
+{
+  "id": "addie-leola-daniel-1881",
+  "first_name": "Addie",
+  "middle_name": "Leola",
+  "last_name": "Daniel",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1881,
+  "death_year": 1922,
+  "spouses": [
+    "william-gabriel-snead-webster-1871"
+  ],
+  "biography": [
+    "Addie Leola Daniel was born in 1881. She married William Gabriel Snead Webster, with whom she raised a family in Somerset County, Maryland. She died in 1922."
+  ]
+},
+
+{
+  "id": "maynard-snead-webster-1900",
+  "first_name": "Maynard",
+  "middle_name": "Snead",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1900,
+  "death_year": 1959,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "Maynard Snead Webster was born in 1900. He was the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Maynard S. Webster, age nine, in the 1910 United States Federal Census in Somerset County, Maryland. He died in 1959."
+  ]
+},
+
+{
+  "id": "florence-melson-webster-1904",
+  "first_name": "Florence",
+  "middle_name": "Melson",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1904,
+  "death_year": 1979,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "Florence Melson Webster was born in 1904, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She appears in the family's 1910 United States Federal Census household in Somerset County, Maryland, at age six, where her name was transcribed as Florence N. Webster. She died in 1979."
+  ]
+},
+
+{
+  "id": "charles-daniel-webster-1909",
+  "first_name": "Charles",
+  "middle_name": "Daniel",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1909,
+  "death_year": 1960,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "Charles Daniel Webster was born in 1909, the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Charles D. Webster, age nine months, in the family's 1910 United States Federal Census household in Somerset County, Maryland. He died in 1960."
+  ]
+},
+
+{
+  "id": "james-wilson-webster-1920",
+  "first_name": "James",
+  "middle_name": "Wilson",
+  "last_name": "Webster",
+  "suffix": "Sr.",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1920,
+  "death_year": 2005,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "James Wilson Webster Sr. was born in 1920, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 2005."
+  ]
+},
+
+{
+  "id": "eugene-lee-webster-1921",
+  "first_name": "Eugene",
+  "middle_name": "Lee",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1921,
+  "death_year": 1998,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "Eugene Lee Webster was born in 1921, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 1998."
+  ]
+},
+
+{
+  "id": "mary-catherine-webster-1916",
+  "first_name": "Mary",
+  "middle_name": "Catherine",
+  "last_name": "Webster",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1916,
+  "death_year": 1995,
+  "father": "william-gabriel-snead-webster-1871",
+  "mother": "addie-leola-daniel-1881",
+  "biography": [
+    "Mary Catherine Webster was born in 1916, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She died in 1995."
+  ]
+},
+
+  {
+    "id": "susie-catherine-webster-1902",
+    "first_name": "Susie",
+    "middle_name": "Catherine",
+    "last_name": "Webster",
+    "married_name": "Kramer",
+    "nickname": "Sue",
+    "family_lines": [
+      "kramer",
+      "webster"
+    ],
+    "profile_photo": "susie_catherine_kramer_webster_portrait.png",
+    "birth_year": 1902,
+    "birth_date": "1902-10-22",
+    "death_year": 1993,
+    "death_date": "1993-01-01",
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "Susie Catherine Webster, known as Sue, was born on October 22, 1902. She was the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She married Adam Kramer, who was originally from Germany. Sue died on January 1, 1993."
+    ]
+  }
+]
+

@@ -1,1 +1,28 @@
-[]
+[
+{
+  "id": "1910_census_william_s_webster_family",
+  "type": "census",
+  "title": "1910 United States Federal Census – William S. Webster Family",
+  "people": [
+    "william-gabriel-snead-webster-1871",
+    "addie-leola-daniel-1881",
+    "maynard-snead-webster-1900",
+    "susie-catherine-webster-1902",
+    "florence-melson-webster-1904",
+     "charles-daniel-webster-1909"
+  ],
+  "date": "1910",
+  "location": "Deal Island District 14, Somerset County, Maryland, United States",
+  "description": "The 1910 United States Federal Census records the household of William S. Webster (age 38) and his wife Addie (age 28), along with their children Maynard S. (age 9), Susie C. (age 8), Florence N. (age 6), and Charles D. (age 9 months). William S. Webster was also known as William Snead Webster and later as Gabriel Snead Webster. The household was enumerated in Deal Island District 14, Somerset County, Maryland, Enumeration District 89, Sheet 3A.",
+  "supports": [
+    "Susie Catherine Webster was living with her parents and siblings in Somerset County, Maryland, in 1910.",
+    "Susie C. Webster was recorded as eight years old in the 1910 census.",
+    "William S. Webster and Addie Webster were recorded as the parents in Susie's household.",
+    "The household included Maynard S., Susie C., Florence N., and Charles D. Webster."
+  ],
+  "documents": [
+    "1910_census_william_s_webster_family.jpg"
+  ]
+}
+
+]
