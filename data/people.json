@@ -157,9 +157,77 @@
     "death_date": "1993-01-01",
     "father": "william-gabriel-snead-webster-1871",
     "mother": "addie-leola-daniel-1881",
+    "spouses": [
+      "adam-johannes-kramer-1903"
+    ],
+
     "biography": [
-      "Susie Catherine Webster, known as Sue, was born on October 22, 1902. She was the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She married Adam Kramer, who was originally from Germany. Sue died on January 1, 1993."
+      "Susie Catherine Webster, affectionately known as Sue, was born on October 22, 1902, on Deal Island in Somerset County, Maryland. She was the daughter of William Gabriel Snead Webster and Addie Leola Daniel. According to family oral history, Sue was born with a twin sister, reportedly named Mary Catherine, who did not survive. The twin's identity and dates have not yet been independently verified.",
+      "The Webster family lived across the street from St. John's Methodist Episcopal Church at what is now 9883 Deal Island Road. The church dates to 1850 and was an important landmark in the community. The family's former house was reportedly demolished sometime in the late 1990s or early 2000s.",
+      "The Webster family moved from Deal Island to Baltimore around 1914, according to family history. The family lived at 2602 East Fayette Street. As a young woman, Sue worked as a telephone operator, reportedly beginning around 1918. Her employer and workplace location have not yet been independently verified.",
+      "Sue married Adam Johannes Krämer, whose surname was generally written Kramer in American records, on July 27, 1929, in Ellicott City, Howard County, Maryland. Their marriage was performed by H. D. Stewart of Emory Methodist Episcopal Church. According to family history, Sue and Adam were introduced by Lottie Smearman, identified as the daughter of Adam's aunt Loise Kramer. Sue and Adam had two children, Robert Adam Kramer and Bette Ann Kramer.",
+      "In 1938, Sue and Adam purchased a home in Dundalk, Baltimore County, Maryland. The family lived at 6902 Brentwood Avenue, a residence remembered by later generations of the family and documented in a family photograph. The 1940 and 1950 United States Federal Censuses record the Kramer household in the Baltimore area.",
+      "Sue devoted much of the period from 1936 through 1946 to raising her children at home. Around 1946, she began working in the cafeteria at Baltimore Pure Rye, where she served food until approximately 1957. She subsequently worked in the linen department at Hochschild Kohn's Eastpoint location from about 1957 until 1970 or 1971. These details of her employment are preserved in family history.",
+      "Sue spent her later years in Fairfax, Virginia. She died on January 1, 1993, at Fairfax Hospital in Falls Church, Virginia, at the age of 90. Her Virginia death certificate identifies a ruptured abdominal aortic aneurysm as the immediate cause of death. She was buried at Woodlawn Cemetery in Baltimore, Maryland, where her husband Adam was also buried."
     ]
-  }
+  },
+
+{
+  "id": "robert-adam-kramer-1936",
+  "first_name": "Robert",
+  "middle_name": "Adam",
+  "last_name": "Kramer",
+  "family_lines": [
+    "kramer",
+    "webster"
+  ],
+  "birth_year": 1936,
+  "birth_date": "1936-11-05",
+  "birth_place": "Baltimore, Maryland, United States",
+  "death_year": 2012,
+  "death_date": "2012-10-03",
+  "death_place": "Greenville, Pitt County, North Carolina, United States",
+  "father": "adam-johannes-kramer-1903",
+  "mother": "susie-catherine-webster-1902",
+  "biography": [
+    "Robert Adam Kramer was born on November 5, 1936, in Baltimore, Maryland, the son of Adam Johannes Kramer and Susie Catherine Webster Kramer. He was recorded as Robert A. Kramer, age three, in the 1940 United States Federal Census. He died on October 3, 2012, in Greenville, Pitt County, North Carolina."
+  ]
+},
+
+{
+  "id": "adam-johannes-kramer-1903",
+  "first_name": "Adam",
+  "middle_name": "Johannes",
+  "last_name": "Krämer",
+  "family_lines": [
+    "kramer"
+  ],
+  "birth_year": 1903,
+  "birth_date": "1903-12-08",
+  "birth_place": "Schweinfurt, Bavaria, Germany",
+  "death_year": 1969,
+  "death_place": "Baltimore, Maryland, United States",
+  "spouses": [
+    "susie-catherine-webster-1902"
+  ],
+  "biography": [
+    "Adam Johannes Krämer was born on December 8, 1903, in Schweinfurt, Bavaria, Germany. In United States records, his surname was written as Kramer. He married Susie Catherine Webster. The couple appears in the 1930 United States Federal Census in Baltimore, Maryland, and in the 1940 census with their children Robert and Betty. Adam died in December 1969 in Baltimore, Maryland, and was buried at Woodlawn Cemetery in Baltimore on December 4, 1969."
+  ]
+},
+{
+  "id": "bette-ann-kramer",
+  "first_name": "Bette",
+  "middle_name": "Ann",
+  "last_name": "Kramer",
+  "family_lines": [
+    "kramer",
+    "webster"
+  ],
+  "father": "adam-johannes-kramer-1903",
+  "mother": "susie-catherine-webster-1902",
+  "biography": [
+    "Bette Ann Kramer is the daughter of Adam Johannes Krämer and Susie Catherine Webster Kramer. She appears with her parents and brother Robert in the 1940 United States Federal Census in Baltimore, Maryland."
+  ]
+}
 ]
 

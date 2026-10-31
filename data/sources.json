@@ -23,6 +23,176 @@
   "documents": [
     "1910_census_william_s_webster_family.jpg"
   ]
+},
+
+{
+  "id": "1920_census_william_s_webster_family",
+  "type": "census",
+  "title": "1920 United States Federal Census – Gabriel S. Webster Family",
+  "people": [
+    "william-gabriel-snead-webster-1871",
+    "addie-leola-daniel-1881",
+    "maynard-snead-webster-1900",
+    "susie-catherine-webster-1902",
+    "florence-melson-webster-1904",
+    "charles-daniel-webster-1909",
+    "mary-catherine-webster-1916",
+    "james-wilson-webster-1920"
+  ],
+  "date": "1920-01-08",
+  "location": "Ward 6, Baltimore City, Maryland, United States",
+  "description": "The 1920 United States Federal Census enumerates the household of Gabriel S. Webster (age 48) and his wife Addie (age 38), along with their children Maynard (age 19), Susie (age 17), Florence (age 16), Charles (age 10), Catherine (age 3 years and 11 months), and James W. (age 6 months). The family was living in Ward 6 of Baltimore City, Maryland, Enumeration District 69, Sheet 7B. Gabriel S. Webster was also known as William Gabriel Snead Webster and had previously been recorded as William S. Webster in the 1910 census.",
+  "supports": [
+    "Gabriel S. Webster and Addie Webster were living in Baltimore City, Maryland, in January 1920.",
+    "The Webster household included Maynard, Susie, Florence, Charles, Catherine, and James W. Webster.",
+    "The family had relocated from Somerset County, Maryland, to Baltimore City between the 1910 and 1920 censuses.",
+    "William Gabriel Snead Webster was recorded under the name Gabriel S. Webster in the 1920 census.",
+    "Mary Catherine Webster, recorded as Catherine, was approximately three years and eleven months old.",
+    "James Wilson Webster was approximately six months old."
+  ],
+  "documents": [
+    "1920_census_william_s_webster_family.jpg"
+  ]
+},
+
+{
+  "id": "1930_census_adam_kramer_and_snead_webster_families",
+  "type": "census",
+  "title": "1930 United States Federal Census – Adam Kramer and Snead Webster Families",
+  "people": [
+    "susie-catherine-webster-1902",
+    "william-gabriel-snead-webster-1871",
+    "charles-daniel-webster-1909",
+    "james-wilson-webster-1920"
+  ],
+  "date": "1930-04-02",
+  "location": "Ward 4, Baltimore City, Maryland, United States",
+  "description": "The 1930 United States Federal Census records Adam Kramer (age 26) and his wife Sue Kramer (age 26) on lines 18–19. The following household, on lines 20–22, includes Snead Webster (age 58), Charles Webster (age 21), and Wilson Webster (age 10). Snead Webster was William Gabriel Snead Webster, father of Sue, Charles, and Wilson. The households were enumerated in Ward 4 of Baltimore City, Maryland, Enumeration District 4-232, Sheet 6A. The census records Sue as age 26, although her reported birth date of October 22, 1902, would make her 27 at the time of enumeration.",
+  "supports": [
+    "Adam Kramer and Sue Kramer were recorded together in Baltimore City in 1930.",
+    "Snead Webster was recorded with Charles and Wilson Webster in a separate household immediately following Adam and Sue Kramer.",
+    "William Gabriel Snead Webster was recorded under the name Snead Webster in 1930.",
+    "Charles Webster was recorded as 21 years old in 1930.",
+    "Wilson Webster was recorded as 10 years old in 1930.",
+    "The Kramer and Webster households were enumerated consecutively in Baltimore City."
+  ],
+  "documents": [
+    "1930_census_adam_kramer_and_snead_webster_families.jpg"
+  ]
+},
+
+{
+  "id": "1940_census_adam_johannes_kramer_family",
+  "type": "census",
+  "title": "1940 United States Federal Census – Adam Kramer Family",
+  "people": [
+    "adam-johannes-kramer-1903",
+    "susie-catherine-webster-1902",
+    "robert-adam-kramer-1936",
+    "bette-ann-kramer"
+  ],
+  "date": "1940-04-10",
+  "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
+  "description": "The 1940 United States Federal Census records the household of Adam Kramer (age 36), his wife Sue C. Kramer (age 36), and their children Robert A. Kramer and Betty A. Kramer. The family was enumerated on April 10, 1940, in Enumeration District 3-79, Sheet 7A, lines 34–37. Brentwood Avenue is handwritten vertically in column 1 of the census, spanning approximately lines 20–31. The Kramer family residence has also been identified as being on Brentwood Avenue in Dundalk, Baltimore County, Maryland, through firsthand family recollection. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
+  "supports": [
+    "Adam Kramer and Sue C. Kramer were recorded as husband and wife in Baltimore City in 1940.",
+    "Robert A. Kramer and Betty A. Kramer were recorded as children in the household.",
+    "The Kramer family was residing in Baltimore City, Maryland, in April 1940."
+  ],
+  "documents": [
+    "1940_census_adam_johannes_kramer_family.jpg"
+  ]
+},
+
+{
+  "id": "1950_census_adam_johannes_kramer_family",
+  "type": "census",
+  "title": "1950 United States Federal Census – Adam Kramer Family",
+  "people": [
+    "adam-johannes-kramer-1903",
+    "susie-catherine-webster-1902",
+    "robert-adam-kramer-1936",
+    "bette-ann-kramer"
+  ],
+  "date": "1950-04-25",
+  "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
+  "description": "The 1950 United States Federal Census records the household of Adam Kramer (age 46), his wife Sue Kramer (age 46), and their children Betty A. Kramer and Robert A. Kramer. The family was enumerated on April 25, 1950, in Enumeration District 3-173, Sheet 8, lines 9–12. Brentwood Avenue is identified in the handwritten street notation. The family's residence at 6902 Brentwood Avenue in Dundalk, Baltimore County, Maryland, is additionally supported by firsthand family recollection and a photograph showing the house number. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
+  "supports": [
+    "Adam and Sue Kramer were recorded as husband and wife in 1950.",
+    "Betty A. Kramer and Robert A. Kramer were recorded as their children.",
+    "The Kramer family resided on Brentwood Avenue in the Baltimore area in 1950."
+  ],
+  "documents": [
+    "1950_census_adam_johannes_kramer_family.jpg"
+  ]
+},
+{
+  "id": "1929_adam_kramer_sue_webster_marriage",
+  "type": "marriage_certificate",
+  "title": "1929 Marriage Certificate – Adam Kramer and Sue C. Webster",
+  "people": [
+    "adam-johannes-kramer-1903",
+    "susie-catherine-webster-1902"
+  ],
+  "date": "1929-07-27",
+  "location": "Ellicott City, Howard County, Maryland, United States",
+  "description": "Marriage certificate documenting the marriage of Adam Kramer and Sue C. Webster on July 27, 1929, at Ellicott City, Maryland. The certificate states that the marriage was performed under a license issued by the Clerk of the Circuit Court for Howard County, Maryland. The officiant was H. D. Stewart of Emory M.E. Church.",
+  "supports": [
+    "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
+    "The marriage ceremony took place in Ellicott City, Maryland.",
+    "The marriage license was issued in Howard County, Maryland."
+  ],
+  "documents": [
+    "1929_adam_kramer_sue_webster_marriage_certificate.jpg"
+  ]
+},
+
+{
+  "id": "1993_susie_catherine_webster_kramer_death_certificate",
+  "type": "death_certificate",
+  "title": "1993 Virginia Death Certificate – Sue C. Kramer",
+  "people": [
+    "susie-catherine-webster-1902",
+    "adam-johannes-kramer-1903",
+    "william-gabriel-snead-webster-1871",
+    "addie-leola-daniel-1881"
+  ],
+  "date": "1993-01-01",
+  "location": "Falls Church, Fairfax County, Virginia, United States",
+  "description": "Commonwealth of Virginia Certificate of Death for Sue C. Kramer, who died on January 1, 1993, at Fairfax Hospital in Falls Church, Fairfax County, Virginia, at age 90. The certificate records her birth as October 22, 1902, in Maryland. Her father is identified as Gabriel Seneed and her mother as Addie Daniels, preserving the spellings recorded on the certificate. These names correspond to Gabriel Snead Webster and Addie Leola Daniel in the family archive. Her marital status is recorded as widowed, and Adam Kramer is named as her spouse. The certificate identifies Woodlawn Cemetery in Baltimore, Maryland, as her burial location. Bette Singletary is listed as the informant.",
+  "supports": [
+    "Sue C. Kramer died on January 1, 1993, in Falls Church, Virginia.",
+    "Sue C. Kramer was born on October 22, 1902, in Maryland.",
+    "The certificate identifies her parents as Gabriel Seneed and Addie Daniels.",
+    "Adam Kramer is identified as her spouse.",
+    "Woodlawn Cemetery in Baltimore, Maryland, is recorded as her burial location."
+  ],
+  "documents": [
+    "1993_susie_catherine_webster_kramer_death_certificate.jpg"
+  ]
+},
+{
+  "id": "1929_adam_kramer_sue_webster_commemorative_marriage",
+  "type": "marriage_certificate",
+  "title": "1929 Commemorative Marriage Certificate – Adam Kramer and Sue C. Webster",
+  "people": [
+    "adam-johannes-kramer-1903",
+    "susie-catherine-webster-1902"
+  ],
+  "date": "1929-07-27",
+  "location": "Maryland, United States",
+  "description": "Decorative marriage certificate commemorating the marriage of Adam Kramer of Baltimore, Maryland, and Sue C. Webster of Baltimore, Maryland, on July 27, 1929. The certificate states that they were united in marriage according to the laws of Maryland. H. D. Stewart is identified as the officiant, and Mrs. H. D. Stewart is listed as a witness. The original document features floral illustrations and shows significant creasing, tears, and age-related deterioration. This certificate corroborates the marriage date and officiant recorded on the separate official marriage certificate.",
+  "supports": [
+    "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
+    "H. D. Stewart officiated at their marriage.",
+    "Mrs. H. D. Stewart was recorded as a witness.",
+    "Both individuals were identified as being from Baltimore, Maryland."
+  ],
+  "documents": [
+    "1929_adam_kramer_sue_webster_commemorative_marriage_certificate.jpg"
+  ]
 }
+
+
 
 ]
