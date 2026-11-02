@@ -155,8 +155,23 @@
   "caption": "Gravestone of Gabriel Snead Webster (1871–1939) at Woodlawn Cemetery, Baltimore, Maryland. The marker is inscribed 'GABRIEL S. WEBSTER, 1871–1939, FATHER.'",
   "type": "grave",
   "date": null
+},
+{
+  "file": "webster_family_home_deal_island.jpg",
+  "title": "Former Webster Family Home – Deal Island, Maryland",
+  "people": [
+    "william-gabriel-snead-webster-1871",
+    "addie-leola-daniel-1881",
+    "florence-melson-webster-1904",
+    "susie-catherine-webster-1902",
+    "charles-daniel-webster-1909",
+    "maynard-snead-webster-1900"
+  ],
+  "caption": "Historical photograph of the former Webster family home in Deal Island, Maryland, associated with Gabriel Snead Webster, Addie Leola Daniel Webster, Florence Melson Webster, Susie Catherine Webster, Charles Daniel Webster, and Maynard Snead Webster. The house has since been demolished. The photograph date and demolition date are unknown.",
+  "type": "house",
+  "date": null,
+  "location": "Deal Island, Somerset County, Maryland, United States"
 }
-
 
 
 

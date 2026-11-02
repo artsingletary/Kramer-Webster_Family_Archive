@@ -1,5 +1,75 @@
 [
     {
+        "id": "1875_james_daniel_mary_wilson_marriage",
+        "type": "marriage",
+        "title": "1875 Marriage Register – James F. Daniel and Mary C. Wilson",
+        "people": [
+            "james-fairfax-daniel-1855",
+            "mary-catherine-wilson-1859"
+        ],
+        "date": "1875-11-16",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Historical marriage register containing an entry dated November 16, 1875, for James F. Daniel and Mary C. Wilson. The entry provides evidence of their marriage in Somerset County, Maryland. FamilySearch family-tree information previously listed December 16, 1875 or 1876, as their marriage date; the discrepancy should be investigated using the original marriage record and its archival citation.",
+        "supports": [
+            "A marriage-register entry identifies James F. Daniel and Mary C. Wilson as a couple.",
+            "The entry is dated November 16, 1875.",
+            "The record places the marriage in Somerset County, Maryland.",
+            "The marriage-register date differs from the date previously listed in FamilySearch family-tree information."
+        ],
+        "documents": [
+            "1875_james_fairfax_daniel_mary_catherine_wilson_marriage.jpg"
+        ]
+    },
+    {
+        "id": "1899_snead_webster_addie_daniel_marriage_application",
+        "type": "marriage",
+        "title": "1899 Marriage License Application – Snead Webster and Addie Daniel",
+        "people": [
+            "william-gabriel-snead-webster-1871",
+            "addie-leola-daniel-1881"
+        ],
+        "date": "1899-12-23",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Application for a marriage license submitted to the Clerk of the Circuit Court for Somerset County, Maryland, on December 23, 1899. The document identifies the prospective groom as Snead Webster, age 27, and the prospective bride as Addie Daniel, age 18. Both were recorded as single, white, and residents of Somerset County, Maryland. The application was made under oath by W. O. Brown before Clerk Albin T. Beauchamp. This record documents their intention to marry but does not independently establish the date on which the marriage ceremony occurred.",
+        "supports": [
+            "Snead Webster and Addie Daniel were named in a marriage license application dated December 23, 1899.",
+            "Snead Webster was recorded as 27 years old.",
+            "Addie Daniel was recorded as 18 years old.",
+            "Both applicants resided in Somerset County, Maryland.",
+            "Both applicants were recorded as single.",
+            "The application was submitted to the Clerk of the Circuit Court for Somerset County, Maryland."
+        ],
+        "documents": [
+            "1899_snead_webster_addie_daniel_marriage_application.jpg"
+        ]
+    },
+    {
+        "id": "1900_census_james_mary_daniel_family",
+        "type": "census",
+        "title": "1900 United States Federal Census – James F. and Mary C. Daniel Family",
+        "people": [
+            "james-fairfax-daniel-1855",
+            "mary-catherine-wilson-1859"
+        ],
+        "date": "1900-06-21",
+        "location": "Tangier District, Somerset County, Maryland, United States",
+        "description": "The Twelfth Census of the United States, enumerated June 21, 1900, records James F. Daniel (age 45) and his wife Mary C. Daniel (age 40) in Tangier District, Somerset County, Maryland, Enumeration District 81, sheet 22. Their household, appearing on lines 13–19, includes five children: Isadora F. Daniel (age 19), Kittie W. Daniel (age 16), James F. Daniel (age 14), Annie W. Daniel (age 12), and Wilson B. Daniel (age 2). Their daughter Addie Leola Daniel Webster was already married and appears with her husband Snead Webster in a separate household in the 1900 census.",
+        "supports": [
+            "James F. Daniel and Mary C. Daniel were recorded as husband and wife in 1900.",
+            "James F. Daniel was recorded as 45 years old.",
+            "Mary C. Daniel was recorded as 40 years old.",
+            "Isadora F. Daniel was recorded as their daughter, age 19.",
+            "Kittie W. Daniel was recorded as their daughter, age 16.",
+            "James F. Daniel was recorded as their son, age 14.",
+            "Annie W. Daniel was recorded as their daughter, age 12.",
+            "Wilson B. Daniel was recorded as their son, age 2.",
+            "The Daniel family resided in Tangier District, Somerset County, Maryland, in June 1900."
+        ],
+        "documents": [
+            "1900_census_james_mary_daniel_family.jpg"
+        ]
+    },
+    {
         "id": "1900_census_snead_addie_webster_family",
         "type": "census",
         "title": "1900 United States Federal Census – Snead and Addie Webster",
@@ -20,6 +90,28 @@
         ],
         "documents": [
             "1900_census_snead_addie_webster_family.jpg"
+        ]
+    },
+    {
+        "id": "1900_gabriel_snead_webster_property_deed",
+        "type": "deed",
+        "title": "1900 Property Deed – Snead Webster and Webster Family",
+        "people": [
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1900-10-05",
+        "location": "Deals Island, Somerset County, Maryland, United States",
+        "description": "Property deed dated October 5, 1900, involving Noah W. Webster and his wife Rose A. Webster, and John F. Webster and his wife Lucy B. Webster, of Baltimore City, Maryland. The deed records a conveyance to Snead Webster of Deals Island, Somerset County, Maryland, for a consideration of $115. The property is described as a lot or parcel of land situated on Deals Island, Somerset County, Maryland. The deed provides evidence of Snead Webster's involvement in property ownership on Deals Island and identifies other Webster family members participating in the transaction. Their precise relationships to Snead require separate verification.",
+        "supports": [
+            "A property deed dated October 5, 1900, names Snead Webster as the recipient of a land conveyance.",
+            "The deed identifies Noah W. Webster and Rose A. Webster as grantors.",
+            "The deed identifies John F. Webster and Lucy B. Webster as grantors.",
+            "The consideration recorded in the deed was $115.",
+            "The property was situated on Deals Island, Somerset County, Maryland.",
+            "Snead Webster was identified as being of Deals Island, Somerset County, Maryland."
+        ],
+        "documents": [
+            "1900_gabriel_snead_webster_property_deed.jpg"
         ]
     },
     {
@@ -112,6 +204,54 @@
         ]
     },
     {
+        "id": "1910_mary_catherine_wilson_daniel_death_certificate",
+        "type": "death_certificate",
+        "title": "1910 Baltimore Death Certificate – Mary Catherine Daniel",
+        "people": [
+            "mary-catherine-wilson-1859"
+        ],
+        "date": "1910-10-04",
+        "location": "Baltimore City, Maryland, United States",
+        "description": "Certificate of Death issued by the Health Department of the City of Baltimore for Mary Catherine Daniel, who died on October 4, 1910, at age 51. The certificate records her as a married white female and housewife, born in Maryland. Her father is identified as Samuel D. Wilson, reportedly born in South Carolina, and her mother as Sarah E. Evans, reportedly born in Maryland. The informant appears to be Samuel D. Wilson, although the handwriting should be verified. The certificate records burial at Deals Island, Maryland, on October 6, 1910. Her exact birth date is difficult to read and should be verified from a clearer image.",
+        "supports": [
+            "Mary Catherine Daniel died on October 4, 1910, in Baltimore, Maryland.",
+            "Her age at death was recorded as 51 years.",
+            "She was recorded as married.",
+            "Her birthplace was recorded as Maryland.",
+            "Her father was identified as Samuel D. Wilson.",
+            "Her father's birthplace was recorded as South Carolina.",
+            "Her mother was identified as Sarah E. Evans.",
+            "Her mother's birthplace was recorded as Maryland.",
+            "Burial was recorded at Deals Island, Maryland, on October 6, 1910."
+        ],
+        "documents": [
+            "1910_mary_catherine_wilson_daniel_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1910_mary_catherine_wilson_daniel_death_notice",
+        "type": "newspaper",
+        "title": "1910 Death Notice – Mary Catherine Daniel, The Baltimore Sun",
+        "people": [
+            "mary-catherine-wilson-1859",
+            "james-fairfax-daniel-1855"
+        ],
+        "date": "1910-10-05",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Death notice published in The Baltimore Sun on October 5, 1910, reporting that Mary Catherine Daniel died on the morning of October 4, 1910, at her residence, 2010 Walbrook Avenue, Baltimore, Maryland. She was 51 years old and identified as the beloved wife of James F. Daniel. The notice states that interment would take place at Deal's Island, Maryland. This newspaper notice corroborates her death date, age, marital relationship, and burial location recorded in her Baltimore death certificate.",
+        "supports": [
+            "Mary Catherine Daniel died on October 4, 1910.",
+            "She was reported to be 51 years old at her death.",
+            "Her residence at death was 2010 Walbrook Avenue, Baltimore, Maryland.",
+            "Her husband was identified as James F. Daniel.",
+            "Her burial was announced for Deal's Island, Maryland.",
+            "The death notice appeared in The Baltimore Sun on October 5, 1910."
+        ],
+        "documents": [
+            "1910_mary_catherine_wilson_daniel_death_notice.jpg"
+        ]
+    },
+    {
         "id": "1920_census_william_s_webster_family",
         "type": "census",
         "title": "1920 United States Federal Census – Gabriel S. Webster Family",
@@ -145,8 +285,7 @@
         "type": "death_certificate",
         "title": "1922 Maryland Death Certificate – Addie L. Webster",
         "people": [
-            "addie-leola-daniel-1881",
-            "william-gabriel-snead-webster-1871"
+            "addie-leola-daniel-1881"
         ],
         "date": "1922-04-26",
         "location": "Baltimore City, Maryland, United States",
@@ -174,8 +313,7 @@
         "type": "newspaper",
         "title": "1922 Death Announcement – Addie L. Webster",
         "people": [
-            "addie-leola-daniel-1881",
-            "william-gabriel-snead-webster-1871"
+            "addie-leola-daniel-1881"
         ],
         "date": "1922-04-28",
         "location": "Baltimore, Maryland, United States",
@@ -371,6 +509,53 @@
         ],
         "documents": [
             "1932_adam_johannes_kramer_certificate_of_citizenship.jpg"
+        ]
+    },
+    {
+        "id": "1939_william_gabriel_snead_webster_death_certificate",
+        "type": "death_certificate",
+        "title": "1939 Maryland Death Certificate – William Gabriel Snead Webster",
+        "people": [
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1939-04-17",
+        "location": "Baltimore City, Maryland, United States",
+        "description": "Baltimore City Health Department Certificate of Death No. 57236 records the death of William Gabriel Snead Webster on April 17, 1939, at 200 North Glover Street, Baltimore, Maryland. The certificate identifies him as George Gabriel Snead Webster, gives his birth date as June 29, 1877, names his father as George Webster and his mother as Mary Katharine (surname unknown), and identifies his wife and informant as Mrs. Eloise L. Webster. Family research identifies his correct name as William Gabriel Snead Webster and his parents as Gabriel S. Webster and Susan A. Windsor. His gravestone records a birth year of 1871 and was placed by his children, who included Susie Catherine Webster Kramer. The reasons for the incorrect information supplied by Eloise are unknown. The certificate identifies his occupation as carpenter, notes his retirement from WPA employment, and records burial at Woodlawn Cemetery on April 20, 1939. The original certificate is preserved as issued, including its conflicting information.",
+        "supports": [
+            "William Gabriel Snead Webster died on April 17, 1939, in Baltimore City, Maryland.",
+            "His death occurred at 200 North Glover Street, which was also his recorded residence.",
+            "Eloise L. Webster was identified as his wife and the informant.",
+            "His occupation was recorded as carpenter.",
+            "The certificate records retirement from WPA employment.",
+            "His burial was recorded at Woodlawn Cemetery on April 20, 1939.",
+            "The certificate records the name George Gabriel Snead Webster, which conflicts with his established family name.",
+            "The certificate records a birth date of June 29, 1877, which conflicts with the birth year of 1871 inscribed on his gravestone.",
+            "The certificate names George Webster and Mary Katharine as his parents, conflicting with family research identifying Gabriel S. Webster and Susan A. Windsor."
+        ],
+        "documents": [
+            "1939_william_gabriel_snead_webster_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1939_william_gabriel_snead_webster_obituary",
+        "type": "obituary",
+        "title": "1939 Death Notice – Gabriel Snead Webster – The Evening Sun",
+        "people": [
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1939-04-19",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Death notice published in The Evening Sun of Baltimore, Maryland, on April 19, 1939. The notice reports that Gabriel Snead Webster died on April 17, 1939, and identifies him as the beloved husband of Eloise L. Webster, née Keesel. Funeral services were scheduled at his residence, 200 North Glover Street, on Thursday, April 20, 1939, at 2 p.m., followed by interment in Woodlawn Cemetery. The notice uses the name Gabriel Snead Webster rather than his full name, William Gabriel Snead Webster. The obituary independently corroborates his date of death, residence, second marriage, and burial location.",
+        "supports": [
+            "Gabriel Snead Webster died on April 17, 1939.",
+            "His wife at the time of death was Eloise L. Webster, née Keesel.",
+            "His residence was 200 North Glover Street, Baltimore, Maryland.",
+            "Funeral services were scheduled for April 20, 1939, at 2 p.m.",
+            "Interment was announced for Woodlawn Cemetery.",
+            "The death notice was published in The Evening Sun on April 19, 1939."
+        ],
+        "documents": [
+            "1939_william_gabriel_snead_webster_obituary_evening_sun.jpg"
         ]
     },
     {
@@ -617,157 +802,5 @@
         "documents": [
             "1993_susie_catherine_webster_kramer_death_certificate.jpg"
         ]
-    },
-
-{
-  "id": "1910_mary_catherine_wilson_daniel_death_certificate",
-  "type": "death_certificate",
-  "title": "1910 Baltimore Death Certificate – Mary Catherine Daniel",
-  "people": [
-    "mary-catherine-wilson-1859"
-  ],
-  "date": "1910-10-04",
-  "location": "Baltimore City, Maryland, United States",
-  "description": "Certificate of Death issued by the Health Department of the City of Baltimore for Mary Catherine Daniel, who died on October 4, 1910, at age 51. The certificate records her as a married white female and housewife, born in Maryland. Her father is identified as Samuel D. Wilson, reportedly born in South Carolina, and her mother as Sarah E. Evans, reportedly born in Maryland. The informant appears to be Samuel D. Wilson, although the handwriting should be verified. The certificate records burial at Deals Island, Maryland, on October 6, 1910. Her exact birth date is difficult to read and should be verified from a clearer image.",
-  "supports": [
-    "Mary Catherine Daniel died on October 4, 1910, in Baltimore, Maryland.",
-    "Her age at death was recorded as 51 years.",
-    "She was recorded as married.",
-    "Her birthplace was recorded as Maryland.",
-    "Her father was identified as Samuel D. Wilson.",
-    "Her father's birthplace was recorded as South Carolina.",
-    "Her mother was identified as Sarah E. Evans.",
-    "Her mother's birthplace was recorded as Maryland.",
-    "Burial was recorded at Deals Island, Maryland, on October 6, 1910."
-  ],
-  "documents": [
-    "1910_mary_catherine_wilson_daniel_death_certificate.jpg"
-  ]
-},
-
-{
-  "id": "1875_james_daniel_mary_wilson_marriage",
-  "type": "marriage",
-  "title": "1875 Marriage Register – James F. Daniel and Mary C. Wilson",
-  "people": [
-    "james-fairfax-daniel-1855",
-    "mary-catherine-wilson-1859"
-  ],
-  "date": "1875-11-16",
-  "location": "Somerset County, Maryland, United States",
-  "description": "Historical marriage register containing an entry dated November 16, 1875, for James F. Daniel and Mary C. Wilson. The entry provides evidence of their marriage in Somerset County, Maryland. FamilySearch family-tree information previously listed December 16, 1875 or 1876, as their marriage date; the discrepancy should be investigated using the original marriage record and its archival citation.",
-  "supports": [
-    "A marriage-register entry identifies James F. Daniel and Mary C. Wilson as a couple.",
-    "The entry is dated November 16, 1875.",
-    "The record places the marriage in Somerset County, Maryland.",
-    "The marriage-register date differs from the date previously listed in FamilySearch family-tree information."
-  ],
-  "documents": [
-    "1875_james_fairfax_daniel_mary_catherine_wilson_marriage.jpg"
-  ]
-},
-
-{
-  "id": "1910_mary_catherine_wilson_daniel_death_notice",
-  "type": "newspaper",
-  "title": "1910 Death Notice – Mary Catherine Daniel, The Baltimore Sun",
-  "people": [
-    "mary-catherine-wilson-1859",
-    "james-fairfax-daniel-1855"
-  ],
-  "date": "1910-10-05",
-  "location": "Baltimore, Maryland, United States",
-  "description": "Death notice published in The Baltimore Sun on October 5, 1910, reporting that Mary Catherine Daniel died on the morning of October 4, 1910, at her residence, 2010 Walbrook Avenue, Baltimore, Maryland. She was 51 years old and identified as the beloved wife of James F. Daniel. The notice states that interment would take place at Deal's Island, Maryland. This newspaper notice corroborates her death date, age, marital relationship, and burial location recorded in her Baltimore death certificate.",
-  "supports": [
-    "Mary Catherine Daniel died on October 4, 1910.",
-    "She was reported to be 51 years old at her death.",
-    "Her residence at death was 2010 Walbrook Avenue, Baltimore, Maryland.",
-    "Her husband was identified as James F. Daniel.",
-    "Her burial was announced for Deal's Island, Maryland.",
-    "The death notice appeared in The Baltimore Sun on October 5, 1910."
-  ],
-  "documents": [
-    "1910_mary_catherine_wilson_daniel_death_notice.jpg"
-  ]
-},
-
-{
-  "id": "1900_census_james_mary_daniel_family",
-  "type": "census",
-  "title": "1900 United States Federal Census – James F. and Mary C. Daniel Family",
-  "people": [
-    "james-fairfax-daniel-1855",
-    "mary-catherine-wilson-1859"
-  ],
-  "date": "1900-06-21",
-  "location": "Tangier District, Somerset County, Maryland, United States",
-  "description": "The Twelfth Census of the United States, enumerated June 21, 1900, records James F. Daniel (age 45) and his wife Mary C. Daniel (age 40) in Tangier District, Somerset County, Maryland, Enumeration District 81, sheet 22. Their household, appearing on lines 13–19, includes five children: Isadora F. Daniel (age 19), Kittie W. Daniel (age 16), James F. Daniel (age 14), Annie W. Daniel (age 12), and Wilson B. Daniel (age 2). Their daughter Addie Leola Daniel Webster was already married and appears with her husband Snead Webster in a separate household in the 1900 census.",
-  "supports": [
-    "James F. Daniel and Mary C. Daniel were recorded as husband and wife in 1900.",
-    "James F. Daniel was recorded as 45 years old.",
-    "Mary C. Daniel was recorded as 40 years old.",
-    "Isadora F. Daniel was recorded as their daughter, age 19.",
-    "Kittie W. Daniel was recorded as their daughter, age 16.",
-    "James F. Daniel was recorded as their son, age 14.",
-    "Annie W. Daniel was recorded as their daughter, age 12.",
-    "Wilson B. Daniel was recorded as their son, age 2.",
-    "The Daniel family resided in Tangier District, Somerset County, Maryland, in June 1900."
-  ],
-  "documents": [
-    "1900_census_james_mary_daniel_family.jpg"
-  ]
-},
-
-{
-  "id": "1899_snead_webster_addie_daniel_marriage_application",
-  "type": "marriage",
-  "title": "1899 Marriage License Application – Snead Webster and Addie Daniel",
-  "people": [
-    "william-gabriel-snead-webster-1871",
-    "addie-leola-daniel-1881"
-  ],
-  "date": "1899-12-23",
-  "location": "Somerset County, Maryland, United States",
-  "description": "Application for a marriage license submitted to the Clerk of the Circuit Court for Somerset County, Maryland, on December 23, 1899. The document identifies the prospective groom as Snead Webster, age 27, and the prospective bride as Addie Daniel, age 18. Both were recorded as single, white, and residents of Somerset County, Maryland. The application was made under oath by W. O. Brown before Clerk Albin T. Beauchamp. This record documents their intention to marry but does not independently establish the date on which the marriage ceremony occurred.",
-  "supports": [
-    "Snead Webster and Addie Daniel were named in a marriage license application dated December 23, 1899.",
-    "Snead Webster was recorded as 27 years old.",
-    "Addie Daniel was recorded as 18 years old.",
-    "Both applicants resided in Somerset County, Maryland.",
-    "Both applicants were recorded as single.",
-    "The application was submitted to the Clerk of the Circuit Court for Somerset County, Maryland."
-  ],
-  "documents": [
-    "1899_snead_webster_addie_daniel_marriage_application.jpg"
-  ]
-},
-
-{
-  "id": "1900_gabriel_snead_webster_property_deed",
-  "type": "deed",
-  "title": "1900 Property Deed – Snead Webster and Webster Family",
-  "people": [
-    "william-gabriel-snead-webster-1871"
-  ],
-  "date": "1900-10-05",
-  "location": "Deals Island, Somerset County, Maryland, United States",
-  "description": "Property deed dated October 5, 1900, involving Noah W. Webster and his wife Rose A. Webster, and John F. Webster and his wife Lucy B. Webster, of Baltimore City, Maryland. The deed records a conveyance to Snead Webster of Deals Island, Somerset County, Maryland, for a consideration of $115. The property is described as a lot or parcel of land situated on Deals Island, Somerset County, Maryland. The deed provides evidence of Snead Webster's involvement in property ownership on Deals Island and identifies other Webster family members participating in the transaction. Their precise relationships to Snead require separate verification.",
-  "supports": [
-    "A property deed dated October 5, 1900, names Snead Webster as the recipient of a land conveyance.",
-    "The deed identifies Noah W. Webster and Rose A. Webster as grantors.",
-    "The deed identifies John F. Webster and Lucy B. Webster as grantors.",
-    "The consideration recorded in the deed was $115.",
-    "The property was situated on Deals Island, Somerset County, Maryland.",
-    "Snead Webster was identified as being of Deals Island, Somerset County, Maryland."
-  ],
-  "documents": [
-    "1900_gabriel_snead_webster_property_deed.jpg"
-  ]
-}
-
-
-
-
-
-
+    }
 ]
