@@ -16,3 +16,4 @@ documents_old_backup/
 photos_old_backup/
 data/people_backup.json
 data/sources_backup.json
+.git-singletary-backup/
