@@ -11,6 +11,155 @@
   "date": "1929-03",
   "location": "202 Luzerne Avenue, Baltimore, Maryland, United States",
   "caption": "Charles Daniel Webster (left) and Adam Kramer (right), photographed outside a brick building at 202 Luzerne Avenue in Baltimore, Maryland, in March 1929. The photograph was taken approximately four months before Adam married Charles's sister, Sue Catherine Webster, on July 27, 1929."
+},
+ {
+    "id": "florence_webster_vernon_adams_steps",
+    "file": "florence_webster_vernon_adams_steps.jpg",
+    "type": "photo",
+    "title": "Florence Webster and Vernon Adams Seated on Steps",
+    "people": [
+      "florence-melson-webster-1904",
+      "vernon-l-adams-1899"
+    ],
+    "date": "",
+    "location": "",
+    "caption": "Florence Melson Webster Adams (left) and her husband, Vernon L. Adams, seated together on the steps outside a brick building. Date and location unknown."
+  },
+  {
+    "id": "florence_webster_vernon_adams_outdoors",
+    "file": "florence_webster_vernon_adams_outdoors.jpg",
+    "type": "photo",
+    "title": "Florence Webster and Vernon Adams Outdoors",
+    "people": [
+      "vernon-l-adams-1899",
+      "florence-melson-webster-1904"
+    ],
+    "date": "",
+    "location": "",
+    "caption": "Florence Melson Webster Adams (left) and her husband, Vernon L. Adams, standing together outdoors, dressed in coats and hats. Date and location unknown."
+  },
+  {
+    "id": "florence_webster_eugene_webster",
+    "file": "florence_webster_eugene_webster.jpg",
+    "type": "photo",
+    "title": "Florence Webster Adams and Eugene Webster",
+    "people": [
+      "florence-melson-webster-1904",
+      "eugene-lee-webster-1921"
+    ],
+    "date": "",
+    "location": "",
+    "caption": "Florence Melson Webster Adams (left) seated with her younger brother, Eugene Lee Webster (right), on a sofa. Date and location unknown."
+  },
+  {
+    "id": "florence_webster_vernon_adams_gravestone",
+    "file": "florence_webster_vernon_adams_gravestone.jpg",
+    "type": "grave",
+    "title": "Gravestone of Vernon L. Adams and Florence M. Adams",
+    "people": [
+      "vernon-l-adams-1899",
+      "florence-melson-webster-1904"
+    ],
+    "date": "",
+    "location": "Moreland Memorial Park, Parkville, Baltimore County, Maryland, United States",
+    "caption": "Shared bronze grave marker of Vernon L. Adams (1899–1974) and Florence M. Adams (1904–1979) at Moreland Memorial Park in Parkville, Maryland. The marker bears the inscription 'Together Forever.'"
+  },
+
+{
+  "id": "sue_webster_front_steps",
+  "file": "sue_webster_front_steps.jpg",
+  "type": "photo",
+  "title": "Sue Catherine Webster Standing on Front Steps",
+  "people": [
+    "susie-catherine-webster-1902"
+  ],
+  "date": "",
+  "location": "",
+  "caption": "Sue Catherine Webster standing on the front steps of a house, wearing a dark dress and Mary Jane shoes. Date and location unknown. Digitally restored from an original family photograph."
+},
+{
+  "id": "adam_kramer_sue_webster_front_steps",
+  "file": "adam_kramer_sue_webster_front_steps.jpg",
+  "type": "photo",
+  "title": "Adam Kramer and Sue Catherine Webster",
+  "people": [
+    "adam-johannes-kramer-1903",
+    "susie-catherine-webster-1902"
+  ],
+  "date": "",
+  "location": "",
+  "caption": "Adam Johannes Kramer (left) and Sue Catherine Webster (right) standing together outside a house. Adam wears a light-colored overcoat, while Sue wears a dark coat with a fur collar. Date and location unknown. Digitally restored from an original family photograph."
+},
+
+{
+  "file": "addie_leola_webster_gravestone.jpg",
+  "title": "Gravestone of Addie Leola Daniel Webster",
+  "people": [
+    "addie-leola-daniel-1881"
+  ],
+  "caption": "Gravestone of Addie Leola Daniel Webster (1881–1922) at Woodlawn Cemetery, Baltimore, Maryland. The marker bears the inscription 'ADDIE L. WEBSTER' and 'MOTHER.' Her death certificate records her burial on April 28, 1922.",
+  "type": "grave",
+  "date": null
+},
+
+{
+  "file": "daniel_family_gravestone.jpg",
+  "title": "Daniel Family Gravestone – James F., Mary C., and Wilson B. Daniel",
+  "people": [
+    "james-fairfax-daniel-1855",
+    "mary-catherine-wilson-1859"
+  ],
+  "caption": "Daniel family gravestone at Saint Johns Cemetery, Deal Island, Somerset County, Maryland. The marker commemorates James F. Daniel (1855–1927), Mary C. Daniel (1859–1910), and Wilson B. Daniel (1897–1918). Mary Catherine Wilson Daniel was the mother of Addie Leola Daniel Webster.",
+  "type": "grave",
+  "date": null
+},
+
+{
+  "file": "2010_walbrook_avenue_daniel_family_home.jpg",
+  "title": "Daniel Family Home – 2010 Walbrook Avenue, Baltimore",
+  "people": [
+    "james-fairfax-daniel-1855",
+    "mary-catherine-wilson-1859"
+  ],
+  "caption": "Photograph of the former Daniel family residence at 2010 Walbrook Avenue, Baltimore, Maryland, taken in the early 21st century. Mary Catherine Wilson Daniel (1859–1910) was living at this address when she died on October 4, 1910, according to her death notice published in The Baltimore Sun on October 5, 1910. The photograph shows the three-story rowhouse with boarded windows and doors and visible deterioration. The photograph's exact date and the building's subsequent history have not yet been established.",
+  "type": "house",
+  "date": null
+},
+
+{
+  "file": "gabriel_snead_webster_outdoors.jpg",
+  "title": "Gabriel Snead Webster Standing Outside a Building",
+  "people": [
+    "william-gabriel-snead-webster-1871"
+  ],
+  "caption": "Full-length photograph of William Gabriel Snead Webster (1871–1939) standing on a sidewalk in front of a brick building and chain-link fence. He is wearing a dark suit, tie, and round eyeglasses. The location and date of the photograph have not been established.",
+  "type": "portrait",
+  "date": null
+},
+{
+  "file": "gabriel_snead_webster_family_group.jpg",
+  "title": "Gabriel Snead Webster with Family Members",
+  "people": [
+    "william-gabriel-snead-webster-1871"
+  ],
+  "caption": "Group photograph showing William Gabriel Snead Webster (1871–1939) standing outdoors with four other individuals, including three women or girls and a young child. The photograph was taken beside a building under a tree. The identities of the other individuals, location, and date remain to be confirmed.",
+  "type": "family",
+  "date": null
+},
+{
+  "file": "gabriel_snead_webster_gravestone.jpg",
+  "title": "Gravestone of Gabriel Snead Webster",
+  "people": [
+    "william-gabriel-snead-webster-1871"
+  ],
+  "caption": "Gravestone of Gabriel Snead Webster (1871–1939) at Woodlawn Cemetery, Baltimore, Maryland. The marker is inscribed 'GABRIEL S. WEBSTER, 1871–1939, FATHER.'",
+  "type": "grave",
+  "date": null
 }
+
+
+
+
+
 
 ]

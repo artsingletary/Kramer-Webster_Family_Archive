@@ -1,399 +1,769 @@
 [
-{
-  "id": "1910_census_william_s_webster_family",
-  "type": "census",
-  "title": "1910 United States Federal Census – William S. Webster Family",
-  "people": [
-    "william-gabriel-snead-webster-1871",
-    "addie-leola-daniel-1881",
-    "maynard-snead-webster-1900",
-    "susie-catherine-webster-1902",
-    "florence-melson-webster-1904",
-     "charles-daniel-webster-1909"
-  ],
-  "date": "1910",
-  "location": "Deal Island District 14, Somerset County, Maryland, United States",
-  "description": "The 1910 United States Federal Census records the household of William S. Webster (age 38) and his wife Addie (age 28), along with their children Maynard S. (age 9), Susie C. (age 8), Florence N. (age 6), and Charles D. (age 9 months). William S. Webster was also known as William Snead Webster and later as Gabriel Snead Webster. The household was enumerated in Deal Island District 14, Somerset County, Maryland, Enumeration District 89, Sheet 3A.",
-  "supports": [
-    "Susie Catherine Webster was living with her parents and siblings in Somerset County, Maryland, in 1910.",
-    "Susie C. Webster was recorded as eight years old in the 1910 census.",
-    "William S. Webster and Addie Webster were recorded as the parents in Susie's household.",
-    "The household included Maynard S., Susie C., Florence N., and Charles D. Webster."
-  ],
-  "documents": [
-    "1910_census_william_s_webster_family.jpg"
-  ]
-},
+    {
+        "id": "1900_census_snead_addie_webster_family",
+        "type": "census",
+        "title": "1900 United States Federal Census – Snead and Addie Webster",
+        "people": [
+            "william-gabriel-snead-webster-1871",
+            "addie-leola-daniel-1881"
+        ],
+        "date": "1900-06-22",
+        "location": "Tangier District, Somerset County, Maryland, United States",
+        "description": "The Twelfth Census of the United States, enumerated June 22, 1900, records Snead Webster on line 23 as head of household, age 27, born October 1872, and his wife Addie Webster on line 24, age 18, born March 1882. The household was located in Tangier District, Somerset County, Maryland, Enumeration District 81, sheet 23. The census documents Snead and Addie living together as husband and wife in 1900. Addie's reported birth month and year differ from her Baltimore death certificate, which records August 18, 1881.",
+        "supports": [
+            "Snead Webster and Addie Webster were recorded as husband and wife in the 1900 federal census.",
+            "Snead Webster was recorded as 27 years old and born in October 1872.",
+            "Addie Webster was recorded as 18 years old and born in March 1882.",
+            "Snead and Addie Webster resided in Tangier District, Somerset County, Maryland, on June 22, 1900.",
+            "The census was recorded in Enumeration District 81, sheet 23.",
+            "The 1900 census birth information for Addie differs from the birth date recorded on her 1922 death certificate."
+        ],
+        "documents": [
+            "1900_census_snead_addie_webster_family.jpg"
+        ]
+    },
+    {
+        "id": "1903_adam_johannes_kramer_birth_certificate",
+        "type": "birth_certificate",
+        "title": "1903 German Birth Certificate – Adam Johannes Krämer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1903-12-08",
+        "location": "Schweinfurt, Bavaria, Germany",
+        "description": "German birth certificate (Geburtsurkunde) for Adam Johannes Krämer, documenting his birth on December 8, 1903, in Schweinfurt, Bavaria, Germany. The certificate identifies his father as Johannes Krämer and his mother as Anna Krämer, née Wolf. Both parents were recorded as Protestant and residing in Schweinfurt. The birth was recorded by Standesamt Schweinfurt under registration No. 554. This certified extract was issued on August 21, 1968. The certificate confirms Schweinfurt as Adam's birthplace, resolving the discrepancy with Würzburg recorded on his 1942 World War II draft registration.",
+        "supports": [
+            "Adam Johannes Krämer was born on December 8, 1903, in Schweinfurt, Germany.",
+            "Adam's father was Johannes Krämer.",
+            "Adam's mother was Anna Krämer, née Wolf.",
+            "Both parents were recorded as Protestant and residing in Schweinfurt."
+        ],
+        "documents": [
+            "1903_adam_johannes_kramer_birth_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1906_addie_leola_webster_land_deed",
+        "type": "deed",
+        "title": "1906 Land Deed – Addie L. Webster and Lazarus Benjamin Wilson",
+        "people": [
+            "addie-leola-daniel-1881"
+        ],
+        "date": "1906-08-20",
+        "location": "Deals Island, Somerset County, Maryland, United States",
+        "description": "Deed dated August 20, 1906, in which Lazarus B. Wilson and his wife, Annie B. Wilson, of Baltimore City, Maryland, conveyed a parcel of land on Deals Island in Somerset County, Maryland, to Mrs. Addie L. Webster for $250. The property was described as part of a five-acre parcel formerly belonging to William Evans and land formerly belonging to Joseph Beauchamp. According to the Wilson-Daniel family tree, the grantor was Lazarus Benjamin Wilson (1857–1922), the maternal uncle of Addie Leola Daniel Webster (1881–1922). Lazarus and Addie's mother, Mary Catherine Wilson (1859–1910), were children of Samuel David Wilson (1823–1914). The deed documents a property transaction between Lazarus and Addie, while the family relationship is identified through genealogical research and awaits independent corroboration.",
+        "supports": [
+            "Addie L. Webster acquired property on Deals Island, Somerset County, Maryland, on August 20, 1906.",
+            "The grantors were Lazarus B. Wilson and his wife Annie B. Wilson.",
+            "The consideration stated in the deed was $250.",
+            "The property included land formerly associated with William Evans and Joseph Beauchamp.",
+            "The Wilson-Daniel family tree identifies Lazarus Benjamin Wilson (1857–1922) as Addie's maternal uncle; this relationship requires independent verification.",
+            "The family tree identifies Mary Catherine Wilson (1859–1910) as Addie's mother and Samuel David Wilson (1823–1914) as her maternal grandfather; these relationships require independent verification."
+        ],
+        "documents": [
+            "1906_addie_leola_webster_land_deed.jpg"
+        ]
+    },
+    {
+        "id": "1909_addie_snead_webster_land_deed",
+        "type": "deed",
+        "title": "1909 Land Deed – Addie L. Webster and Snead Webster to Talmage D. Mister",
+        "people": [
+            "addie-leola-daniel-1881",
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1909-05-12",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Deed dated May 12, 1909, in which Snead Webster and Addie Webster, his wife, of Somerset County, Maryland, conveyed land to Talmage D. Mister of the same county for a stated consideration of $575. The deed refers to land previously granted to Addie Webster by Lazarus B. Wilson and his wife in 1906. Family tree research identifies Lazarus Benjamin Wilson (1857–1922) as Addie's maternal uncle, although that relationship is not established by the deed itself. The document provides evidence of a subsequent land transaction involving Addie and her husband and a possible connection to the property Addie acquired in 1906.",
+        "supports": [
+            "Snead Webster and his wife Addie Webster participated in a land conveyance dated May 12, 1909.",
+            "The grantee was Talmage D. Mister of Somerset County, Maryland.",
+            "The stated consideration was $575.",
+            "The deed refers to a previous conveyance involving Addie Webster and Lazarus B. Wilson in 1906.",
+            "Snead and Addie Webster were identified as husband and wife in the deed."
+        ],
+        "documents": [
+            "1909_addie_snead_webster_land_deed.jpg"
+        ]
+    },
+    {
+        "id": "1910_census_william_s_webster_family",
+        "type": "census",
+        "title": "1910 United States Federal Census – William S. Webster Family",
+        "people": [
+            "william-gabriel-snead-webster-1871",
+            "addie-leola-daniel-1881",
+            "maynard-snead-webster-1900",
+            "susie-catherine-webster-1902",
+            "florence-melson-webster-1904",
+            "charles-daniel-webster-1909"
+        ],
+        "date": "1910",
+        "location": "Deal Island District 14, Somerset County, Maryland, United States",
+        "description": "The 1910 United States Federal Census records the household of William S. Webster (age 38) and his wife Addie (age 28), along with their children Maynard S. (age 9), Susie C. (age 8), Florence N. (age 6), and Charles D. (age 9 months). William S. Webster was also known as William Snead Webster and later as Gabriel Snead Webster. The household was enumerated in Deal Island District 14, Somerset County, Maryland, Enumeration District 89, Sheet 3A.",
+        "supports": [
+            "Susie Catherine Webster was living with her parents and siblings in Somerset County, Maryland, in 1910.",
+            "Susie C. Webster was recorded as eight years old in the 1910 census.",
+            "William S. Webster and Addie Webster were recorded as the parents in Susie's household.",
+            "The household included Maynard S., Susie C., Florence N., and Charles D. Webster."
+        ],
+        "documents": [
+            "1910_census_william_s_webster_family.jpg"
+        ]
+    },
+    {
+        "id": "1920_census_william_s_webster_family",
+        "type": "census",
+        "title": "1920 United States Federal Census – Gabriel S. Webster Family",
+        "people": [
+            "william-gabriel-snead-webster-1871",
+            "addie-leola-daniel-1881",
+            "maynard-snead-webster-1900",
+            "susie-catherine-webster-1902",
+            "florence-melson-webster-1904",
+            "charles-daniel-webster-1909",
+            "mary-catherine-webster-1916",
+            "james-wilson-webster-1920"
+        ],
+        "date": "1920-01-08",
+        "location": "Ward 6, Baltimore City, Maryland, United States",
+        "description": "The 1920 United States Federal Census enumerates the household of Gabriel S. Webster (age 48) and his wife Addie (age 38), along with their children Maynard (age 19), Susie (age 17), Florence (age 16), Charles (age 10), Catherine (age 3 years and 11 months), and James W. (age 6 months). The family was living in Ward 6 of Baltimore City, Maryland, Enumeration District 69, Sheet 7B. Gabriel S. Webster was also known as William Gabriel Snead Webster and had previously been recorded as William S. Webster in the 1910 census.",
+        "supports": [
+            "Gabriel S. Webster and Addie Webster were living in Baltimore City, Maryland, in January 1920.",
+            "The Webster household included Maynard, Susie, Florence, Charles, Catherine, and James W. Webster.",
+            "The family had relocated from Somerset County, Maryland, to Baltimore City between the 1910 and 1920 censuses.",
+            "William Gabriel Snead Webster was recorded under the name Gabriel S. Webster in the 1920 census.",
+            "Mary Catherine Webster, recorded as Catherine, was approximately three years and eleven months old.",
+            "James Wilson Webster was approximately six months old."
+        ],
+        "documents": [
+            "1920_census_william_s_webster_family.jpg"
+        ]
+    },
+    {
+        "id": "1922_addie_leola_webster_death_certificate",
+        "type": "death_certificate",
+        "title": "1922 Maryland Death Certificate – Addie L. Webster",
+        "people": [
+            "addie-leola-daniel-1881",
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1922-04-26",
+        "location": "Baltimore City, Maryland, United States",
+        "description": "Certificate of Death D 63808, issued by the Health Department of the City of Baltimore, records Addie L. Webster's death on April 26, 1922, at age 40 years, 8 months, and 8 days. It gives her birth date as August 18, 1881, and birthplace as Deals Island, Maryland. Her father is identified as James Daniel and her mother as Mary C. Wilson, both reportedly born in Somerset County, Maryland. Addie was married to Gabriel S. Webster, who served as informant. Her residence and place of death are recorded as 2602 East Fayette Street, Baltimore, where she had reportedly lived for eight years. Her occupation was listed as housewife, and the certified cause of death was chronic myocarditis, with a stated duration of two years. Burial was recorded at Woodlawn Cemetery on April 28, 1922. The street number differs from the apparent 2202 East Fayette Street reported in her Baltimore Sun death announcement, a discrepancy requiring further examination.",
+        "supports": [
+            "Addie L. Webster was born on August 18, 1881.",
+            "Her reported birthplace was Deals Island, Maryland.",
+            "Her father was identified as James Daniel.",
+            "Her mother was identified as Mary C. Wilson.",
+            "Both parents were reported to have been born in Somerset County, Maryland.",
+            "Her husband was Gabriel S. Webster.",
+            "Addie died on April 26, 1922, in Baltimore, Maryland.",
+            "Her age at death was recorded as 40 years, 8 months, and 8 days.",
+            "Her residence and place of death were recorded as 2602 East Fayette Street.",
+            "The stated cause of death was chronic myocarditis.",
+            "Gabriel S. Webster was the informant.",
+            "Burial was recorded at Woodlawn Cemetery on April 28, 1922."
+        ],
+        "documents": [
+            "1922_addie_leola_webster_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1922_addie_leola_webster_death_announcement",
+        "type": "newspaper",
+        "title": "1922 Death Announcement – Addie L. Webster",
+        "people": [
+            "addie-leola-daniel-1881",
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1922-04-28",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Death announcement published in The Baltimore Sun on April 28, 1922, page 17, reporting that Addie L. Webster died on April 26, 1922, at her residence, 2202 East Fayette Street, Baltimore, Maryland, aged 40 years. She was identified as the beloved wife of Gabriel Snead Webster. Funeral services were scheduled at the family residence on Friday afternoon, April 28, at 2 o'clock, followed by interment in Woodlawn Cemetery. Source: The Baltimore Sun, April 28, 1922, page 17, accessed through ProQuest Historical Newspapers.",
+        "supports": [
+            "Addie L. Webster died on April 26, 1922.",
+            "Addie was reported to be 40 years old at her death.",
+            "Her residence at death was 2202 East Fayette Street, Baltimore, Maryland.",
+            "Her husband was identified as Gabriel Snead Webster.",
+            "Her funeral was scheduled for April 28, 1922, at 2:00 p.m.",
+            "Her burial was announced for Woodlawn Cemetery."
+        ],
+        "documents": [
+            "1922_addie_leola_webster_death_announcement.jpg"
+        ]
+    },
+    {
+        "id": "1928_adam_johannes_kramer_declaration_of_intention",
+        "type": "naturalization_record",
+        "title": "1928 Declaration of Intention – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1928-04-19",
+        "location": "Baltimore, Maryland, United States",
+        "description": "United States Declaration of Intention filed by Adam Kramer on April 19, 1928, in the United States District Court for the District of Maryland. Adam identified himself as a 24-year-old seaman, born December 8, 1903, in Schweinfurt, Germany, and residing at 937 S. Kenwood Avenue, Baltimore, Maryland. He reported emigrating from Bremerhaven, Germany, aboard a vessel appearing to be named Derfflinger and arriving at New York on or about September 29, 1926. He identified his last foreign residence as Laufach, Germany, and stated that he was unmarried. The declaration records his intention to become a United States citizen.",
+        "supports": [
+            "Adam Kramer filed a Declaration of Intention on April 19, 1928.",
+            "Adam Kramer reported being born on December 8, 1903, in Schweinfurt, Germany.",
+            "Adam Kramer reported arriving in New York on or about September 29, 1926.",
+            "Adam Kramer was working as a seaman in 1928.",
+            "Adam Kramer resided at 937 S. Kenwood Avenue in Baltimore in 1928.",
+            "Adam Kramer reported being unmarried in April 1928."
+        ],
+        "documents": [
+            "1928_adam_johannes_kramer_declaration_of_intention.jpg"
+        ]
+    },
+    {
+        "id": "1929_adam_kramer_sue_webster_commemorative_marriage",
+        "type": "marriage_certificate",
+        "title": "1929 Commemorative Marriage Certificate – Adam Kramer and Sue C. Webster",
+        "people": [
+            "adam-johannes-kramer-1903",
+            "susie-catherine-webster-1902"
+        ],
+        "date": "1929-07-27",
+        "location": "Maryland, United States",
+        "description": "Decorative marriage certificate commemorating the marriage of Adam Kramer of Baltimore, Maryland, and Sue C. Webster of Baltimore, Maryland, on July 27, 1929. The certificate states that they were united in marriage according to the laws of Maryland. H. D. Stewart is identified as the officiant, and Mrs. H. D. Stewart is listed as a witness. The original document features floral illustrations and shows significant creasing, tears, and age-related deterioration. This certificate corroborates the marriage date and officiant recorded on the separate official marriage certificate.",
+        "supports": [
+            "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
+            "H. D. Stewart officiated at their marriage.",
+            "Mrs. H. D. Stewart was recorded as a witness.",
+            "Both individuals were identified as being from Baltimore, Maryland."
+        ],
+        "documents": [
+            "1929_adam_kramer_sue_webster_commemorative_marriage_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1929_adam_kramer_sue_webster_marriage",
+        "type": "marriage_certificate",
+        "title": "1929 Marriage Certificate – Adam Kramer and Sue C. Webster",
+        "people": [
+            "adam-johannes-kramer-1903",
+            "susie-catherine-webster-1902"
+        ],
+        "date": "1929-07-27",
+        "location": "Ellicott City, Howard County, Maryland, United States",
+        "description": "Marriage certificate documenting the marriage of Adam Kramer and Sue C. Webster on July 27, 1929, at Ellicott City, Maryland. The certificate states that the marriage was performed under a license issued by the Clerk of the Circuit Court for Howard County, Maryland. The officiant was H. D. Stewart of Emory M.E. Church.",
+        "supports": [
+            "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
+            "The marriage ceremony took place in Ellicott City, Maryland.",
+            "The marriage license was issued in Howard County, Maryland."
+        ],
+        "documents": [
+            "1929_adam_kramer_sue_webster_marriage_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1930_census_adam_kramer_and_snead_webster_families",
+        "type": "census",
+        "title": "1930 United States Federal Census – Adam Kramer and Snead Webster Families",
+        "people": [
+            "adam-johannes-kramer-1903",
+            "susie-catherine-webster-1902",
+            "william-gabriel-snead-webster-1871",
+            "charles-daniel-webster-1909",
+            "james-wilson-webster-1920"
+        ],
+        "date": "1930-04-02",
+        "location": "Luzerne Avenue, Ward 4, Baltimore City, Maryland, United States",
+        "description": "The Fifteenth Census of the United States, 1930, Maryland, Baltimore City, Ward 4, Enumeration District 4-532, Sheet 6A, enumerated April 2, 1930. Lines 18–19 record Adam Kramer (age 26) and his wife Sue Kramer (recorded age 26). Lines 20–22 record the immediately following household, headed by Snead Webster (age 58), with his sons Charles Webster (age 21) and Wilson Webster (age 10). Snead Webster was William Gabriel Snead Webster, father of Sue, Charles, and Wilson. The two households were located next to one another on Luzerne Avenue in Baltimore. The census records Sue as age 26, although her reported birth date of October 22, 1902, would make her 27 at the time of enumeration. This record establishes that Charles and Wilson were living in their father's household in April 1930, providing important context for research into the Webster children's living arrangements following the death of their mother, Addie Leola Daniel Webster, in 1922.",
+        "supports": [
+            "Adam Kramer and Sue Kramer were living together in Baltimore City in April 1930.",
+            "William Gabriel Snead Webster was recorded under the name Snead Webster in the 1930 census.",
+            "Snead Webster was recorded as 58 years old.",
+            "Charles Webster was recorded as 21 years old.",
+            "Wilson Webster was recorded as 10 years old.",
+            "Charles and Wilson Webster were living in their father's household in April 1930.",
+            "The Kramer and Webster households were enumerated consecutively on Luzerne Avenue in Baltimore.",
+            "The census records Sue Kramer as age 26, although her reported birth date indicates she was 27."
+        ],
+        "documents": [
+            "1930_census_adam_kramer_and_snead_webster_families.jpg"
+        ]
+    },
+    {
+        "id": "1930_census_vernon_florence_adams_family",
+        "type": "census",
+        "title": "1930 United States Federal Census – Vernon and Florence Adams Families",
+        "people": [
+            "florence-melson-webster-1904",
+            "eugene-lee-webster-1921"
+        ],
+        "date": "1930-04-04",
+        "location": "Linwood Avenue, Baltimore City, Maryland, United States",
+        "description": "The Fifteenth Census of the United States, 1930, records two related Adams households on Linwood Avenue in Baltimore City, Maryland, enumerated April 4, 1930. Lines 18–21 list Vernon L. Adams (age 30), his wife Florence Adams (age 26), their son Lee Adams (age 6), and Eugene Webster (age 8), Florence's younger brother. Eugene's relationship is recorded as 'Brother' in the census. The immediately following household, beginning on line 22, lists John H. Adams (age 71) and his wife Chessie Adams (age 67), identified through family information as the parents of Vernon L. Adams. The census documents Eugene Webster residing with his older sister Florence and her family following the death of their mother, Addie Leola Daniel Webster, in 1922. The two Adams households were enumerated consecutively, providing evidence that Florence and Vernon lived next to Vernon's parents.",
+        "supports": [
+            "Vernon L. Adams and Florence Adams were living together in Baltimore City in April 1930.",
+            "Vernon L. Adams was recorded as 30 years old.",
+            "Florence Adams was recorded as 26 years old.",
+            "Lee Adams was recorded as their six-year-old son.",
+            "Eugene Webster was recorded as eight years old and living in Florence and Vernon's household.",
+            "The census records Eugene's relationship as Brother.",
+            "John H. Adams and Chessie Adams were recorded in the immediately following household.",
+            "John H. Adams was recorded as 71 years old and Chessie Adams as 67 years old.",
+            "The two Adams households were enumerated consecutively on Linwood Avenue."
+        ],
+        "documents": [
+            "1930_census_vernon_florence_adams_family.jpg"
+        ]
+    },
+    {
+        "id": "1931_adam_johannes_kramer_petition_for_citizenship",
+        "type": "naturalization_record",
+        "title": "1931 Petition for Citizenship – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1931-11-27",
+        "location": "Baltimore, Maryland, United States",
+        "description": "United States Petition for Citizenship No. 12778 filed by Adam Kramer on November 27, 1931, in the United States District Court at Baltimore, Maryland. Adam identified his residence as 104 South Curley Street, Baltimore, and his occupation as mechanical engineer. He reported being born on December 8, 1903, in Schweinfurt, Germany, and marrying Sue Kramer on July 27, 1929, in Ellicott City, Maryland. The petition records Sue's birthplace as Deal Island, Maryland, and states that she resided with him. Adam reported Laufach, Germany, as his last foreign residence and his arrival in New York on September 29, 1926, aboard the Derfflinger. He reported having no children at the time. The witnesses were Matilda Wiethger and Mrs. Sue Kramer. The petition was part of the naturalization proceedings that resulted in Adam becoming a United States citizen on May 19, 1932.",
+        "supports": [
+            "Adam Kramer filed Petition for Citizenship No. 12778 on November 27, 1931.",
+            "Adam Kramer resided at 104 South Curley Street in Baltimore in 1931.",
+            "Adam Kramer identified his occupation as mechanical engineer.",
+            "Adam Kramer was born on December 8, 1903, in Schweinfurt, Germany.",
+            "Adam and Sue Kramer married on July 27, 1929, in Ellicott City, Maryland.",
+            "Sue Kramer was born in Deal Island, Maryland.",
+            "Adam Kramer arrived in New York on September 29, 1926, aboard the Derfflinger.",
+            "Adam Kramer reported having no children in November 1931."
+        ],
+        "documents": [
+            "1931_adam_johannes_kramer_petition_for_citizenship.jpg"
+        ]
+    },
+    {
+        "id": "1932_adam_johannes_kramer_naturalization_index",
+        "type": "naturalization_record",
+        "title": "1932 Naturalization Index Card – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1932-05-19",
+        "location": "Baltimore, Maryland, United States",
+        "description": "United States naturalization index card for Adam Kramer, age 28, residing at 937 South Kenwood Avenue, Baltimore, Maryland. The card records his admission to United States citizenship on May 19, 1932, by the United States District Court at Baltimore. Certificate No. 3523010 was issued on the same date under Petition No. 12778. This index card independently corroborates the information recorded on Adam's original Certificate of Citizenship.",
+        "supports": [
+            "Adam Kramer was admitted to United States citizenship on May 19, 1932.",
+            "Adam Kramer resided at 937 South Kenwood Avenue in Baltimore in 1932.",
+            "His naturalization was handled by the United States District Court in Baltimore.",
+            "His naturalization certificate number was 3523010 and petition number was 12778."
+        ],
+        "documents": [
+            "1932_adam_johannes_kramer_naturalization_index.jpg"
+        ]
+    },
+    {
+        "id": "1932_adam_johannes_kramer_certificate_of_citizenship",
+        "type": "naturalization_certificate",
+        "title": "1932 United States Certificate of Citizenship – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1932-05-19",
+        "location": "Baltimore, Maryland, United States",
+        "description": "United States Certificate of Citizenship No. 3523010, issued to Adam Kramer on May 19, 1932, by the United States District Court for the District of Maryland in Baltimore. The certificate references Petition No. 12778 and identifies his residence as 937 S. Kenwood Avenue, Baltimore, Maryland. Adam was described as a 28-year-old married German man with fair complexion, brown eyes, brown hair, height 5 feet 8 inches, and weight 145 pounds. His former nationality was recorded as German. The certificate includes his photograph and signature and was signed by court clerk Arthur L. Bramer.",
+        "supports": [
+            "Adam Kramer became a naturalized United States citizen on May 19, 1932.",
+            "Adam Kramer was residing at 937 S. Kenwood Avenue in Baltimore in 1932.",
+            "Adam Kramer was recorded as married and formerly of German nationality.",
+            "The certificate provides a contemporary photograph and signature of Adam Kramer."
+        ],
+        "documents": [
+            "1932_adam_johannes_kramer_certificate_of_citizenship.jpg"
+        ]
+    },
+    {
+        "id": "1940_census_vernon_florence_adams_family",
+        "type": "census",
+        "title": "1940 United States Federal Census – Vernon and Florence Adams Family",
+        "people": [
+            "florence-melson-webster-1904",
+            "eugene-lee-webster-1921"
+        ],
+        "date": "1940-04-06",
+        "location": "Baltimore City, Maryland, United States",
+        "description": "The Sixteenth Census of the United States, enumerated April 6, 1940, records the household of Vernon L. Adams (age 40), his wife Florence M. Adams (age 36), their sons Vernon L. Adams Jr. (age 16) and Kenneth W. Adams (age 9), and Florence's younger brother Eugene Lee Webster (age 18). The family was residing in Baltimore City, Maryland. The census indicates that the household members were living in the same house in 1935. Eugene had also been recorded living with Florence and Vernon in the 1930 census, documenting his continued residence with his older sister's family. The precise street address remains to be verified.",
+        "supports": [
+            "Vernon L. Adams and Florence M. Adams were living together in Baltimore City in April 1940.",
+            "Vernon L. Adams was recorded as 40 years old.",
+            "Florence M. Adams was recorded as 36 years old.",
+            "Vernon L. Adams Jr. was recorded as 16 years old.",
+            "Kenneth W. Adams was recorded as 9 years old.",
+            "Eugene Lee Webster was recorded as 18 years old in the Adams household.",
+            "Eugene Webster was living with his older sister Florence and her family in both 1930 and 1940.",
+            "The census reports that the household members lived in the same house in 1935."
+        ],
+        "documents": [
+            "1940_census_vernon_florence_adams_family.jpg"
+        ]
+    },
+    {
+        "id": "1940_census_adam_johannes_kramer_family",
+        "type": "census",
+        "title": "1940 United States Federal Census – Adam Kramer Family",
+        "people": [
+            "adam-johannes-kramer-1903",
+            "susie-catherine-webster-1902",
+            "robert-adam-kramer-1936",
+            "bette-ann-kramer"
+        ],
+        "date": "1940-04-10",
+        "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
+        "description": "The 1940 United States Federal Census records the household of Adam Kramer (age 36), his wife Sue C. Kramer (age 36), and their children Robert A. Kramer and Betty A. Kramer. The family was enumerated on April 10, 1940, in Enumeration District 3-79, Sheet 7A, lines 34–37. Brentwood Avenue is handwritten vertically in column 1 of the census, spanning approximately lines 20–31. The Kramer family residence has also been identified as being on Brentwood Avenue in Dundalk, Baltimore County, Maryland, through firsthand family recollection. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
+        "supports": [
+            "Adam Kramer and Sue C. Kramer were recorded as husband and wife in Baltimore City in 1940.",
+            "Robert A. Kramer and Betty A. Kramer were recorded as children in the household.",
+            "The Kramer family was residing in Baltimore City, Maryland, in April 1940."
+        ],
+        "documents": [
+            "1940_census_adam_johannes_kramer_family.jpg"
+        ]
+    },
+    {
+        "id": "1942_adam_johannes_kramer_draft_registration",
+        "type": "draft_registration",
+        "title": "1942 World War II Draft Registration – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1942-02-14",
+        "location": "Baltimore County, Maryland, United States",
+        "description": "World War II Selective Service registration card for Adam Kramer, registered on February 14, 1942, through Local Board No. 5, Baltimore County, Maryland. Adam reported his birth as December 8, 1903, in Würzburg, Germany, and his residence and mailing address as 6902 Brentwood Avenue, Baltimore, Maryland. He identified Sue Kramer of the same address as the person who would always know his whereabouts. His employer was Baltimore Pure-Rye Distilling Co., located on Sollers Point Road in Baltimore. The reverse of the card describes him as approximately 5 feet 8½ inches tall, with brown eyes, brown hair, and a light complexion. The birthplace differs from Schweinfurt, Germany, recorded in his 1928 Declaration of Intention; both locations are preserved as written in their respective records.",
+        "supports": [
+            "Adam Kramer registered for the World War II draft on February 14, 1942.",
+            "Adam Kramer reported his birth date as December 8, 1903.",
+            "Adam Kramer identified Würzburg, Germany, as his birthplace on this registration.",
+            "Adam Kramer resided at 6902 Brentwood Avenue in Baltimore County in 1942.",
+            "Sue Kramer was identified as his contact person at the same address.",
+            "Adam Kramer was employed by Baltimore Pure-Rye Distilling Co. in 1942."
+        ],
+        "documents": [
+            "1942_adam_johannes_kramer_draft_registration_front.jpg",
+            "1942_adam_johannes_kramer_draft_registration_back.jpg"
+        ]
+    },
+    {
+        "id": "1950_census_vernon_florence_adams_family",
+        "type": "census",
+        "title": "1950 United States Federal Census – Vernon and Florence Adams Family",
+        "people": [
+            "florence-melson-webster-1904",
+            "eugene-lee-webster-1921"
+        ],
+        "date": "1950-04-19",
+        "location": "Elsrode Avenue, Baltimore City, Maryland, United States",
+        "description": "The Seventeenth Census of the United States, enumerated April 19, 1950, records the household of Vernon L. Adams (age 50), his wife Florence M. Adams (age 46), their son Kenneth W. Adams (age 19), and Florence's younger brother Eugene Lee Webster (age 28), beginning on line 6. The family was residing on Elsrode Avenue in Baltimore City, Maryland. Eugene had previously been recorded in Florence and Vernon's household in the 1930 and 1940 federal censuses. These three census records document Eugene's residence with his older sister's family over a period spanning twenty years, although they do not establish continuous residence throughout that period. The 1950 census also provides evidence that the Adams family was living on Elsrode Avenue by April 1950.",
+        "supports": [
+            "Vernon L. Adams and Florence M. Adams were living together in Baltimore City on April 19, 1950.",
+            "Vernon L. Adams was recorded as 50 years old.",
+            "Florence M. Adams was recorded as 46 years old.",
+            "Kenneth W. Adams was recorded as 19 years old and identified as their son.",
+            "Eugene Lee Webster was recorded as 28 years old in the Adams household.",
+            "Eugene Webster was recorded living with Florence and Vernon Adams in the 1930, 1940, and 1950 federal censuses.",
+            "The Adams family was residing on Elsrode Avenue in Baltimore by April 1950."
+        ],
+        "documents": [
+            "1950_census_vernon_florence_adams_family.jpg"
+        ]
+    },
+    {
+        "id": "1950_census_adam_johannes_kramer_family",
+        "type": "census",
+        "title": "1950 United States Federal Census – Adam Kramer Family",
+        "people": [
+            "adam-johannes-kramer-1903",
+            "susie-catherine-webster-1902",
+            "robert-adam-kramer-1936",
+            "bette-ann-kramer"
+        ],
+        "date": "1950-04-25",
+        "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
+        "description": "The 1950 United States Federal Census records the household of Adam Kramer (age 46), his wife Sue Kramer (age 46), and their children Betty A. Kramer and Robert A. Kramer. The family was enumerated on April 25, 1950, in Enumeration District 3-173, Sheet 8, lines 9–12. Brentwood Avenue is identified in the handwritten street notation. The family's residence at 6902 Brentwood Avenue in Dundalk, Baltimore County, Maryland, is additionally supported by firsthand family recollection and a photograph showing the house number. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
+        "supports": [
+            "Adam and Sue Kramer were recorded as husband and wife in 1950.",
+            "Betty A. Kramer and Robert A. Kramer were recorded as their children.",
+            "The Kramer family resided on Brentwood Avenue in the Baltimore area in 1950."
+        ],
+        "documents": [
+            "1950_census_adam_johannes_kramer_family.jpg"
+        ]
+    },
+    {
+        "id": "1953_adam_johannes_kramer_coast_guard_license",
+        "type": "professional_license",
+        "title": "1953 United States Coast Guard Merchant Marine Officer License – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1953-06-13",
+        "location": "Baltimore, Maryland, United States",
+        "description": "United States Coast Guard License to U.S. Merchant Marine Officer, Serial No. 160249, issued to Adam Kramer at Baltimore, Maryland, on June 13, 1953. The license certified that Adam Kramer had been examined and found competent to serve as Second Assistant Engineer of Steam Vessels of any horsepower upon any waters. The document provides evidence of his professional qualifications in marine engineering, although it does not identify particular vessels on which he served.",
+        "supports": [
+            "Adam Kramer held a United States Coast Guard Merchant Marine officer license in 1953.",
+            "Adam Kramer was qualified to serve as Second Assistant Engineer of Steam Vessels.",
+            "His license authorized service on steam vessels of any horsepower upon any waters.",
+            "The license was issued in Baltimore, Maryland, on June 13, 1953."
+        ],
+        "documents": [
+            "1953_adam_johannes_kramer_coast_guard_license.jpg"
+        ]
+    },
+    {
+        "id": "1969_adam_johannes_kramer_death_notice",
+        "type": "newspaper",
+        "title": "1969 Death Notice – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1969-12-01",
+        "location": "Dundalk, Baltimore County, Maryland, United States",
+        "description": "Newspaper death notice for Adam Kramer, who died on December 1, 1969. The notice identifies his residence as 6902 Brentwood Avenue, Dundalk, Maryland, and names his wife, Sue Webster Kramer, and children, Mrs. Arthur Singletary and Robert A. Kramer. Funeral services were scheduled for December 4, 1969, at 2:00 PM, at Walter Brooks Bradley, Inc., Dundalk, followed by interment at Woodlawn Cemetery in Baltimore, Maryland. The newspaper title and publication date have not yet been identified.",
+        "supports": [
+            "Adam Kramer died on December 1, 1969.",
+            "Adam Kramer resided at 6902 Brentwood Avenue in Dundalk, Maryland.",
+            "Sue Webster Kramer was identified as his wife.",
+            "The notice identifies Mrs. Arthur Singletary and Robert A. Kramer as his children.",
+            "Interment was announced at Woodlawn Cemetery in Baltimore, Maryland."
+        ],
+        "documents": [
+            "1969_adam_johannes_kramer_death_notice.jpg"
+        ]
+    },
+    {
+        "id": "1969_adam_johannes_kramer_death_certificate",
+        "type": "death_certificate",
+        "title": "1969 Maryland Death Certificate – Adam Kramer",
+        "people": [
+            "adam-johannes-kramer-1903"
+        ],
+        "date": "1969-12-01",
+        "location": "Dundalk, Baltimore County, Maryland, United States",
+        "description": "Maryland State Department of Health Certificate of Death for Adam Kramer, who died on December 1, 1969, at age 65 in Dundalk, Baltimore County, Maryland. The certificate records his birth as December 8, 1903, in Germany and identifies his residence as 6902 Brentwood Avenue, Dundalk. His father is named Johann Kramer and his mother Anna Wolff, preserving the spellings on this document. His German birth certificate identifies them as Johannes Krämer and Anna Wolf. The certificate records carcinoma of the lung with metastases to the brain as the cause of death, with diabetes mellitus listed as another significant condition. Sue Webster Kramer is identified as the informant. Burial took place on December 4, 1969, at Woodlawn Cemetery in Baltimore County, Maryland.",
+        "supports": [
+            "Adam Kramer died on December 1, 1969, in Dundalk, Baltimore County, Maryland.",
+            "Adam Kramer was born on December 8, 1903, in Germany.",
+            "Adam's parents were recorded as Johann Kramer and Anna Wolff.",
+            "Adam resided at 6902 Brentwood Avenue in Dundalk at the time of his death.",
+            "Sue Webster Kramer was the informant on his death certificate.",
+            "Adam was buried on December 4, 1969, at Woodlawn Cemetery in Baltimore County, Maryland."
+        ],
+        "documents": [
+            "1969_adam_johannes_kramer_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1979_florence_melson_webster_adams_death_certificate",
+        "type": "death_certificate",
+        "title": "Maryland Death Certificate — Florence Melson Adams (1979)",
+        "people": [
+            "florence-melson-webster-1904"
+        ],
+        "date": "1979-04-02",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Maryland Department of Health and Mental Hygiene Certificate of Death, certificate number 79-08578, documenting the death of Florence Melson Adams on April 2, 1979, in Baltimore, Maryland. The certificate records her birth on March 23, 1904, in Maryland; her residence at 6602 Elsrode Avenue, Baltimore; and her widowed marital status. Her father is identified as Gabriel Snead Webster and her mother as Addie Daniels, preserving the names as recorded on the certificate. Burial took place April 5, 1979, at Moreland Memorial Park in Parkville, Baltimore County, Maryland.",
+        "supports": [
+            "Florence Melson Adams died April 2, 1979, in Baltimore, Maryland.",
+            "Florence was born March 23, 1904, in Maryland.",
+            "Florence was the daughter of Gabriel Snead Webster and Addie Daniels, as named on the certificate.",
+            "Florence resided at 6602 Elsrode Avenue in Baltimore at the time of her death.",
+            "Florence was widowed at the time of her death.",
+            "Florence was buried April 5, 1979, at Moreland Memorial Park in Parkville, Maryland."
+        ],
+        "documents": [
+            "1979_florence_melson_webster_adams_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1979_florence_melson_webster_adams_death_notice",
+        "type": "obituary",
+        "title": "Death Notice of Florence Melson Webster Adams – The Evening Sun (1979)",
+        "people": [
+            "florence-melson-webster-1904"
+        ],
+        "date": "1979-04-04",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Death notice published in The Evening Sun of Baltimore, Maryland, reporting the death of Florence Melson Adams (née Webster) on April 2, 1979. Florence was the widow of Vernon L. Adams Sr. The notice identifies her children as Vernon L. Adams Jr., Eugene L. Webster, and the late Kenneth W. Adams. Her surviving siblings are identified as Mrs. Susan Kramer, Mrs. Catherine Jackson, and James W. Webster. The notice also reports six grandchildren and two great-grandchildren. Funeral arrangements were handled by the Robert C. Altenburg Funeral Home, with burial at Moreland Memorial Park. The newspaper publication date of April 4, 1979, is based on the clipping information and should be independently verified.",
+        "supports": [
+            "Florence Melson Adams died April 2, 1979.",
+            "Florence was the widow of Vernon L. Adams Sr.",
+            "Florence's children included Vernon L. Adams Jr., Eugene L. Webster, and Kenneth W. Adams.",
+            "Kenneth W. Adams died before Florence.",
+            "Florence's surviving siblings included Susan Kramer, Catherine Jackson, and James W. Webster.",
+            "Florence had six grandchildren and two great-grandchildren at the time of her death.",
+            "Florence's burial arrangements included Moreland Memorial Park."
+        ],
+        "documents": [
+            "1979_florence_melson_webster_adams_death_notice_evening_sun.jpg"
+        ]
+    },
+    {
+        "id": "1993_susie_catherine_webster_kramer_death_certificate",
+        "type": "death_certificate",
+        "title": "1993 Virginia Death Certificate – Sue C. Kramer",
+        "people": [
+            "susie-catherine-webster-1902"
+        ],
+        "date": "1993-01-01",
+        "location": "Falls Church, Fairfax County, Virginia, United States",
+        "description": "Commonwealth of Virginia Certificate of Death for Sue C. Kramer, who died on January 1, 1993, at Fairfax Hospital in Falls Church, Fairfax County, Virginia, at age 90. The certificate records her birth as October 22, 1902, in Maryland. Her father is identified as Gabriel Seneed and her mother as Addie Daniels, preserving the spellings recorded on the certificate. These names correspond to Gabriel Snead Webster and Addie Leola Daniel in the family archive. Her marital status is recorded as widowed, and Adam Kramer is named as her spouse. The certificate identifies Woodlawn Cemetery in Baltimore, Maryland, as her burial location. Bette Singletary is listed as the informant.",
+        "supports": [
+            "Sue C. Kramer died on January 1, 1993, in Falls Church, Virginia.",
+            "Sue C. Kramer was born on October 22, 1902, in Maryland.",
+            "The certificate identifies her parents as Gabriel Seneed and Addie Daniels.",
+            "Adam Kramer is identified as her spouse.",
+            "Woodlawn Cemetery in Baltimore, Maryland, is recorded as her burial location."
+        ],
+        "documents": [
+            "1993_susie_catherine_webster_kramer_death_certificate.jpg"
+        ]
+    },
 
 {
-  "id": "1920_census_william_s_webster_family",
-  "type": "census",
-  "title": "1920 United States Federal Census – Gabriel S. Webster Family",
-  "people": [
-    "william-gabriel-snead-webster-1871",
-    "addie-leola-daniel-1881",
-    "maynard-snead-webster-1900",
-    "susie-catherine-webster-1902",
-    "florence-melson-webster-1904",
-    "charles-daniel-webster-1909",
-    "mary-catherine-webster-1916",
-    "james-wilson-webster-1920"
-  ],
-  "date": "1920-01-08",
-  "location": "Ward 6, Baltimore City, Maryland, United States",
-  "description": "The 1920 United States Federal Census enumerates the household of Gabriel S. Webster (age 48) and his wife Addie (age 38), along with their children Maynard (age 19), Susie (age 17), Florence (age 16), Charles (age 10), Catherine (age 3 years and 11 months), and James W. (age 6 months). The family was living in Ward 6 of Baltimore City, Maryland, Enumeration District 69, Sheet 7B. Gabriel S. Webster was also known as William Gabriel Snead Webster and had previously been recorded as William S. Webster in the 1910 census.",
-  "supports": [
-    "Gabriel S. Webster and Addie Webster were living in Baltimore City, Maryland, in January 1920.",
-    "The Webster household included Maynard, Susie, Florence, Charles, Catherine, and James W. Webster.",
-    "The family had relocated from Somerset County, Maryland, to Baltimore City between the 1910 and 1920 censuses.",
-    "William Gabriel Snead Webster was recorded under the name Gabriel S. Webster in the 1920 census.",
-    "Mary Catherine Webster, recorded as Catherine, was approximately three years and eleven months old.",
-    "James Wilson Webster was approximately six months old."
-  ],
-  "documents": [
-    "1920_census_william_s_webster_family.jpg"
-  ]
-},
-
-{
-  "id": "1930_census_adam_kramer_and_snead_webster_families",
-  "type": "census",
-  "title": "1930 United States Federal Census – Adam Kramer and Snead Webster Families",
-  "people": [
-    "susie-catherine-webster-1902",
-    "william-gabriel-snead-webster-1871",
-    "charles-daniel-webster-1909",
-    "james-wilson-webster-1920"
-  ],
-  "date": "1930-04-02",
-  "location": "Ward 4, Baltimore City, Maryland, United States",
-  "description": "The 1930 United States Federal Census records Adam Kramer (age 26) and his wife Sue Kramer (age 26) on lines 18–19. The following household, on lines 20–22, includes Snead Webster (age 58), Charles Webster (age 21), and Wilson Webster (age 10). Snead Webster was William Gabriel Snead Webster, father of Sue, Charles, and Wilson. The households were enumerated in Ward 4 of Baltimore City, Maryland, Enumeration District 4-232, Sheet 6A. The census records Sue as age 26, although her reported birth date of October 22, 1902, would make her 27 at the time of enumeration.",
-  "supports": [
-    "Adam Kramer and Sue Kramer were recorded together in Baltimore City in 1930.",
-    "Snead Webster was recorded with Charles and Wilson Webster in a separate household immediately following Adam and Sue Kramer.",
-    "William Gabriel Snead Webster was recorded under the name Snead Webster in 1930.",
-    "Charles Webster was recorded as 21 years old in 1930.",
-    "Wilson Webster was recorded as 10 years old in 1930.",
-    "The Kramer and Webster households were enumerated consecutively in Baltimore City."
-  ],
-  "documents": [
-    "1930_census_adam_kramer_and_snead_webster_families.jpg"
-  ]
-},
-
-{
-  "id": "1940_census_adam_johannes_kramer_family",
-  "type": "census",
-  "title": "1940 United States Federal Census – Adam Kramer Family",
-  "people": [
-    "adam-johannes-kramer-1903",
-    "susie-catherine-webster-1902",
-    "robert-adam-kramer-1936",
-    "bette-ann-kramer"
-  ],
-  "date": "1940-04-10",
-  "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
-  "description": "The 1940 United States Federal Census records the household of Adam Kramer (age 36), his wife Sue C. Kramer (age 36), and their children Robert A. Kramer and Betty A. Kramer. The family was enumerated on April 10, 1940, in Enumeration District 3-79, Sheet 7A, lines 34–37. Brentwood Avenue is handwritten vertically in column 1 of the census, spanning approximately lines 20–31. The Kramer family residence has also been identified as being on Brentwood Avenue in Dundalk, Baltimore County, Maryland, through firsthand family recollection. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
-  "supports": [
-    "Adam Kramer and Sue C. Kramer were recorded as husband and wife in Baltimore City in 1940.",
-    "Robert A. Kramer and Betty A. Kramer were recorded as children in the household.",
-    "The Kramer family was residing in Baltimore City, Maryland, in April 1940."
-  ],
-  "documents": [
-    "1940_census_adam_johannes_kramer_family.jpg"
-  ]
-},
-
-{
-  "id": "1950_census_adam_johannes_kramer_family",
-  "type": "census",
-  "title": "1950 United States Federal Census – Adam Kramer Family",
-  "people": [
-    "adam-johannes-kramer-1903",
-    "susie-catherine-webster-1902",
-    "robert-adam-kramer-1936",
-    "bette-ann-kramer"
-  ],
-  "date": "1950-04-25",
-  "location": "Brentwood Avenue, Dundalk, Baltimore County, Maryland, United States",
-  "description": "The 1950 United States Federal Census records the household of Adam Kramer (age 46), his wife Sue Kramer (age 46), and their children Betty A. Kramer and Robert A. Kramer. The family was enumerated on April 25, 1950, in Enumeration District 3-173, Sheet 8, lines 9–12. Brentwood Avenue is identified in the handwritten street notation. The family's residence at 6902 Brentwood Avenue in Dundalk, Baltimore County, Maryland, is additionally supported by firsthand family recollection and a photograph showing the house number. Betty A. Kramer is identified in family records as Bette Ann Kramer.",
-  "supports": [
-    "Adam and Sue Kramer were recorded as husband and wife in 1950.",
-    "Betty A. Kramer and Robert A. Kramer were recorded as their children.",
-    "The Kramer family resided on Brentwood Avenue in the Baltimore area in 1950."
-  ],
-  "documents": [
-    "1950_census_adam_johannes_kramer_family.jpg"
-  ]
-},
-{
-  "id": "1929_adam_kramer_sue_webster_marriage",
-  "type": "marriage_certificate",
-  "title": "1929 Marriage Certificate – Adam Kramer and Sue C. Webster",
-  "people": [
-    "adam-johannes-kramer-1903",
-    "susie-catherine-webster-1902"
-  ],
-  "date": "1929-07-27",
-  "location": "Ellicott City, Howard County, Maryland, United States",
-  "description": "Marriage certificate documenting the marriage of Adam Kramer and Sue C. Webster on July 27, 1929, at Ellicott City, Maryland. The certificate states that the marriage was performed under a license issued by the Clerk of the Circuit Court for Howard County, Maryland. The officiant was H. D. Stewart of Emory M.E. Church.",
-  "supports": [
-    "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
-    "The marriage ceremony took place in Ellicott City, Maryland.",
-    "The marriage license was issued in Howard County, Maryland."
-  ],
-  "documents": [
-    "1929_adam_kramer_sue_webster_marriage_certificate.jpg"
-  ]
-},
-
-{
-  "id": "1993_susie_catherine_webster_kramer_death_certificate",
+  "id": "1910_mary_catherine_wilson_daniel_death_certificate",
   "type": "death_certificate",
-  "title": "1993 Virginia Death Certificate – Sue C. Kramer",
+  "title": "1910 Baltimore Death Certificate – Mary Catherine Daniel",
   "people": [
-    "susie-catherine-webster-1902"
+    "mary-catherine-wilson-1859"
   ],
-  "date": "1993-01-01",
-  "location": "Falls Church, Fairfax County, Virginia, United States",
-  "description": "Commonwealth of Virginia Certificate of Death for Sue C. Kramer, who died on January 1, 1993, at Fairfax Hospital in Falls Church, Fairfax County, Virginia, at age 90. The certificate records her birth as October 22, 1902, in Maryland. Her father is identified as Gabriel Seneed and her mother as Addie Daniels, preserving the spellings recorded on the certificate. These names correspond to Gabriel Snead Webster and Addie Leola Daniel in the family archive. Her marital status is recorded as widowed, and Adam Kramer is named as her spouse. The certificate identifies Woodlawn Cemetery in Baltimore, Maryland, as her burial location. Bette Singletary is listed as the informant.",
+  "date": "1910-10-04",
+  "location": "Baltimore City, Maryland, United States",
+  "description": "Certificate of Death issued by the Health Department of the City of Baltimore for Mary Catherine Daniel, who died on October 4, 1910, at age 51. The certificate records her as a married white female and housewife, born in Maryland. Her father is identified as Samuel D. Wilson, reportedly born in South Carolina, and her mother as Sarah E. Evans, reportedly born in Maryland. The informant appears to be Samuel D. Wilson, although the handwriting should be verified. The certificate records burial at Deals Island, Maryland, on October 6, 1910. Her exact birth date is difficult to read and should be verified from a clearer image.",
   "supports": [
-    "Sue C. Kramer died on January 1, 1993, in Falls Church, Virginia.",
-    "Sue C. Kramer was born on October 22, 1902, in Maryland.",
-    "The certificate identifies her parents as Gabriel Seneed and Addie Daniels.",
-    "Adam Kramer is identified as her spouse.",
-    "Woodlawn Cemetery in Baltimore, Maryland, is recorded as her burial location."
+    "Mary Catherine Daniel died on October 4, 1910, in Baltimore, Maryland.",
+    "Her age at death was recorded as 51 years.",
+    "She was recorded as married.",
+    "Her birthplace was recorded as Maryland.",
+    "Her father was identified as Samuel D. Wilson.",
+    "Her father's birthplace was recorded as South Carolina.",
+    "Her mother was identified as Sarah E. Evans.",
+    "Her mother's birthplace was recorded as Maryland.",
+    "Burial was recorded at Deals Island, Maryland, on October 6, 1910."
   ],
   "documents": [
-    "1993_susie_catherine_webster_kramer_death_certificate.jpg"
-  ]
-},
-{
-  "id": "1929_adam_kramer_sue_webster_commemorative_marriage",
-  "type": "marriage_certificate",
-  "title": "1929 Commemorative Marriage Certificate – Adam Kramer and Sue C. Webster",
-  "people": [
-    "adam-johannes-kramer-1903",
-    "susie-catherine-webster-1902"
-  ],
-  "date": "1929-07-27",
-  "location": "Maryland, United States",
-  "description": "Decorative marriage certificate commemorating the marriage of Adam Kramer of Baltimore, Maryland, and Sue C. Webster of Baltimore, Maryland, on July 27, 1929. The certificate states that they were united in marriage according to the laws of Maryland. H. D. Stewart is identified as the officiant, and Mrs. H. D. Stewart is listed as a witness. The original document features floral illustrations and shows significant creasing, tears, and age-related deterioration. This certificate corroborates the marriage date and officiant recorded on the separate official marriage certificate.",
-  "supports": [
-    "Adam Kramer and Sue C. Webster were married on July 27, 1929.",
-    "H. D. Stewart officiated at their marriage.",
-    "Mrs. H. D. Stewart was recorded as a witness.",
-    "Both individuals were identified as being from Baltimore, Maryland."
-  ],
-  "documents": [
-    "1929_adam_kramer_sue_webster_commemorative_marriage_certificate.jpg"
+    "1910_mary_catherine_wilson_daniel_death_certificate.jpg"
   ]
 },
 
 {
-  "id": "1932_adam_johannes_kramer_certificate_of_citizenship",
-  "type": "naturalization_certificate",
-  "title": "1932 United States Certificate of Citizenship – Adam Kramer",
+  "id": "1875_james_daniel_mary_wilson_marriage",
+  "type": "marriage",
+  "title": "1875 Marriage Register – James F. Daniel and Mary C. Wilson",
   "people": [
-    "adam-johannes-kramer-1903"
+    "james-fairfax-daniel-1855",
+    "mary-catherine-wilson-1859"
   ],
-  "date": "1932-05-19",
-  "location": "Baltimore, Maryland, United States",
-  "description": "United States Certificate of Citizenship No. 3523010, issued to Adam Kramer on May 19, 1932, by the United States District Court for the District of Maryland in Baltimore. The certificate references Petition No. 12778 and identifies his residence as 937 S. Kenwood Avenue, Baltimore, Maryland. Adam was described as a 28-year-old married German man with fair complexion, brown eyes, brown hair, height 5 feet 8 inches, and weight 145 pounds. His former nationality was recorded as German. The certificate includes his photograph and signature and was signed by court clerk Arthur L. Bramer.",
+  "date": "1875-11-16",
+  "location": "Somerset County, Maryland, United States",
+  "description": "Historical marriage register containing an entry dated November 16, 1875, for James F. Daniel and Mary C. Wilson. The entry provides evidence of their marriage in Somerset County, Maryland. FamilySearch family-tree information previously listed December 16, 1875 or 1876, as their marriage date; the discrepancy should be investigated using the original marriage record and its archival citation.",
   "supports": [
-    "Adam Kramer became a naturalized United States citizen on May 19, 1932.",
-    "Adam Kramer was residing at 937 S. Kenwood Avenue in Baltimore in 1932.",
-    "Adam Kramer was recorded as married and formerly of German nationality.",
-    "The certificate provides a contemporary photograph and signature of Adam Kramer."
+    "A marriage-register entry identifies James F. Daniel and Mary C. Wilson as a couple.",
+    "The entry is dated November 16, 1875.",
+    "The record places the marriage in Somerset County, Maryland.",
+    "The marriage-register date differs from the date previously listed in FamilySearch family-tree information."
   ],
   "documents": [
-    "1932_adam_johannes_kramer_certificate_of_citizenship.jpg"
+    "1875_james_fairfax_daniel_mary_catherine_wilson_marriage.jpg"
   ]
 },
 
 {
-  "id": "1953_adam_johannes_kramer_coast_guard_license",
-  "type": "professional_license",
-  "title": "1953 United States Coast Guard Merchant Marine Officer License – Adam Kramer",
-  "people": [
-    "adam-johannes-kramer-1903"
-  ],
-  "date": "1953-06-13",
-  "location": "Baltimore, Maryland, United States",
-  "description": "United States Coast Guard License to U.S. Merchant Marine Officer, Serial No. 160249, issued to Adam Kramer at Baltimore, Maryland, on June 13, 1953. The license certified that Adam Kramer had been examined and found competent to serve as Second Assistant Engineer of Steam Vessels of any horsepower upon any waters. The document provides evidence of his professional qualifications in marine engineering, although it does not identify particular vessels on which he served.",
-  "supports": [
-    "Adam Kramer held a United States Coast Guard Merchant Marine officer license in 1953.",
-    "Adam Kramer was qualified to serve as Second Assistant Engineer of Steam Vessels.",
-    "His license authorized service on steam vessels of any horsepower upon any waters.",
-    "The license was issued in Baltimore, Maryland, on June 13, 1953."
-  ],
-  "documents": [
-    "1953_adam_johannes_kramer_coast_guard_license.jpg"
-  ]
-},
-
-{
-  "id": "1969_adam_johannes_kramer_death_notice",
+  "id": "1910_mary_catherine_wilson_daniel_death_notice",
   "type": "newspaper",
-  "title": "1969 Death Notice – Adam Kramer",
+  "title": "1910 Death Notice – Mary Catherine Daniel, The Baltimore Sun",
   "people": [
-    "adam-johannes-kramer-1903"
+    "mary-catherine-wilson-1859",
+    "james-fairfax-daniel-1855"
   ],
-  "date": "1969-12-01",
-  "location": "Dundalk, Baltimore County, Maryland, United States",
-  "description": "Newspaper death notice for Adam Kramer, who died on December 1, 1969. The notice identifies his residence as 6902 Brentwood Avenue, Dundalk, Maryland, and names his wife, Sue Webster Kramer, and children, Mrs. Arthur Singletary and Robert A. Kramer. Funeral services were scheduled for December 4, 1969, at 2:00 PM, at Walter Brooks Bradley, Inc., Dundalk, followed by interment at Woodlawn Cemetery in Baltimore, Maryland. The newspaper title and publication date have not yet been identified.",
-  "supports": [
-    "Adam Kramer died on December 1, 1969.",
-    "Adam Kramer resided at 6902 Brentwood Avenue in Dundalk, Maryland.",
-    "Sue Webster Kramer was identified as his wife.",
-    "The notice identifies Mrs. Arthur Singletary and Robert A. Kramer as his children.",
-    "Interment was announced at Woodlawn Cemetery in Baltimore, Maryland."
-  ],
-  "documents": [
-    "1969_adam_johannes_kramer_death_notice.jpg"
-  ]
-},
-
-{
-  "id": "1928_adam_johannes_kramer_declaration_of_intention",
-  "type": "naturalization_record",
-  "title": "1928 Declaration of Intention – Adam Kramer",
-  "people": [
-    "adam-johannes-kramer-1903"
-  ],
-  "date": "1928-04-19",
+  "date": "1910-10-05",
   "location": "Baltimore, Maryland, United States",
-  "description": "United States Declaration of Intention filed by Adam Kramer on April 19, 1928, in the United States District Court for the District of Maryland. Adam identified himself as a 24-year-old seaman, born December 8, 1903, in Schweinfurt, Germany, and residing at 937 S. Kenwood Avenue, Baltimore, Maryland. He reported emigrating from Bremerhaven, Germany, aboard a vessel appearing to be named Derfflinger and arriving at New York on or about September 29, 1926. He identified his last foreign residence as Laufach, Germany, and stated that he was unmarried. The declaration records his intention to become a United States citizen.",
+  "description": "Death notice published in The Baltimore Sun on October 5, 1910, reporting that Mary Catherine Daniel died on the morning of October 4, 1910, at her residence, 2010 Walbrook Avenue, Baltimore, Maryland. She was 51 years old and identified as the beloved wife of James F. Daniel. The notice states that interment would take place at Deal's Island, Maryland. This newspaper notice corroborates her death date, age, marital relationship, and burial location recorded in her Baltimore death certificate.",
   "supports": [
-    "Adam Kramer filed a Declaration of Intention on April 19, 1928.",
-    "Adam Kramer reported being born on December 8, 1903, in Schweinfurt, Germany.",
-    "Adam Kramer reported arriving in New York on or about September 29, 1926.",
-    "Adam Kramer was working as a seaman in 1928.",
-    "Adam Kramer resided at 937 S. Kenwood Avenue in Baltimore in 1928.",
-    "Adam Kramer reported being unmarried in April 1928."
+    "Mary Catherine Daniel died on October 4, 1910.",
+    "She was reported to be 51 years old at her death.",
+    "Her residence at death was 2010 Walbrook Avenue, Baltimore, Maryland.",
+    "Her husband was identified as James F. Daniel.",
+    "Her burial was announced for Deal's Island, Maryland.",
+    "The death notice appeared in The Baltimore Sun on October 5, 1910."
   ],
   "documents": [
-    "1928_adam_johannes_kramer_declaration_of_intention.jpg"
+    "1910_mary_catherine_wilson_daniel_death_notice.jpg"
   ]
 },
 
 {
-  "id": "1942_adam_johannes_kramer_draft_registration",
-  "type": "draft_registration",
-  "title": "1942 World War II Draft Registration – Adam Kramer",
+  "id": "1900_census_james_mary_daniel_family",
+  "type": "census",
+  "title": "1900 United States Federal Census – James F. and Mary C. Daniel Family",
   "people": [
-    "adam-johannes-kramer-1903"  
+    "james-fairfax-daniel-1855",
+    "mary-catherine-wilson-1859"
   ],
-  "date": "1942-02-14",
-  "location": "Baltimore County, Maryland, United States",
-  "description": "World War II Selective Service registration card for Adam Kramer, registered on February 14, 1942, through Local Board No. 5, Baltimore County, Maryland. Adam reported his birth as December 8, 1903, in Würzburg, Germany, and his residence and mailing address as 6902 Brentwood Avenue, Baltimore, Maryland. He identified Sue Kramer of the same address as the person who would always know his whereabouts. His employer was Baltimore Pure-Rye Distilling Co., located on Sollers Point Road in Baltimore. The reverse of the card describes him as approximately 5 feet 8½ inches tall, with brown eyes, brown hair, and a light complexion. The birthplace differs from Schweinfurt, Germany, recorded in his 1928 Declaration of Intention; both locations are preserved as written in their respective records.",
+  "date": "1900-06-21",
+  "location": "Tangier District, Somerset County, Maryland, United States",
+  "description": "The Twelfth Census of the United States, enumerated June 21, 1900, records James F. Daniel (age 45) and his wife Mary C. Daniel (age 40) in Tangier District, Somerset County, Maryland, Enumeration District 81, sheet 22. Their household, appearing on lines 13–19, includes five children: Isadora F. Daniel (age 19), Kittie W. Daniel (age 16), James F. Daniel (age 14), Annie W. Daniel (age 12), and Wilson B. Daniel (age 2). Their daughter Addie Leola Daniel Webster was already married and appears with her husband Snead Webster in a separate household in the 1900 census.",
   "supports": [
-    "Adam Kramer registered for the World War II draft on February 14, 1942.",
-    "Adam Kramer reported his birth date as December 8, 1903.",
-    "Adam Kramer identified Würzburg, Germany, as his birthplace on this registration.",
-    "Adam Kramer resided at 6902 Brentwood Avenue in Baltimore County in 1942.",
-    "Sue Kramer was identified as his contact person at the same address.",
-    "Adam Kramer was employed by Baltimore Pure-Rye Distilling Co. in 1942."
+    "James F. Daniel and Mary C. Daniel were recorded as husband and wife in 1900.",
+    "James F. Daniel was recorded as 45 years old.",
+    "Mary C. Daniel was recorded as 40 years old.",
+    "Isadora F. Daniel was recorded as their daughter, age 19.",
+    "Kittie W. Daniel was recorded as their daughter, age 16.",
+    "James F. Daniel was recorded as their son, age 14.",
+    "Annie W. Daniel was recorded as their daughter, age 12.",
+    "Wilson B. Daniel was recorded as their son, age 2.",
+    "The Daniel family resided in Tangier District, Somerset County, Maryland, in June 1900."
   ],
   "documents": [
-    "1942_adam_johannes_kramer_draft_registration_front.jpg",
-    "1942_adam_johannes_kramer_draft_registration_back.jpg"
+    "1900_census_james_mary_daniel_family.jpg"
   ]
 },
 
 {
-  "id": "1903_adam_johannes_kramer_birth_certificate",
-  "type": "birth_certificate",
-  "title": "1903 German Birth Certificate – Adam Johannes Krämer",
+  "id": "1899_snead_webster_addie_daniel_marriage_application",
+  "type": "marriage",
+  "title": "1899 Marriage License Application – Snead Webster and Addie Daniel",
   "people": [
-    "adam-johannes-kramer-1903"
+    "william-gabriel-snead-webster-1871",
+    "addie-leola-daniel-1881"
   ],
-  "date": "1903-12-08",
-  "location": "Schweinfurt, Bavaria, Germany",
-  "description": "German birth certificate (Geburtsurkunde) for Adam Johannes Krämer, documenting his birth on December 8, 1903, in Schweinfurt, Bavaria, Germany. The certificate identifies his father as Johannes Krämer and his mother as Anna Krämer, née Wolf. Both parents were recorded as Protestant and residing in Schweinfurt. The birth was recorded by Standesamt Schweinfurt under registration No. 554. This certified extract was issued on August 21, 1968. The certificate confirms Schweinfurt as Adam's birthplace, resolving the discrepancy with Würzburg recorded on his 1942 World War II draft registration.",
+  "date": "1899-12-23",
+  "location": "Somerset County, Maryland, United States",
+  "description": "Application for a marriage license submitted to the Clerk of the Circuit Court for Somerset County, Maryland, on December 23, 1899. The document identifies the prospective groom as Snead Webster, age 27, and the prospective bride as Addie Daniel, age 18. Both were recorded as single, white, and residents of Somerset County, Maryland. The application was made under oath by W. O. Brown before Clerk Albin T. Beauchamp. This record documents their intention to marry but does not independently establish the date on which the marriage ceremony occurred.",
   "supports": [
-    "Adam Johannes Krämer was born on December 8, 1903, in Schweinfurt, Germany.",
-    "Adam's father was Johannes Krämer.",
-    "Adam's mother was Anna Krämer, née Wolf.",
-    "Both parents were recorded as Protestant and residing in Schweinfurt."
+    "Snead Webster and Addie Daniel were named in a marriage license application dated December 23, 1899.",
+    "Snead Webster was recorded as 27 years old.",
+    "Addie Daniel was recorded as 18 years old.",
+    "Both applicants resided in Somerset County, Maryland.",
+    "Both applicants were recorded as single.",
+    "The application was submitted to the Clerk of the Circuit Court for Somerset County, Maryland."
   ],
   "documents": [
-    "1903_adam_johannes_kramer_birth_certificate.jpg"
+    "1899_snead_webster_addie_daniel_marriage_application.jpg"
   ]
 },
 
 {
-  "id": "1969_adam_johannes_kramer_death_certificate",
-  "type": "death_certificate",
-  "title": "1969 Maryland Death Certificate – Adam Kramer",
+  "id": "1900_gabriel_snead_webster_property_deed",
+  "type": "deed",
+  "title": "1900 Property Deed – Snead Webster and Webster Family",
   "people": [
-    "adam-johannes-kramer-1903"
+    "william-gabriel-snead-webster-1871"
   ],
-  "date": "1969-12-01",
-  "location": "Dundalk, Baltimore County, Maryland, United States",
-  "description": "Maryland State Department of Health Certificate of Death for Adam Kramer, who died on December 1, 1969, at age 65 in Dundalk, Baltimore County, Maryland. The certificate records his birth as December 8, 1903, in Germany and identifies his residence as 6902 Brentwood Avenue, Dundalk. His father is named Johann Kramer and his mother Anna Wolff, preserving the spellings on this document. His German birth certificate identifies them as Johannes Krämer and Anna Wolf. The certificate records carcinoma of the lung with metastases to the brain as the cause of death, with diabetes mellitus listed as another significant condition. Sue Webster Kramer is identified as the informant. Burial took place on December 4, 1969, at Woodlawn Cemetery in Baltimore County, Maryland.",
+  "date": "1900-10-05",
+  "location": "Deals Island, Somerset County, Maryland, United States",
+  "description": "Property deed dated October 5, 1900, involving Noah W. Webster and his wife Rose A. Webster, and John F. Webster and his wife Lucy B. Webster, of Baltimore City, Maryland. The deed records a conveyance to Snead Webster of Deals Island, Somerset County, Maryland, for a consideration of $115. The property is described as a lot or parcel of land situated on Deals Island, Somerset County, Maryland. The deed provides evidence of Snead Webster's involvement in property ownership on Deals Island and identifies other Webster family members participating in the transaction. Their precise relationships to Snead require separate verification.",
   "supports": [
-    "Adam Kramer died on December 1, 1969, in Dundalk, Baltimore County, Maryland.",
-    "Adam Kramer was born on December 8, 1903, in Germany.",
-    "Adam's parents were recorded as Johann Kramer and Anna Wolff.",
-    "Adam resided at 6902 Brentwood Avenue in Dundalk at the time of his death.",
-    "Sue Webster Kramer was the informant on his death certificate.",
-    "Adam was buried on December 4, 1969, at Woodlawn Cemetery in Baltimore County, Maryland."
+    "A property deed dated October 5, 1900, names Snead Webster as the recipient of a land conveyance.",
+    "The deed identifies Noah W. Webster and Rose A. Webster as grantors.",
+    "The deed identifies John F. Webster and Lucy B. Webster as grantors.",
+    "The consideration recorded in the deed was $115.",
+    "The property was situated on Deals Island, Somerset County, Maryland.",
+    "Snead Webster was identified as being of Deals Island, Somerset County, Maryland."
   ],
   "documents": [
-    "1969_adam_johannes_kramer_death_certificate.jpg"
-  ]
-},
-
-
-{
-  "id": "1932_adam_johannes_kramer_naturalization_index",
-  "type": "naturalization_record",
-  "title": "1932 Naturalization Index Card – Adam Kramer",
-  "people": [
-    "adam-johannes-kramer-1903"
-  ],
-  "date": "1932-05-19",
-  "location": "Baltimore, Maryland, United States",
-  "description": "United States naturalization index card for Adam Kramer, age 28, residing at 937 South Kenwood Avenue, Baltimore, Maryland. The card records his admission to United States citizenship on May 19, 1932, by the United States District Court at Baltimore. Certificate No. 3523010 was issued on the same date under Petition No. 12778. This index card independently corroborates the information recorded on Adam's original Certificate of Citizenship.",
-  "supports": [
-    "Adam Kramer was admitted to United States citizenship on May 19, 1932.",
-    "Adam Kramer resided at 937 South Kenwood Avenue in Baltimore in 1932.",
-    "His naturalization was handled by the United States District Court in Baltimore.",
-    "His naturalization certificate number was 3523010 and petition number was 12778."
-  ],
-  "documents": [
-    "1932_adam_johannes_kramer_naturalization_index.jpg"
-  ]
-},
-
-
-{
-  "id": "1931_adam_johannes_kramer_petition_for_citizenship",
-  "type": "naturalization_record",
-  "title": "1931 Petition for Citizenship – Adam Kramer",
-  "people": [
-    "adam-johannes-kramer-1903"
-  ],
-  "date": "1931-11-27",
-  "location": "Baltimore, Maryland, United States",
-  "description": "United States Petition for Citizenship No. 12778 filed by Adam Kramer on November 27, 1931, in the United States District Court at Baltimore, Maryland. Adam identified his residence as 104 South Curley Street, Baltimore, and his occupation as mechanical engineer. He reported being born on December 8, 1903, in Schweinfurt, Germany, and marrying Sue Kramer on July 27, 1929, in Ellicott City, Maryland. The petition records Sue's birthplace as Deal Island, Maryland, and states that she resided with him. Adam reported Laufach, Germany, as his last foreign residence and his arrival in New York on September 29, 1926, aboard the Derfflinger. He reported having no children at the time. The witnesses were Matilda Wiethger and Mrs. Sue Kramer. The petition was part of the naturalization proceedings that resulted in Adam becoming a United States citizen on May 19, 1932.",
-  "supports": [
-    "Adam Kramer filed Petition for Citizenship No. 12778 on November 27, 1931.",
-    "Adam Kramer resided at 104 South Curley Street in Baltimore in 1931.",
-    "Adam Kramer identified his occupation as mechanical engineer.",
-    "Adam Kramer was born on December 8, 1903, in Schweinfurt, Germany.",
-    "Adam and Sue Kramer married on July 27, 1929, in Ellicott City, Maryland.",
-    "Sue Kramer was born in Deal Island, Maryland.",
-    "Adam Kramer arrived in New York on September 29, 1926, aboard the Derfflinger.",
-    "Adam Kramer reported having no children in November 1931."
-  ],
-  "documents": [
-    "1931_adam_johannes_kramer_petition_for_citizenship.jpg"
+    "1900_gabriel_snead_webster_property_deed.jpg"
   ]
 }
-
-
 
 
 

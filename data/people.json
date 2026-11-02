@@ -1,144 +1,245 @@
 [
-
-{
-  "id": "william-gabriel-snead-webster-1871",
-  "first_name": "William",
-  "middle_name": "Gabriel Snead",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1871,
-  "birth_date": "1871-06-29",
-  "death_year": 1939,
-  "death_date": "1939-04-17",
-  "spouses": "addie-leola-daniel-1881",
-  "biography": [
-    "William Gabriel Snead Webster was born on June 29, 1871, in Somerset County, Maryland. In his earlier years, he was known as William Snead Webster and was recorded as William S. Webster in the 1910 United States Federal Census. Later in life, he went by Gabriel Snead Webster. He married Addie Leola Daniel. He died on April 17, 1939, in Baltimore County, Maryland."
-  ]
-},
-
-{
-  "id": "addie-leola-daniel-1881",
-  "first_name": "Addie",
-  "middle_name": "Leola",
-  "last_name": "Daniel",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1881,
-  "death_year": 1922,
-  "spouses": [
-    "william-gabriel-snead-webster-1871"
-  ],
-  "biography": [
-    "Addie Leola Daniel was born in 1881. She married William Gabriel Snead Webster, with whom she raised a family in Somerset County, Maryland. She died in 1922."
-  ]
-},
-
-{
-  "id": "maynard-snead-webster-1900",
-  "first_name": "Maynard",
-  "middle_name": "Snead",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1900,
-  "death_year": 1959,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "Maynard Snead Webster was born in 1900. He was the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Maynard S. Webster, age nine, in the 1910 United States Federal Census in Somerset County, Maryland. He died in 1959."
-  ]
-},
-
-{
-  "id": "florence-melson-webster-1904",
-  "first_name": "Florence",
-  "middle_name": "Melson",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1904,
-  "death_year": 1979,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "Florence Melson Webster was born in 1904, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She appears in the family's 1910 United States Federal Census household in Somerset County, Maryland, at age six, where her name was transcribed as Florence N. Webster. She died in 1979."
-  ]
-},
-
-{
-  "id": "charles-daniel-webster-1909",
-  "first_name": "Charles",
-  "middle_name": "Daniel",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1909,
-  "death_year": 1960,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "Charles Daniel Webster was born in 1909, the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Charles D. Webster, age nine months, in the family's 1910 United States Federal Census household in Somerset County, Maryland. He died in 1960."
-  ]
-},
-
-{
-  "id": "james-wilson-webster-1920",
-  "first_name": "James",
-  "middle_name": "Wilson",
-  "last_name": "Webster",
-  "suffix": "Sr.",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1920,
-  "death_year": 2005,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "James Wilson Webster Sr. was born in 1920, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 2005."
-  ]
-},
-
-{
-  "id": "eugene-lee-webster-1921",
-  "first_name": "Eugene",
-  "middle_name": "Lee",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1921,
-  "death_year": 1998,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "Eugene Lee Webster was born in 1921, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 1998."
-  ]
-},
-
-{
-  "id": "mary-catherine-webster-1916",
-  "first_name": "Mary",
-  "middle_name": "Catherine",
-  "last_name": "Webster",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1916,
-  "death_year": 1995,
-  "father": "william-gabriel-snead-webster-1871",
-  "mother": "addie-leola-daniel-1881",
-  "biography": [
-    "Mary Catherine Webster was born in 1916, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She died in 1995."
-  ]
-},
-
+  {
+    "id": "vernon-l-adams-1899",
+    "first_name": "Vernon",
+    "middle_name": "L.",
+    "last_name": "Adams",
+    "suffix": "Sr.",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1899,
+    "death_year": 1974,
+    "spouses": [
+      "florence-melson-webster-1904"
+    ],
+    "biography": [
+      "Vernon L. Adams Sr. was born in 1899. He was the son of John H. Adams (1860–1931) and Chessie Fitchett Adams (1860–1939).",
+      "Vernon married Florence Melson Webster, daughter of William Gabriel Snead Webster and Addie Leola Daniel. Their children included Vernon L. Adams Jr. and Kenneth W. Adams.",
+      "The 1930 United States Federal Census records Vernon and Florence living in Baltimore, Maryland, with their son Vernon and Florence's younger brother Eugene Lee Webster. Vernon's parents, John H. and Chessie Adams, were recorded in a nearby household.",
+      "The 1940 census records Vernon, Florence, their sons Vernon Jr. and Kenneth, and Eugene Webster in the family household. The 1950 census records Vernon, Florence, Kenneth, and Eugene together in Baltimore.",
+      "Vernon died in 1974. He was buried at Moreland Memorial Park in Parkville, Maryland, where he shares a grave marker with Florence."
+    ]
+  },
+  {
+    "id": "addie-leola-daniel-1881",
+    "first_name": "Addie",
+    "middle_name": "Leola",
+    "last_name": "Daniel",
+    "family_lines": [
+      "webster"
+    ],
+    "profile_photo": "addie_leola_daniel_portrait.png",
+    "birth_year": 1881,
+    "birth_date": "1881-08-18",
+    "birth_place": "Deals Island, Somerset County, Maryland",
+    "death_year": 1922,
+    "death_date": "1922-04-26",
+    "death_place": "Baltimore, Maryland, United States",
+    "father": "james-fairfax-daniel-1855",
+    "mother": "mary-catherine-wilson-1859",
+    "spouses": [
+      "william-gabriel-snead-webster-1871"
+    ],
+    "biography": [
+      "Addie Leola Daniel was born on August 18, 1881, on Deals Island in Somerset County, Maryland. Her parents were James Daniel and Mary C. Wilson, both identified on Addie's 1922 death certificate as natives of Somerset County. FamilySearch research identifies them more fully as James Fairfax Daniel Sr. (1855–1927) and Mary Catherine Wilson (1859–1910). Addie grew up in a large Daniel family that reportedly included six siblings.",
+      "Addie married William Gabriel Snead Webster (1871–1939). FamilySearch records list their marriage as December 24, 1899, in Somerset County, Maryland, although the original marriage record has not yet been examined. The 1900 United States Federal Census records Snead Webster, age 27, and his wife Addie, age 18, living in Tangier District, Somerset County. The census gives Addie's birth as March 1882, differing from the August 18, 1881, date recorded on her death certificate.",
+      "Addie and Snead had seven known children: Maynard Snead Webster (1900–1959), Susie Catherine Webster Kramer (1902–1993), Florence Melson Webster Adams (1904–1979), Charles Daniel Webster (1909–1960), Mary Catherine Webster Jackson (1916–1995), James Wilson Webster (1920–2005), and Eugene Lee Webster (1921–1998). The family lived in Somerset County during the early years of their marriage and later established their home in Baltimore, Maryland.",
+      "Historical land records document Addie's involvement in property transactions on Deals Island. On August 20, 1906, Lazarus B. Wilson and his wife Annie B. Wilson conveyed land to Addie L. Webster for $250. Family-tree research identifies Lazarus Benjamin Wilson (1857–1922) as Addie's maternal uncle, the brother of her mother Mary Catherine Wilson. On May 12, 1909, Snead and Addie Webster conveyed land to Talmage D. Mister for $575. The later deed refers to property previously conveyed to Addie by Lazarus Wilson in 1906.",
+      "By the early 1920s, Addie and her family were living in Baltimore. Her death certificate records that she had resided in the city for approximately eight years and identifies her residence as 2602 East Fayette Street. Her death announcement in The Baltimore Sun appears to give the address as 2202 East Fayette Street, a discrepancy that remains to be resolved.",
+      "Addie died on April 26, 1922, in Baltimore, Maryland, at the age of 40 years, 8 months, and 8 days. Her death certificate identifies the cause as chronic myocarditis, a disease of the heart muscle, and names her husband, Gabriel S. Webster, as the informant. Funeral services were held on April 28, 1922, followed by burial at Woodlawn Cemetery in Baltimore. Her gravestone bears the inscription 'ADDIE L. WEBSTER, 1881–1922, MOTHER.'",
+      "Addie's death left several of her children still young, including Eugene Lee Webster, who was an infant at the time. Later federal census records show Eugene living with his older sister Florence and her husband Vernon L. Adams in 1930, 1940, and 1950. Family accounts describe the challenges faced by the Webster family following Addie's death, although the precise circumstances of the children's living arrangements during the intervening years remain under investigation."
+    ]
+  },
+  {
+    "id": "james-fairfax-daniel-1855",
+    "first_name": "James",
+    "middle_name": "Fairfax",
+    "last_name": "Daniel",
+    "suffix": "Sr.",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1855,
+    "death_year": 1927,
+    "spouses": [
+      "mary-catherine-wilson-1859"
+    ],
+    "biography": [
+      "James Fairfax Daniel Sr. (1855–1927) is identified in FamilySearch family-tree research as the husband of Mary Catherine Wilson (1859–1910) and the father of seven children, including Addie Leola Daniel Webster.",
+      "The 1922 Baltimore death certificate of Addie L. Webster identifies her father as James Daniel and records his birthplace as Somerset County, Maryland. This provides documentary support for Addie's paternal relationship, although the full name James Fairfax Daniel Sr. and his exact life dates require further verification.",
+      "FamilySearch lists a marriage between James and Mary Catherine Wilson on December 16, with conflicting years of 1875 and 1876. The marriage date remains to be verified through an original record."
+    ]
+  },
+  {
+    "id": "bette-ann-kramer",
+    "first_name": "Bette",
+    "middle_name": "Ann",
+    "last_name": "Kramer",
+    "family_lines": [
+      "kramer",
+      "webster"
+    ],
+    "father": "adam-johannes-kramer-1903",
+    "mother": "susie-catherine-webster-1902",
+    "biography": [
+      "Bette Ann Kramer is the daughter of Adam Johannes Krämer and Susie Catherine Webster Kramer. She appears with her parents and brother Robert in the 1940 United States Federal Census in Baltimore, Maryland."
+    ]
+  },
+  {
+    "id": "robert-adam-kramer-1936",
+    "first_name": "Robert",
+    "middle_name": "Adam",
+    "last_name": "Kramer",
+    "family_lines": [
+      "kramer",
+      "webster"
+    ],
+    "birth_year": 1936,
+    "birth_date": "1936-11-05",
+    "birth_place": "Baltimore, Maryland, United States",
+    "death_year": 2012,
+    "death_date": "2012-10-03",
+    "death_place": "Greenville, Pitt County, North Carolina, United States",
+    "father": "adam-johannes-kramer-1903",
+    "mother": "susie-catherine-webster-1902",
+    "biography": [
+      "Robert Adam Kramer was born on November 5, 1936, in Baltimore, Maryland, the son of Adam Johannes Kramer and Susie Catherine Webster Kramer. He was recorded as Robert A. Kramer, age three, in the 1940 United States Federal Census. He died on October 3, 2012, in Greenville, Pitt County, North Carolina."
+    ]
+  },
+  {
+    "id": "adam-johannes-kramer-1903",
+    "first_name": "Adam",
+    "middle_name": "Johannes",
+    "last_name": "Krämer",
+    "family_lines": [
+      "kramer"
+    ],
+    "profile_photo": "adam_johannes_kramer_portrait.png",
+    "birth_year": 1903,
+    "birth_date": "1903-12-08",
+    "birth_place": "Schweinfurt, Bavaria, Germany",
+    "death_year": 1969,
+    "death_place": "Baltimore, Maryland, United States",
+    "spouses": [
+      "susie-catherine-webster-1902"
+    ],
+    "biography": [
+      "Adam Johannes Krämer was born on December 8, 1903, in Germany. His 1928 Declaration of Intention identifies his birthplace as Schweinfurt, while his 1942 World War II draft registration records Würzburg. His surname was generally written Kramer in American records.",
+      "Adam immigrated to the United States in 1926. According to his Declaration of Intention, he departed from Bremerhaven, Germany, aboard a vessel whose name appears to be Derfflinger, arriving in New York on or about September 29, 1926. He identified Laufach, Germany, as his last foreign residence. By April 1928, Adam was living at 937 South Kenwood Avenue in Baltimore, Maryland, and working as a seaman. According to family history, he initially lived with the family of his aunt Louise Kramer, who had married John Christopher Smearman. Louise's daughter, Charlotte 'Lottie' Smearman, is remembered in family history as the person who introduced Adam to his future wife, Sue Webster.",
+      "Adam married Susie Catherine Webster, known as Sue, on July 27, 1929, in Ellicott City, Howard County, Maryland. Their marriage was performed by H. D. Stewart of Emory Methodist Episcopal Church. According to family history, Adam and Sue were introduced by Lottie Smearman, identified as the daughter of Adam's aunt Loise Kramer. They had two children, Robert Adam Kramer and Bette Ann Kramer.",
+      "On May 19, 1932, Adam became a naturalized citizen of the United States in the United States District Court for the District of Maryland in Baltimore. His Certificate of Citizenship, No. 3523010, includes his photograph and signature.",
+      "According to family history, Adam and Sue purchased a home in Dundalk, Baltimore County, Maryland, in 1938. Their residence at 6902 Brentwood Avenue is documented on Adam's 1942 World War II draft registration and in his 1969 death notice. The family also appears in the 1930, 1940, and 1950 United States Federal Censuses.",
+      "Adam's 1942 draft registration identifies his employer as Baltimore Pure-Rye Distilling Company, located on Sollers Point Road in Baltimore. His maritime career is further documented by a United States Coast Guard Merchant Marine officer license issued on June 13, 1953, in Baltimore. The license qualified him to serve as Second Assistant Engineer of Steam Vessels of any horsepower upon any waters. The surviving license does not identify the individual ships on which he served.",
+      "Adam died on December 1, 1969, at the age of 65. His death notice identifies his residence as 6902 Brentwood Avenue in Dundalk and names his wife, Sue Webster Kramer, and their children. Funeral services were scheduled for December 4, 1969, followed by interment at Woodlawn Cemetery in Baltimore, Maryland."
+    ]
+  },
+  {
+    "id": "charles-daniel-webster-1909",
+    "first_name": "Charles",
+    "middle_name": "Daniel",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1909,
+    "death_year": 1960,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "Charles Daniel Webster was born in 1909, the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Charles D. Webster, age nine months, in the family's 1910 United States Federal Census household in Somerset County, Maryland. He died in 1960."
+    ]
+  },
+  {
+    "id": "eugene-lee-webster-1921",
+    "first_name": "Eugene",
+    "middle_name": "Lee",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1921,
+    "death_year": 1998,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "Eugene Lee Webster was born in 1921, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 1998."
+    ]
+  },
+  {
+    "id": "florence-melson-webster-1904",
+    "first_name": "Florence",
+    "middle_name": "Melson",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1904,
+    "death_year": 1979,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "spouses": [
+      "vernon-l-adams-1899"
+    ],
+    "biography": [
+      "Florence Melson Webster was born on March 23, 1904, in Maryland, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She grew up in the Webster family, which was living in Somerset County, Maryland, in 1910 and had moved to Baltimore by 1920.",
+      "Florence married Vernon L. Adams Sr. (1899–1974), son of John H. Adams and Chessie Fitchett Adams. Their children included Vernon L. Adams Jr. and Kenneth W. Adams. The 1930 census records their older son as Lee Adams, age six, while the 1940 census identifies him as Vernon L. Adams Jr., age sixteen.",
+      "After the death of Florence's mother, Addie Leola Daniel Webster, in 1922, Florence's younger brother Eugene Lee Webster became a member of her household. The 1930 census records Eugene, age eight, living with Florence, Vernon, and their son Lee in Baltimore. John H. Adams and Chessie Adams, Vernon's parents, were enumerated in the immediately following household.",
+      "The 1940 census records Florence and Vernon with their sons Vernon Jr. and Kenneth, along with Eugene Webster, then age eighteen. In 1950, Eugene, age twenty-eight, was still living with Florence and Vernon, together with their son Kenneth. These three census records document Eugene's residence with his older sister's family over a twenty-year period, although they do not establish that he lived there continuously.",
+      "The Adams family lived in Baltimore, Maryland. The 1950 census places them on Elsrode Avenue, and Florence's death certificate identifies her final residence as 6602 Elsrode Avenue. The family's precise residential history before 1950 remains under investigation.",
+      "Florence's husband Vernon died in 1974. Florence died on April 2, 1979, in Baltimore, Maryland, at age seventy-five. She was buried on April 5, 1979, at Moreland Memorial Park in Parkville, Maryland, where she shares a grave marker with Vernon.",
+      "Florence's 1979 death notice in The Evening Sun names her surviving siblings as Susan Kramer, Catherine Jackson, and James W. Webster. The notice also names Eugene L. Webster among her children, although the family records and earlier censuses establish that Eugene was her younger brother. This discrepancy is preserved for future research."
+    ]
+  },
+  {
+    "id": "james-wilson-webster-1920",
+    "first_name": "James",
+    "middle_name": "Wilson",
+    "last_name": "Webster",
+    "suffix": "Sr.",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1920,
+    "death_year": 2005,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "James Wilson Webster Sr. was born in 1920, the son of William Gabriel Snead Webster and Addie Leola Daniel. He died in 2005."
+    ]
+  },
+  {
+    "id": "mary-catherine-webster-1916",
+    "first_name": "Mary",
+    "middle_name": "Catherine",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1916,
+    "death_year": 1995,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "Mary Catherine Webster was born in 1916, the daughter of William Gabriel Snead Webster and Addie Leola Daniel. She died in 1995."
+    ]
+  },
+  {
+    "id": "maynard-snead-webster-1900",
+    "first_name": "Maynard",
+    "middle_name": "Snead",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "birth_year": 1900,
+    "death_year": 1959,
+    "father": "william-gabriel-snead-webster-1871",
+    "mother": "addie-leola-daniel-1881",
+    "biography": [
+      "Maynard Snead Webster was born in 1900. He was the son of William Gabriel Snead Webster and Addie Leola Daniel. He was recorded as Maynard S. Webster, age nine, in the 1910 United States Federal Census in Somerset County, Maryland. He died in 1959."
+    ]
+  },
   {
     "id": "susie-catherine-webster-1902",
     "first_name": "Susie",
@@ -160,7 +261,6 @@
     "spouses": [
       "adam-johannes-kramer-1903"
     ],
-
     "biography": [
       "Susie Catherine Webster, affectionately known as Sue, was born on October 22, 1902, on Deal Island in Somerset County, Maryland. She was the daughter of William Gabriel Snead Webster and Addie Leola Daniel. According to family oral history, Sue was born with a twin sister, reportedly named Mary Catherine, who did not survive. The twin's identity and dates have not yet been independently verified.",
       "The Webster family lived across the street from St. John's Methodist Episcopal Church at what is now 9883 Deal Island Road. The church dates to 1850 and was an important landmark in the community. The family's former house was reportedly demolished sometime in the late 1990s or early 2000s.",
@@ -171,70 +271,46 @@
       "Sue spent her later years in Fairfax, Virginia. She died on January 1, 1993, at Fairfax Hospital in Falls Church, Virginia, at the age of 90. Her Virginia death certificate identifies a ruptured abdominal aortic aneurysm as the immediate cause of death. She was buried at Woodlawn Cemetery in Baltimore, Maryland, where her husband Adam was also buried."
     ]
   },
-
-{
-  "id": "robert-adam-kramer-1936",
-  "first_name": "Robert",
-  "middle_name": "Adam",
-  "last_name": "Kramer",
-  "family_lines": [
-    "kramer",
-    "webster"
-  ],
-  "birth_year": 1936,
-  "birth_date": "1936-11-05",
-  "birth_place": "Baltimore, Maryland, United States",
-  "death_year": 2012,
-  "death_date": "2012-10-03",
-  "death_place": "Greenville, Pitt County, North Carolina, United States",
-  "father": "adam-johannes-kramer-1903",
-  "mother": "susie-catherine-webster-1902",
-  "biography": [
-    "Robert Adam Kramer was born on November 5, 1936, in Baltimore, Maryland, the son of Adam Johannes Kramer and Susie Catherine Webster Kramer. He was recorded as Robert A. Kramer, age three, in the 1940 United States Federal Census. He died on October 3, 2012, in Greenville, Pitt County, North Carolina."
-  ]
-},
-
-{
-  "id": "adam-johannes-kramer-1903",
-  "first_name": "Adam",
-  "middle_name": "Johannes",
-  "last_name": "Krämer",
-  "family_lines": [
-    "kramer"
-  ],
-  "profile_photo": "adam_johannes_kramer_portrait.png",
-  "birth_year": 1903,
-  "birth_date": "1903-12-08",
-  "birth_place": "Schweinfurt, Bavaria, Germany",
-  "death_year": 1969,
-  "death_place": "Baltimore, Maryland, United States",
-  "spouses": [
-    "susie-catherine-webster-1902"
-  ],
-  "biography": [
-    "Adam Johannes Krämer was born on December 8, 1903, in Germany. His 1928 Declaration of Intention identifies his birthplace as Schweinfurt, while his 1942 World War II draft registration records Würzburg. His surname was generally written Kramer in American records.",
-    "Adam immigrated to the United States in 1926. According to his Declaration of Intention, he departed from Bremerhaven, Germany, aboard a vessel whose name appears to be Derfflinger, arriving in New York on or about September 29, 1926. He identified Laufach, Germany, as his last foreign residence. By April 1928, Adam was living at 937 South Kenwood Avenue in Baltimore, Maryland, and working as a seaman. According to family history, he initially lived with the family of his aunt Louise Kramer, who had married John Christopher Smearman. Louise's daughter, Charlotte 'Lottie' Smearman, is remembered in family history as the person who introduced Adam to his future wife, Sue Webster.",
-    "Adam married Susie Catherine Webster, known as Sue, on July 27, 1929, in Ellicott City, Howard County, Maryland. Their marriage was performed by H. D. Stewart of Emory Methodist Episcopal Church. According to family history, Adam and Sue were introduced by Lottie Smearman, identified as the daughter of Adam's aunt Loise Kramer. They had two children, Robert Adam Kramer and Bette Ann Kramer.",
-    "On May 19, 1932, Adam became a naturalized citizen of the United States in the United States District Court for the District of Maryland in Baltimore. His Certificate of Citizenship, No. 3523010, includes his photograph and signature.",
-    "According to family history, Adam and Sue purchased a home in Dundalk, Baltimore County, Maryland, in 1938. Their residence at 6902 Brentwood Avenue is documented on Adam's 1942 World War II draft registration and in his 1969 death notice. The family also appears in the 1930, 1940, and 1950 United States Federal Censuses.",
-    "Adam's 1942 draft registration identifies his employer as Baltimore Pure-Rye Distilling Company, located on Sollers Point Road in Baltimore. His maritime career is further documented by a United States Coast Guard Merchant Marine officer license issued on June 13, 1953, in Baltimore. The license qualified him to serve as Second Assistant Engineer of Steam Vessels of any horsepower upon any waters. The surviving license does not identify the individual ships on which he served.",
-    "Adam died on December 1, 1969, at the age of 65. His death notice identifies his residence as 6902 Brentwood Avenue in Dundalk and names his wife, Sue Webster Kramer, and their children. Funeral services were scheduled for December 4, 1969, followed by interment at Woodlawn Cemetery in Baltimore, Maryland."
-  ]
-},
-{
-  "id": "bette-ann-kramer",
-  "first_name": "Bette",
-  "middle_name": "Ann",
-  "last_name": "Kramer",
-  "family_lines": [
-    "kramer",
-    "webster"
-  ],
-  "father": "adam-johannes-kramer-1903",
-  "mother": "susie-catherine-webster-1902",
-  "biography": [
-    "Bette Ann Kramer is the daughter of Adam Johannes Krämer and Susie Catherine Webster Kramer. She appears with her parents and brother Robert in the 1940 United States Federal Census in Baltimore, Maryland."
-  ]
-}
+  {
+    "id": "william-gabriel-snead-webster-1871",
+    "first_name": "William",
+    "middle_name": "Gabriel Snead",
+    "last_name": "Webster",
+    "family_lines": [
+      "webster"
+    ],
+    "profile_photo": "william_gabriel_snead_webster_portrait.png",
+    "birth_year": 1871,
+    "birth_date": "1871-06-29",
+    "death_year": 1939,
+    "death_date": "1939-04-17",
+    "spouses": [
+      "addie-leola-daniel-1881"
+    ],
+    "biography": [
+      "William Gabriel Snead Webster was born on June 29, 1871, in Somerset County, Maryland. In his earlier years, he was known as William Snead Webster and was recorded as William S. Webster in the 1910 United States Federal Census. Later in life, he went by Gabriel Snead Webster. He married Addie Leola Daniel. He died on April 17, 1939, in Baltimore County, Maryland."
+    ]
+  },
+  {
+    "id": "mary-catherine-wilson-1859",
+    "first_name": "Mary",
+    "middle_name": "Catherine",
+    "last_name": "Wilson",
+    "married_name": "Daniel",
+    "family_lines": [
+      "webster"
+    ],
+    "profile_photo": "mary_catherine_wilson_portrait.png",
+    "birth_year": 1859,
+    "death_year": 1910,
+    "spouses": [
+      "james-fairfax-daniel-1855"
+    ],
+    "biography": [
+      "Mary Catherine Wilson (1859–1910) is identified in FamilySearch family-tree research as the wife of James Fairfax Daniel Sr. and the mother of seven children, including Addie Leola Daniel Webster.",
+      "Addie's 1922 Baltimore death certificate identifies her mother as Mary C. Wilson and records her birthplace as Somerset County, Maryland. This provides documentary evidence for Addie's maternal relationship.",
+      "Family-tree research identifies Mary as a daughter of Samuel David Wilson (1823–1914) and a sister of Lazarus Benjamin Wilson (1857–1922). In 1906, Lazarus and his wife Annie conveyed property on Deals Island, Maryland, to Mary's daughter Addie. The deed documents the transaction, while the precise family relationships require corroboration through additional records.",
+      "FamilySearch lists Mary's marriage to James Fairfax Daniel Sr. as December 16, 1875 or 1876. The marriage year remains uncertain pending examination of an original marriage record."
+    ]
+  }
 ]
-
