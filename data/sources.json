@@ -1,5 +1,42 @@
 [
     {
+        "id": "1855_james_travers_daniel_louisa_elizabeth_rowe_marriage",
+        "type": "marriage_record",
+        "title": "1855 Marriage Register – James T. Daniel and Louisa E. Rowe",
+        "people": [],
+        "date": "1855-01-06",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Historical marriage register containing an entry for James T. Daniel and Louisa E. Rowe, dated January 6, 1855. Family research identifies the couple as James Travers Daniel (1830–1902) and Louisa Elizabeth Rowe (1835–after 1870), parents of James Fairfax Daniel Sr. (1855–1927). His death certificate records his mother's name as Louisa Thomas, creating a surname discrepancy that requires further investigation. The marriage entry provides contemporary evidence of the Daniel–Rowe marriage but does not independently establish the parentage of James Fairfax Daniel.",
+        "supports": [
+            "A marriage between James T. Daniel and Louisa E. Rowe was recorded on January 6, 1855.",
+            "The marriage record identifies the bride using the surname Rowe rather than Thomas.",
+            "Family research identifies this couple as the parents of James Fairfax Daniel Sr., pending corroborating evidence."
+        ],
+        "documents": [
+            "1855_james_travers_daniel_louisa_elizabeth_rowe_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1865_gabriel_s_webster_susan_a_windsor_marriage",
+        "type": "marriage_record",
+        "title": "1865 Marriage Register – Gabriel S. Webster and Susan A. Windsor",
+        "people": [
+            "susan-a-windsor-1843",
+            "gabriel-snead-webster-1822"
+        ],
+        "date": "1865-12-20",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Somerset County, Maryland, marriage register recording the marriage of Gabriel S. Webster and Susan A. Windsor on December 20, 1865. The entry appears immediately below the December 20 marriage entry on a page containing marriages from 1865 and 1866. The original register identifies the couple by name and records their marriage date.",
+        "supports": [
+            "Gabriel S. Webster and Susan A. Windsor were married on December 21, 1865.",
+            "Their marriage was recorded in Somerset County, Maryland.",
+            "Gabriel S. Webster was Susan A. Windsor's husband."
+        ],
+        "documents": [
+            "1865_gabriel_s_webster_susan_a_windsor_marriage_record.jpg"
+        ]
+    },
+    {
         "id": "1875_james_daniel_mary_wilson_marriage",
         "type": "marriage",
         "title": "1875 Marriage Register – James F. Daniel and Mary C. Wilson",
@@ -112,6 +149,25 @@
         ],
         "documents": [
             "1900_gabriel_snead_webster_property_deed.jpg"
+        ]
+    },
+    {
+        "id": "1902_somerset_county_jurors_james_fairfax_daniel",
+        "type": "newspaper",
+        "title": "1902 Somerset Jurors – James Fairfax Daniel",
+        "people": [
+            "james-fairfax-daniel-1855"
+        ],
+        "date": "1902-09-01",
+        "location": "Somerset County, Maryland, United States",
+        "description": "Newspaper article titled 'Somerset Jurors,' dated September 1, 1902, reporting the selection of jurors for the October term of the Somerset Circuit Court. The article, identified as a special dispatch to The Baltimore Sun from Princess Anne, Maryland, states that Judge Henry Page drew the jurors. James F. Daniel is listed among four men selected from Tangier District, along with Thomas P. Bradshaw, John M. Wilson, and Theodore Tarlton. The original newspaper in which this clipping appeared has not yet been independently identified.",
+        "supports": [
+            "James F. Daniel was listed among the jurors selected for the October 1902 term of the Somerset Circuit Court.",
+            "James F. Daniel was associated with Tangier District, Somerset County, Maryland, in 1902.",
+            "The juror selection was reported in a newspaper article dated September 1, 1902."
+        ],
+        "documents": [
+            "1902_somerset_county_jurors_james_fairfax_daniel.jpg"
         ]
     },
     {
@@ -233,8 +289,7 @@
         "type": "newspaper",
         "title": "1910 Death Notice – Mary Catherine Daniel, The Baltimore Sun",
         "people": [
-            "mary-catherine-wilson-1859",
-            "james-fairfax-daniel-1855"
+            "mary-catherine-wilson-1859"
         ],
         "date": "1910-10-05",
         "location": "Baltimore, Maryland, United States",
@@ -249,6 +304,32 @@
         ],
         "documents": [
             "1910_mary_catherine_wilson_daniel_death_notice.jpg"
+        ]
+    },
+    {
+        "id": "1911_susan_a_windsor_webster_death_certificate",
+        "type": "death_certificate",
+        "title": "1911 Maryland Death Certificate – Susan A. Windsor Webster",
+        "people": [
+            "susan-a-windsor-1843",
+            "william-gabriel-snead-webster-1871"
+        ],
+        "date": "1911-02-10",
+        "location": "Deal Island, Somerset County, Maryland, United States",
+        "description": "State of Maryland Certificate of Death, Registered No. 5, records the death of Susie Webster on February 10, 1911, at Deal Island, Somerset County, Maryland. She was identified as a 68-year-old white female, born in 1843 on Deal Island, with the occupation of housewife. Her exact birth date was recorded as unknown. Both parents' names were recorded as unknown, with Maryland listed as their birthplace. The informant was Snead Webster of Deal Island, identified in family research as her son William Gabriel Snead Webster. The medical certificate records pneumonia following la grippe, with chronic bronchitis listed as a contributory condition. Burial was recorded at Deal Island, Maryland, on February 12, 1911. The certificate was filed on February 12, 1911.",
+        "supports": [
+            "Susie Webster died on February 10, 1911, at Deal Island, Somerset County, Maryland.",
+            "Her death certificate records her birth year as 1843 and her birthplace as Deal Island.",
+            "She was recorded as 68 years old at death.",
+            "Her occupation was recorded as housewife.",
+            "The names of both parents were recorded as unknown.",
+            "Snead Webster of Deal Island was the informant.",
+            "The recorded cause of death was pneumonia following la grippe.",
+            "Chronic bronchitis was recorded as a contributory condition.",
+            "Her burial was recorded at Deal Island, Maryland, on February 12, 1911."
+        ],
+        "documents": [
+            "1911_susan_a_windsor_webster_death_certificate.jpg"
         ]
     },
     {
@@ -328,6 +409,52 @@
         ],
         "documents": [
             "1922_addie_leola_webster_death_announcement.jpg"
+        ]
+    },
+    {
+        "id": "1927_james_fairfax_daniel_death_certificate",
+        "type": "death_certificate",
+        "title": "1927 Maryland Death Certificate – James Fairfax Daniel Sr.",
+        "people": [
+            "james-fairfax-daniel-1855"
+        ],
+        "date": "1927-11-26",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Maryland death certificate recording the death of James Fairfax Daniel on November 26, 1927, at 22 Rueckert Avenue in Baltimore, Maryland. The certificate records his birth as September 25, 1855, on Deal Island, Somerset County, Maryland, and identifies him as a widowed watchman. His father is listed as James Daniel and his mother as Louisa Thomas. Family research identifies his parents as James Travers Daniel and Louisa Elizabeth Rowe. An 1855 marriage register documents the marriage of James T. Daniel and Louisa E. Rowe, although further evidence is needed to resolve the discrepancy in the mother's surname. The death certificate records burial at 'Deals Island, Somerset, Md.' on November 27, 1927. His gravestone is located at Saint John's Cemetery on Deal Island, Maryland.",
+        "supports": [
+            "James Fairfax Daniel died on November 26, 1927, in Baltimore, Maryland.",
+            "His death certificate records his birth date as September 25, 1855.",
+            "His birthplace was recorded as Deal Island, Somerset County, Maryland.",
+            "His occupation was recorded as watchman.",
+            "His marital status was recorded as widowed.",
+            "The certificate identifies his father as James Daniel.",
+            "The certificate identifies his mother as Louisa Thomas, conflicting with family research identifying Louisa Elizabeth Rowe.",
+            "Burial was recorded at Deals Island, Somerset County, Maryland, on November 27, 1927."
+        ],
+        "documents": [
+            "1927_james_fairfax_daniel_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1927_james_fairfax_daniel_obituary",
+        "type": "obituary",
+        "title": "1927 Death Notice – James Fairfax Daniel – The Baltimore Sun",
+        "people": [
+            "james-fairfax-daniel-1855"
+        ],
+        "date": "1927-11-27",
+        "location": "Baltimore, Maryland, United States",
+        "description": "Death notice published in The Baltimore Sun on November 27, 1927, reporting that James F. Daniel died on the morning of November 26, 1927, at the residence of his daughter, Mrs. Annie W. Drake, 22 Rueckert Avenue, Hamilton, Baltimore. He is identified as the beloved husband of the late Mary C. Daniel. Funeral services were announced for Sunday, November 27, at 2:30 p.m., at his daughter's residence, with interment at Deals Island, Maryland, on Monday afternoon, November 28. The obituary's announced burial date differs from the date previously read on his death certificate.",
+        "supports": [
+            "James F. Daniel died on November 26, 1927.",
+            "He died at the residence of his daughter, Mrs. Annie W. Drake.",
+            "His daughter resided at 22 Rueckert Avenue in Hamilton, Baltimore.",
+            "His wife, Mary C. Daniel, predeceased him.",
+            "Funeral services were scheduled for November 27, 1927, at 2:30 p.m.",
+            "Interment was announced for Monday afternoon, November 28, 1927, at Deals Island, Maryland."
+        ],
+        "documents": [
+            "1927_james_fairfax_daniel_obituary_baltimore_sun.jpg"
         ]
     },
     {
@@ -603,6 +730,32 @@
         ],
         "documents": [
             "1940_census_adam_johannes_kramer_family.jpg"
+        ]
+    },
+    {
+        "id": "1940_anna_elizabeth_webster_todd_death_certificate",
+        "type": "death_certificate",
+        "title": "1940 Maryland Death Certificate – Anna Elizabeth Webster Todd",
+        "people": [
+            "anna-elizabeth-webster-1868"
+        ],
+        "date": "1940-07-09",
+        "location": "Crisfield, Somerset County, Maryland, United States",
+        "description": "State of Maryland Certificate of Death No. 07890 records the death of Anna Elizabeth Todd on July 9, 1940, in Crisfield, Somerset County, Maryland. She was born January 19, 1868, on Deals Island, Maryland, and was 72 years, 5 months, and 20 days old. Her husband was identified as Major Carrol Todd Sr., with the spelling recorded on the certificate; his gravestone identifies him as Major Carroll Todd. Her father was recorded as Snead Webster and her mother as Susie Windsor, both born on Deals Island. The certificate lists her residence as Maryland Avenue, Crisfield, and records 22 years of residence in the town. Her occupation was housework. Ira Todd of Crisfield was the informant. The certificate records burial on July 11, 1940, without naming the cemetery. Family burial information identifies Sunny Ridge Memorial Park in Crisfield as her burial location.",
+        "supports": [
+            "Anna Elizabeth Todd died on July 9, 1940, in Crisfield, Somerset County, Maryland.",
+            "Her birth date was January 19, 1868.",
+            "Her birthplace was recorded as Deals Island, Maryland.",
+            "Her father was identified as Snead Webster.",
+            "Her mother was identified as Susie Windsor.",
+            "Her husband was identified as Major Carrol Todd Sr.",
+            "Her residence was Maryland Avenue in Crisfield.",
+            "She was recorded as having lived in Crisfield for 22 years.",
+            "Ira Todd of Crisfield was the informant.",
+            "Burial was recorded for July 11, 1940."
+        ],
+        "documents": [
+            "1940_anna_elizabeth_webster_todd_death_certificate.jpg"
         ]
     },
     {

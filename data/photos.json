@@ -171,7 +171,20 @@
   "type": "house",
   "date": null,
   "location": "Deal Island, Somerset County, Maryland, United States"
+},
+
+{
+  "file": "william_j_webster_susie_a_windsor_gravestones.jpg",
+  "title": "Gravestones of William J. Webster and Susie A. Windsor Webster",
+  "people": [
+    "susan-a-windsor-1843",
+    "william-jacob-webster-1836"
+  ],
+  "caption": "Gravestones of Susan A. Windsor Webster (1843–1911) and her second husband, William Jacob Webster (1836–1910), at Saint John's Cemetery, Deal Island, Somerset County, Maryland. Susan's gravestone is inscribed 'SUSIE A. WEBSTER' and 'MOTHER,' while William's is inscribed 'WILLIAM J. WEBSTER' and 'FATHER.' Susan's first husband, Gabriel S. Webster, died in 1871, several years after their marriage in 1865.",
+  "type": "gravestone",
+  "date": ""
 }
+
 
 
 
