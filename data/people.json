@@ -66,6 +66,7 @@
     "death_date": "1927-11-26",
     "death_place": "Baltimore, Maryland",
     "death_year": 1927,
+    "father": "james-travers-daniel-1830",
     "spouses": [
       "mary-catherine-wilson-1859"
     ],
@@ -141,6 +142,9 @@
       "On May 19, 1932, Adam became a naturalized citizen of the United States in the United States District Court for the District of Maryland in Baltimore. His Certificate of Citizenship, No. 3523010, includes his photograph and signature.",
       "According to family history, Adam and Sue purchased a home in Dundalk, Baltimore County, Maryland, in 1938. Their residence at 6902 Brentwood Avenue is documented on Adam's 1942 World War II draft registration and in his 1969 death notice. The family also appears in the 1930, 1940, and 1950 United States Federal Censuses.",
       "Adam's 1942 draft registration identifies his employer as Baltimore Pure-Rye Distilling Company, located on Sollers Point Road in Baltimore. His maritime career is further documented by a United States Coast Guard Merchant Marine officer license issued on June 13, 1953, in Baltimore. The license qualified him to serve as Second Assistant Engineer of Steam Vessels of any horsepower upon any waters. The surviving license does not identify the individual ships on which he served.",
+      "Around 1946, Adam Johannes Kramer was treated for tuberculosis at the Maryland Tuberculosis Sanatorium in Sabillasville, Frederick County, Maryland, where he spent approximately a year and a half.",
+      "The sanatorium, which opened in 1908, was located in the mountains of northern Frederick County. Its elevation and climate were considered beneficial for tuberculosis patients, and the facility included patient pavilions, medical buildings, dining facilities, and a working farm.",
+      "According to the recollections of Adam's daughter, who was born in 1938 and remembers being approximately eight years old at the time, his extended stay occurred around 1946. The precise dates of his admission and discharge have not been established.",
       "Adam died on December 1, 1969, at the age of 65. His death notice identifies his residence as 6902 Brentwood Avenue in Dundalk and names his wife, Sue Webster Kramer, and their children. Funeral services were scheduled for December 4, 1969, followed by interment at Woodlawn Cemetery in Baltimore, Maryland."
     ]
   },
@@ -316,6 +320,7 @@
     "first_name": "William",
     "middle_name": "Gabriel Snead",
     "last_name": "Webster",
+    "father": "gabriel-snead-webster-1822",
     "mother": "susan-a-windsor-1843",
     "family_lines": [
       "webster"
@@ -392,5 +397,270 @@
       "Susan died on February 10, 1911, at Deal Island, Maryland, at the reported age of 68. Her death certificate identifies her as Susie Webster and records pneumonia following la grippe as the cause of death. Her son, Snead Webster, provided the information for the certificate.",
       "Susan was buried on February 12, 1911, at Saint John's Cemetery on Deal Island, beside her second husband, William Jacob Webster, who died in 1910. Their adjacent gravestones identify them as 'MOTHER' and 'FATHER,' respectively."
     ]
-  }
+  },
+
+{
+  "id": "gabriel-snead-webster-1822",
+  "first_name": "Gabriel",
+  "middle_name": "Snead",
+  "last_name": "Webster",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1822,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1871,
+  "death_date": "1871-09-11",
+  "death_place": "",
+  "father": "john-gabriel-webster-1784",
+  "mother": "leah-white-1776",
+  "spouses": [
+    "mary-adeline-jones",
+    "susan-a-windsor-1843"
+  ],
+  "biography": [
+    "Gabriel Snead Webster was born in approximately 1822 in Maryland. On June 27, 1849, he married Mary A. Jones, identified in family research as Mary Adeline Jones, in Somerset County, Maryland. Their marriage is documented in the county marriage register. Following Mary's reported death in 1863, Gabriel married Susan A. Windsor on December 20, 1865.",
+    "In August 1863, Gabriel S. Webster appeared in the United States Civil War draft registration for Tangier District, Somerset County, Maryland. He was recorded as a 38-year-old boatman born in Maryland. His inclusion establishes that he was registered as subject to military duty but does not establish that he served in the Union Army. The age recorded in this document suggests a birth around 1824–1825, somewhat later than the 1822 birth year currently associated with him.",
+    "Gabriel S. Webster and Susan A. Windsor married on December 20, 1865, according to their marriage record.",
+    "Gabriel and Susan were the parents of Anna Elizabeth Webster Todd (1868–1940) and William Gabriel Snead Webster (1871–1939). Anna's 1940 Maryland death certificate identifies her father as Snead Webster and her mother as Susie Windsor.",
+    "Tragedy struck the Webster family in September 1871 when Gabriel Snead Webster and two of his sons died of typhoid fever within five days. A contemporary newspaper reported that a younger son died on Thursday, September 7, followed by Gabriel and his son Snead on Monday, September 11. Gabriel and Snead died within hours of each other. Family research identifies the two sons as Elmer Webster (1860–1871) and Newton Snead Webster (1855–1871), respectively. The newspaper describes the family as residents of Deal's Island, Somerset County, Maryland."
+  ]
+},
+
+{
+  "id": "leah-white-1776",
+  "first_name": "Leah",
+  "middle_name": "",
+  "last_name": "White",
+  "married_name": "Webster",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1776,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1857,
+  "death_date": "1857-01-01",
+  "death_place": "Deal Island, Somerset County, Maryland",
+  "father": null,
+  "mother": null,
+  "spouses": ["john-gabriel-webster-1784"],
+  "biography": [
+    "Leah White Webster was born on April 27, possibly in 1776. Her gravestone appears to record this birth date, although the final digit of the year is difficult to distinguish and may indicate 1770. The 1850 United States Census records her age as 65, suggesting a later birth year. Her exact birth year therefore remains uncertain.",
+    "On September 6, 1808, Leah White married John Webster. Their marriage is documented in a historical marriage-register listing associated with Coventry Parish, Rehobeth, Somerset County, Maryland. Family research identifies her husband as John Gabriel Webster III (1784–1844), although the marriage record itself identifies him only as John Webster.",
+    "In the 1850 United States Census, Leah Webster was recorded in Dames Quarter District, Somerset County, Maryland, in the same household as Snead Webster, age 23, and Adaline Webster, age 20. Family research identifies Snead Webster as her son Gabriel Snead Webster (1822–1871), but the census does not specify household relationships.",
+    "Leah died on January 1, 1857, according to her gravestone. She was buried at Saint Johns Cemetery on Deal Island in Somerset County, Maryland."
+  ]
+},
+
+
+{
+  "id": "john-gabriel-webster-1784",
+  "first_name": "John",
+  "middle_name": "Gabriel",
+  "last_name": "Webster",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "III",
+  "family_lines": ["webster"],
+  "birth_year": 1784,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1844,
+  "death_date": "",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": ["leah-white-1776"],
+  "biography": [
+    "John Webster married Leah White on September 6, 1808, in Coventry Parish, Somerset County, Maryland, according to the parish marriage register.",
+    "FamilySearch identifies him as John Gabriel Webster III (1784–1844). His middle name, suffix, and birth and death years have not yet been independently verified.",
+    "FamilySearch identifies John and Leah as the parents of Gabriel Snead Webster (1822–1871), but this relationship requires additional historical documentation."
+  ]
+},
+
+{
+  "id": "louisa-elizabeth-daniel-1877",
+  "first_name": "Louisa",
+  "middle_name": "Elizabeth",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "Emma",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1877,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1939,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies Louisa Elizabeth Daniel, also known as Emma, as a daughter of James Fairfax Daniel Sr. (1855–1927) and Mary Catherine Wilson (1859–1910). Her reported birth and death years are 1877 and 1939. These details have not yet been independently verified through historical records."
+  ]
+},
+
+
+{
+  "id": "isadora-franklin-daniel-1880",
+  "first_name": "Isadora",
+  "middle_name": "Franklin",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1880,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1967,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies Isadora Franklin Daniel (1880–1967) as a daughter of James Fairfax Daniel Sr. and Mary Catherine Wilson. Her reported birth and death years and parentage have not yet been independently verified through historical records."
+  ]
+},
+
+
+{
+  "id": "katherine-w-daniel-1883",
+  "first_name": "Katherine",
+  "middle_name": "W.",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1883,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1944,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies Katherine W. Daniel (1883–1944) as a daughter of James Fairfax Daniel Sr. and Mary Catherine Wilson. Her reported birth and death years and parentage have not yet been independently verified through historical records."
+  ]
+},
+
+{
+  "id": "james-fairfax-daniel-jr-1885",
+  "first_name": "James",
+  "middle_name": "Fairfax",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "Jr.",
+  "family_lines": ["webster"],
+  "birth_year": 1885,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1915,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies James Fairfax Daniel Jr. (1885–1915) as a son of James Fairfax Daniel Sr. and Mary Catherine Wilson. His reported birth and death years and parentage have not yet been independently verified through historical records."
+  ]
+},
+
+{
+  "id": "anna-wilson-daniel-1887",
+  "first_name": "Anna",
+  "middle_name": "Wilson",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1887,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1957,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies Anna Wilson Daniel (1887–1957) as a daughter of James Fairfax Daniel Sr. and Mary Catherine Wilson. Her reported birth and death years and parentage have not yet been independently verified through historical records."
+  ]
+},
+
+
+{
+  "id": "wilson-bounds-daniel-1897",
+  "first_name": "Wilson",
+  "middle_name": "Bounds",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1897,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1918,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-fairfax-daniel-1855",
+  "mother": "mary-catherine-wilson-1859",
+  "spouses": [],
+  "biography": [
+    "FamilySearch identifies Wilson Bounds Daniel (1897–1918) as a son of James Fairfax Daniel Sr. and Mary Catherine Wilson. His reported birth and death years and parentage have not yet been independently verified through historical records."
+  ]
+},
+
+{
+  "id": "james-travers-daniel-1830",
+  "first_name": "James",
+  "middle_name": "Travers",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1830,
+  "birth_date": "",
+  "birth_place": "Somerset County, Maryland",
+  "death_year": 1902,
+  "death_date": "1902-02-10",
+  "death_place": "Deal Island, Somerset County, Maryland",
+  "father": null,
+  "mother": null,
+  "spouses": [],
+"biography": [
+  "James Travers Daniel was born on February 14, 1830, according to his gravestone, and spent his life in the Wenona area of Deal Island, Somerset County, Maryland. He died there on February 10, 1902, just four days before his seventy-second birthday. His death certificate confirms his death date, although the age recorded on the certificate differs slightly from the dates inscribed on his gravestone.",
+  "James received his early education on Deal Island before entering Dickinson College in Carlisle, Pennsylvania, in 1848, at approximately eighteen years of age. He attended for two years but did not graduate. According to Portrait and Biographical Record of the Eastern Shore (1898), he established a good academic record during his time at the college.",
+  "James cultivated a 20-acre farm in Wenona and operated a mercantile business near the Wenona Post Office. The 1898 biographical account described him as a businessman who adapted his activities to the needs of the surrounding community and took an interest in the welfare of its residents. His 1902 death certificate also records his occupation as a mail driver.",
+  "James was active in public affairs and supported the prohibition movement. He served as a judge of the Somerset County Orphans' Court from 1876 to 1880. According to the biographical account, he was nominated for positions in both the Maryland legislature and state senate but declined the nominations. His obituary, published in a newspaper dispatch to the Baltimore Sun, described him as a prominent Prohibitionist who had frequently represented his party in state and county conventions and had been considered for the Maryland State Senate on the Prohibition ticket.",
+  "James's brother William Daniel (1826–1897) was a Maryland attorney, state legislator, and prominent prohibition advocate who became the Prohibition Party's nominee for vice president of the United States in the 1884 presidential election, running alongside John P. St. John of Kansas. The Baltimore Sun identified William as James's brother in an article published on August 1, 1892.",
+  "Religion and community service were important parts of James's life. He was a member of the Methodist Episcopal Church, serving as a steward and trustee, and was a local preacher for fifteen years or more. He was also associated with the Heptasophs, a fraternal organization.",
+  "James married Louisa E. Rowe on January 6, 1855, in Somerset County, Maryland. Following her death, he married Elizabeth Andrews, who was also known as Lizzie Daniel. His obituary confirms that he married twice and reports that he was survived by his widow and thirteen children. The 1880 United States Census records James T. Daniel, age 50, in Deal Island in a household that also included James F. Daniel, age 24.",
+  "James's death certificate identifies his father as Travers Daniel and appears to identify his mother as Molly Wallace. These names remain subject to further verification before the parent-child relationships are formally established in the family archive.",
+  "James died at his residence in Wenona on February 10, 1902. His gravestone stands in St. John's Methodist Church Cemetery on Deal Island. Nellie Wallace Armstrong, who was approximately ten years old at the time of his death, later remembered him as a very fine man."
+]
+}
+
+
+
+
+
+
+
 ]

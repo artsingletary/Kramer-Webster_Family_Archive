@@ -181,10 +181,65 @@
     "william-jacob-webster-1836"
   ],
   "caption": "Gravestones of Susan A. Windsor Webster (1843–1911) and her second husband, William Jacob Webster (1836–1910), at Saint John's Cemetery, Deal Island, Somerset County, Maryland. Susan's gravestone is inscribed 'SUSIE A. WEBSTER' and 'MOTHER,' while William's is inscribed 'WILLIAM J. WEBSTER' and 'FATHER.' Susan's first husband, Gabriel S. Webster, died in 1871, several years after their marriage in 1865.",
-  "type": "gravestone",
+  "type": "grave",
+  "date": ""
+},
+
+{
+  "file": "anna_elizabeth_webster_todd_with_major_carroll_todd.jpg",
+  "title": "Anna Elizabeth Webster Todd and Major Carroll Todd Sr.",
+  "people": [
+    "anna-elizabeth-webster-1868",
+    "major-carroll-todd-1868"
+  ],
+  "caption": "Anna Elizabeth \"Lizzie\" Webster Todd (1868–1940) standing with her husband, Major Carroll Todd Sr. (1868–1944), outside a house. Photograph date and location unknown.",
+  "type": "historical",
+  "date": ""
+},
+
+{
+  "file": "anna_elizabeth_webster_todd_gravestone.jpg",
+  "title": "Gravestone of Anna Elizabeth Webster Todd",
+  "people": [
+    "anna-elizabeth-webster-1868"
+  ],
+  "caption": "Gravestone of Anna Elizabeth Webster Todd (1868–1940) at Sunny Ridge Memorial Park in Crisfield, Somerset County, Maryland.",
+  "type": "grave",
+  "date": ""
+},
+
+{
+  "file": "gabriel_snead_webster_gravestone_1871.jpg",
+  "title": "Gravestone of Gabriel Snead Webster",
+  "people": [
+    "gabriel-snead-webster-1822"
+  ],
+  "caption": "Gravestone of Gabriel S. Webster (1822–1871). The inscription records his death in 1871. Cemetery location to be confirmed.",
+  "type": "grave",
+  "date": ""
+},
+
+{
+  "file": "leah_white_webster_gravestone.jpg",
+  "title": "Gravestone of Leah White Webster",
+  "people": [
+    "leah-white-1776"
+  ],
+  "caption": "Gravestone of Leah White Webster (April 27, 1776 – January 1, 1857) at Saint Johns Cemetery, Deal Island, Somerset County, Maryland. The inscription identifies her as Leah Webster.",
+  "type": "grave",
+  "date": ""
+},
+
+{
+  "file": "james_travers_daniel_gravestone.jpg",
+  "title": "Gravestone of James Travers Daniel",
+  "people": [
+    "james-travers-daniel-1830"
+  ],
+  "caption": "Gravestone of James Travers Daniel (February 14, 1830 – February 10, 1902), at St. John's Methodist Church Cemetery, Deal Island, Somerset County, Maryland.",
+  "type": "grave",
   "date": ""
 }
-
 
 
 

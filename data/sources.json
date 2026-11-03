@@ -955,5 +955,248 @@
         "documents": [
             "1993_susie_catherine_webster_kramer_death_certificate.jpg"
         ]
-    }
+    },
+
+{
+  "id": "1863_gabriel_snead_webster_civil_war_draft_registration",
+  "type": "military",
+  "title": "1863 Civil War Draft Registration – Gabriel S. Webster",
+  "people": [
+    "gabriel-snead-webster-1822"
+  ],
+  "date": "1863-08-31",
+  "location": "Tangier District, Somerset County, Maryland",
+  "description": "United States Civil War Draft Registration Records, 1863–1865. Consolidated List of Class II men subject to military duty in the First Congressional District of Maryland, covering Somerset and Worcester Counties. The entry for Gabriel S. Webster appears on line 11 under Tangier District. He was recorded as a 38-year-old white boatman born in Maryland. The register is dated August 31, 1863. His recorded age suggests a birth around 1824–1825, differing from the currently recorded birth year of 1822. Registration does not establish that he served in the military.",
+  "supports": [
+    "Gabriel S. Webster was recorded in Tangier District, Somerset County, Maryland, in 1863.",
+    "His occupation was boatman.",
+    "His birthplace was Maryland.",
+    "His age was recorded as 38.",
+    "He appeared on the Civil War draft registration list dated August 31, 1863."
+  ],
+  "documents": [
+    "1863_gabriel_snead_webster_civil_war_draft_registration.jpg"
+  ]
+},
+
+{
+  "id": "1849_gabriel_s_webster_mary_a_jones_marriage",
+  "type": "marriage",
+  "title": "1849 Marriage Record – Gabriel S. Webster and Mary A. Jones",
+  "people": [
+    "gabriel-snead-webster-1822"
+  ],
+  "date": "1849-06-27",
+  "location": "Somerset County, Maryland",
+  "description": "Somerset County, Maryland, marriage register recording the marriage of Gabriel S. Webster and Mary A. Jones on June 27, 1849. The entry appears near the bottom of the right-hand page. The register identifies the bride as Mary A. Jones; her middle name Adeline is supplied by family research and is not spelled out in this record.",
+  "supports": [
+    "Gabriel S. Webster married Mary A. Jones on June 27, 1849.",
+    "The marriage was recorded in Somerset County, Maryland.",
+    "The bride's name was recorded as Mary A. Jones."
+  ],
+  "documents": [
+    "1849_gabriel_s_webster_mary_a_jones_marriage_record.jpg"
+  ]
+},
+
+{
+  "id": "1871_snead_webster_family_typhoid_deaths",
+  "type": "newspaper",
+  "title": "1871 Newspaper Report – Typhoid Deaths in the Snead Webster Family",
+  "people": [
+    "gabriel-snead-webster-1822"
+  ],
+  "date": "",
+  "location": "Deal Island, Somerset County, Maryland",
+  "description": "Newspaper clipping under the heading 'SOMERSET,' from an unidentified newspaper and publication date. The article reports that Snead Webster and his son Snead, residents of Deal's Island, died within hours of each other on Monday the 11th of the publication month. A younger son reportedly died the preceding Thursday. The article attributes all three deaths to typhoid fever. Family research identifies the sons as Newton Snead Webster and Elmer Webster, but the clipping does not give their full names. The publication is believed to date from 1871; the exact month and newspaper remain to be established.",
+  "supports": [
+    "Snead Webster and a son also called Snead died within hours of each other.",
+    "A younger son died on the preceding Thursday.",
+    "The newspaper attributed all three deaths to typhoid fever.",
+    "The family resided on Deal's Island, Maryland."
+  ],
+  "documents": [
+    "1871_snead_webster_family_typhoid_deaths_newspaper.jpg"
+  ]
+},
+
+{
+  "id": "1808_john_webster_leah_white_marriage",
+  "type": "marriage",
+  "title": "1808 Marriage Record – John Webster and Leah White",
+  "people": [],
+  "date": "1808-09-06",
+  "location": "Coventry Parish, Rehobeth, Somerset County, Maryland",
+  "description": "Historical marriage-register listing, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The entry reads 'Sep 6 — Webster John — White Leah.' The FamilySearch index identifies the location as Coventry Parish Church, Rehobeth, Somerset County, Maryland. FamilySearch record: https://www.familysearch.org/ark:/61903/1:1:F4NB-C44?lang=en. The register identifies the groom as John Webster; his identification as John Gabriel Webster III (1784–1844) remains to be corroborated.",
+  "supports": [
+    "John Webster married Leah White on September 6, 1808.",
+    "The marriage-register entry names John Webster and Leah White."
+  ],
+  "documents": [
+    "1808_john_webster_leah_white_marriage_record.jpg"
+  ]
+},
+
+{
+  "id": "1850_snead_webster_household_census",
+  "type": "census",
+  "title": "1850 U.S. Census – Leah and Snead Webster Household",
+  "people": [
+    "leah-white-1776",
+    "gabriel-snead-webster-1822"
+  ],
+  "date": "1850-10-08",
+  "location": "Dames Quarter District, Somerset County, Maryland",
+  "description": "1850 United States Federal Census, Dames Quarter District, Somerset County, Maryland, page 450, dwelling 539, family 539, enumerated October 8, 1850. The household includes Leah Webster (65), Snead Webster (23), Adaline Webster (20), Elizabeth Gibson (17), Mary M. Webster (2), Margaret Webster (25), and Susan Webster (2). Snead was recorded as a farmer with real estate valued at $300. All household members were recorded as born in Maryland. The census does not identify relationships between household members. Leah's recorded age suggests a birth around 1784–1785, differing from the provisional 1776 birth year on her profile.",
+  "supports": [
+    "Leah Webster, age 65, lived in Dames Quarter District, Somerset County, Maryland, in 1850.",
+    "Snead Webster, age 23, lived in the same household.",
+    "Adaline Webster, age 20, lived in the same household.",
+    "Snead Webster was recorded as a farmer with real estate valued at $300.",
+    "The census does not establish the relationships among household members."
+  ],
+  "documents": [
+    "1850_snead_webster_household_census.jpg"
+  ]
+},
+
+
+{
+  "id": "1808_john_webster_leah_white_marriage",
+  "type": "marriage",
+  "title": "1808 Marriage of John Webster and Leah White",
+  "people": [
+    "john-gabriel-webster-1784",
+    "leah-white-1776"
+  ],
+  "date": "1808-09-06",
+  "location": "Coventry Parish, Somerset County, Maryland",
+  "description": "Coventry Parish marriage register, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The register identifies the groom as John Webster and does not establish the middle name Gabriel or suffix III.",
+  "supports": [
+    "Marriage of John Webster and Leah White",
+    "Marriage date of September 6, 1808",
+    "Marriage recorded in Coventry Parish, Somerset County, Maryland"
+  ],
+  "documents": [
+    "1808_john_webster_leah_white_marriage_record.jpg"
+  ]
+},
+
+{
+  "id": "1880_daniel_family_census",
+  "type": "census",
+  "title": "1880 U.S. Census — Daniel Family, Deal Island, Maryland",
+  "people": [
+    "james-travers-daniel-1830",
+    "james-fairfax-daniel-1855",
+    "louisa-elizabeth-daniel-1877"
+  ],
+  "date": "1880-06-05",
+  "location": "Deal Island, Somerset County, Maryland",
+  "description": "1880 United States Federal Census, Deal Island, Somerset County, Maryland, page 12, dwelling 85, family 74, lines 31–40. The Daniel household includes James Daniel, age 50, James F. Daniel, age 24, and Louisa E. Daniel, age 2. Additional household members are recorded on the same page.",
+  "supports": [
+    "Louisa E. Daniel enumerated in the Daniel household in 1880",
+    "Louisa E. Daniel approximately two years old in June 1880",
+    "Daniel family residing in Deal Island, Somerset County, Maryland"
+  ],
+  "documents": [
+    "1880_daniel_family_census.jpg"
+  ]
+},
+
+{
+  "id": "1855_james_travers_daniel_louisa_rowe_marriage",
+  "type": "marriage",
+  "title": "1855 Marriage of James T. Daniel and Louisa E. Rowe",
+  "people": [
+    "james-travers-daniel-1830"
+  ],
+  "date": "1855-01-06",
+  "location": "Somerset County, Maryland",
+  "description": "Somerset County, Maryland, marriage register and corresponding marriage index recording the marriage of James T. Daniel and Louisa E. Rowe on January 6, 1855. The original register identifies the couple by their recorded names; the marriage index provides the date and county.",
+  "supports": [
+    "Marriage of James T. Daniel and Louisa E. Rowe",
+    "Marriage date of January 6, 1855",
+    "Marriage in Somerset County, Maryland"
+  ],
+  "documents": [
+    "1855_james_travers_daniel_louisa_rowe_marriage_record.jpg"
+  ]
+},
+
+{
+  "id": "1902_james_travers_daniel_death_certificate",
+  "type": "death",
+  "title": "Death Certificate of James T. Daniel, 1902",
+  "people": [
+    "james-travers-daniel-1830"
+  ],
+  "date": "1902-02-10",
+  "location": "Deal Island, Somerset County, Maryland",
+  "description": "Maryland death certificate recording the death of James T. Daniel at Deal Island on February 10, 1902, at age 71 years, 11 months, and 26 days. His occupation is recorded as mail driver, his wife as Lizzie Daniel, his father as Travers Daniel, and his mother appears to be identified as Molly Wallace. The reported age differs slightly from the birth date inscribed on his gravestone.",
+  "supports": [
+    "Death of James T. Daniel on February 10, 1902",
+    "Death at Deal Island, Maryland",
+    "Occupation as mail driver",
+    "Wife identified as Lizzie Daniel",
+    "Father identified as Travers Daniel",
+    "Possible mother identified as Molly Wallace"
+  ],
+  "documents": [
+    "1902_james_travers_daniel_death_certificate.jpg"
+  ]
+},
+
+{
+  "id": "1902_james_travers_daniel_obituary",
+  "type": "obituary",
+  "title": "Obituary of James T. Daniel, 1902",
+  "people": [
+    "james-travers-daniel-1830"
+  ],
+  "date": "",
+  "location": "Wenona, Deal Island, Somerset County, Maryland",
+  "description": "Newspaper obituary reporting the death of James T. Daniel at his residence in Wenona, Deal Island, in February 1902. The obituary describes his involvement in the Prohibition Party, his participation in state and county conventions, and his consideration for the Maryland State Senate. It states that he was twice married and was survived by his widow and thirteen children. The newspaper title and publication date have not yet been independently verified.",
+  "supports": [
+    "Death of James T. Daniel in February 1902",
+    "Residence in Wenona, Deal Island, Maryland",
+    "Involvement in the Prohibition Party",
+    "Twice married",
+    "Survived by his widow and thirteen children"
+  ],
+  "documents": [
+    "1902_james_travers_daniel_obituary.jpg"
+  ]
+},
+
+
+{
+  "id": "1892_deal_island_methodist_camp_meeting",
+  "type": "newspaper",
+  "title": "On Deal's Island — Methodist Camp Meeting, 1892",
+  "people": [
+    "james-travers-daniel-1830"
+  ],
+  "date": "1892-08-01",
+  "location": "Deal Island, Somerset County, Maryland",
+  "description": "The Baltimore Sun, August 1, 1892, article titled 'On Deal's Island: The People Assemble in Steamers, Yachts, Bugeyes and Canoes.' The article describes a Methodist Episcopal camp meeting attended by an estimated 4,000 people. Among those mentioned is Rev. James T. Daniel, identified as the brother of William Daniel of Baltimore.",
+  "supports": [
+    "James T. Daniel identified as a reverend in 1892",
+    "Attendance at a Methodist Episcopal camp meeting on Deal Island",
+    "William Daniel of Baltimore identified as his brother"
+  ],
+  "documents": [
+    "1892_deal_island_methodist_camp_meeting_baltimore_sun.jpg"
+  ]
+}
+
+
+
+
+
+
+
+
+
+
 ]
