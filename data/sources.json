@@ -86,7 +86,12 @@
         "title": "1900 United States Federal Census – James F. and Mary C. Daniel Family",
         "people": [
             "james-fairfax-daniel-1855",
-            "mary-catherine-wilson-1859"
+            "mary-catherine-wilson-1859",
+            "isadora-franklin-daniel-1880",
+            "katherine-w-daniel-1883",
+            "james-fairfax-daniel-jr-1885",
+            "anna-wilson-daniel-1887",
+            "wilson-bounds-daniel-1897"
         ],
         "date": "1900-06-21",
         "location": "Tangier District, Somerset County, Maryland, United States",
@@ -1188,7 +1193,89 @@
   "documents": [
     "1892_deal_island_methodist_camp_meeting_baltimore_sun.jpg"
   ]
+},
+
+{
+  "id": "1910_james_fairfax_daniel_family_census",
+  "type": "census",
+  "title": "1910 United States Census — Daniel and Kelley Families",
+  "people": [
+    "william-edward-kelly-1870",
+    "louisa-elizabeth-daniel-1877",
+    "edward-maynard-kelly-1898",
+    "william-daniel-kelly-1900",
+    "james-dryden-kelly-1903",
+    "james-fairfax-daniel-1855",
+    "mary-catherine-wilson-1859",
+    "james-fairfax-daniel-jr-1885",
+    "anna-wilson-daniel-1887",
+    "wilson-bounds-daniel-1897"
+  ],
+  "date": "1910-04-22",
+  "location": "Baltimore City, Maryland, United States",
+  "description": "Thirteenth Census of the United States, 1910, Baltimore City, Maryland, enumerated April 22, 1910. James F. Daniel, age 54, resided at 2010 Walbrook Avenue with his wife, Mary C. Daniel, age 50, and their children James F. Daniel, age 24, Annie W. Daniel, age 22, and Wilson B. Daniel, age 12. James F. Daniel was recorded as a retail oyster dealer. His daughter Emma Daniel Kelley resided nearby at 2014 Walbrook Avenue with her husband and children. The neighboring households document the proximity of two generations of the Daniel family in Baltimore.",
+  "supports": [
+    "Residence of James F. Daniel Sr. at 2010 Walbrook Avenue, Baltimore, in 1910",
+    "Mary C. Daniel identified as wife of James F. Daniel",
+    "James F. Daniel Jr. identified as son",
+    "Annie W. Daniel identified as daughter",
+    "Wilson B. Daniel identified as son",
+    "Occupation of James F. Daniel Sr. as retail oyster dealer",
+    "Residence of Emma Daniel Kelley and her family at 2014 Walbrook Avenue, Baltimore, in 1910",
+    "Proximity of the Daniel and Kelley households in Baltimore"
+  ],
+  "documents": [
+    "1910_james_fairfax_daniel_family_census.jpg"
+  ]
+},
+
+
+{
+  "id": "1939_emma_daniel_kelley_death_certificate",
+  "type": "death",
+  "title": "Death Certificate of Emma L. Kelley, 1939",
+  "people": [
+    "louisa-elizabeth-daniel-1877"
+  ],
+  "date": "1939-09-16",
+  "location": "Baltimore City, Maryland",
+  "description": "Baltimore City death certificate no. 61318 for Emma L. Kelley, who died September 16, 1939, at age 61. The certificate records her birth on October 30, 1877, at Deal Island, Maryland, her residence at 520 Eutaw Street in Baltimore, her husband as William E. Kelley, and her parents as James Daniel and Mary C. Wilson. The recorded cause of death was carcinoma of the uterus, and burial was listed at Woodlawn Cemetery.",
+  "supports": [
+    "Death of Emma L. Kelley on September 16, 1939",
+    "Birth on October 30, 1877, at Deal Island, Maryland",
+    "James Daniel identified as her father",
+    "Mary C. Wilson identified as her mother",
+    "William E. Kelley identified as her husband",
+    "Residence in Baltimore City in 1939",
+    "Burial at Woodlawn Cemetery"
+  ],
+  "documents": [
+    "1939_emma_daniel_kelley_death_certificate.jpg"
+  ]
+},
+
+
+{
+  "id": "1950_william_edward_kelly_obituary",
+  "type": "obituary",
+  "title": "Obituary of William E. Kelly, 1950",
+  "people": [
+    "william-edward-kelly-1870"
+  ],
+  "date": "1950-09-30",
+  "location": "Cambridge, Maryland",
+  "description": "The Baltimore Sun, September 30, 1950, death notice for William E. Kelly, who died in Cambridge, Maryland, on September 27, 1950. He is identified as the beloved husband of the late Emma L. Kelly (née Daniels). Funeral services were scheduled for September 30 at Loring Byers Home, 5005 Park Heights Avenue, Baltimore, with interment at Woodlawn Cemetery.",
+  "supports": [
+    "Death of William E. Kelly on September 27, 1950",
+    "Death in Cambridge, Maryland",
+    "Marriage to Emma L. Kelly, née Daniels",
+    "Burial at Woodlawn Cemetery, Baltimore"
+  ],
+  "documents": [
+    "1950_william_edward_kelly_obituary.jpg"
+  ]
 }
+
 
 
 

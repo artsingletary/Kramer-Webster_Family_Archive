@@ -76,6 +76,7 @@
       "James and Mary Catherine raised their family on Deal Island, Somerset County, Maryland. The 1900 United States Census records their household, including several of their children. Their daughter Addie later married William Gabriel Snead Webster (1871–1939), connecting the Daniel and Webster families.",
       "In September 1902, James F. Daniel was named among the jurors selected from Tangier District for the October term of the Somerset Circuit Court. A newspaper article titled 'Somerset Jurors' listed him alongside three other men from the district, providing additional evidence of his connection to the Deal Island area during this period.",
       "The 1922 Baltimore death certificate of Addie L. Webster identifies her father as James Daniel and records his birthplace as Somerset County, Maryland. This provides documentary evidence supporting Addie's relationship to the Daniel family.",
+      "The 1910 United States Census records James Fairfax Daniel as a retail oyster dealer living on Deal Island in Somerset County, Maryland. The census lists him as the head of a household that included his wife, Mary C. Daniel, and three children: James F. Daniel Jr., Annie W. Daniel, and Wilson B. Daniel. His occupation reflects the importance of the oyster trade to the maritime economy of Deal Island during the early twentieth century.",
       "Mary Catherine died in 1910. James later resided in Baltimore, Maryland, although the date of his relocation has not yet been established. His death certificate identifies him as widowed and records his occupation as watchman.",
       "James died on November 26, 1927, in Baltimore, Maryland, at the age of 72 years, 2 months, and 1 day. His death certificate records his birth date as September 25, 1855, and identifies his father as James Daniel and his mother as Louisa Thomas, reflecting the conflicting maternal surname found in this record.",
       "A death notice published in The Baltimore Sun on November 27, 1927, reported that James died at the residence of his daughter, Mrs. Annie W. Drake, at 22 Rueckert Avenue in the Hamilton neighborhood of Baltimore. The notice identified him as the beloved husband of the late Mary C. Daniel. His death certificate independently confirms 22 Rueckert Avenue as both his residence and place of death.",
@@ -502,10 +503,13 @@
   "death_place": "",
   "father": "james-fairfax-daniel-1855",
   "mother": "mary-catherine-wilson-1859",
-  "spouses": [],
+  "spouses": ["william-edward-kelly-1870"],
   "biography": [
-    "FamilySearch identifies Louisa Elizabeth Daniel, also known as Emma, as a daughter of James Fairfax Daniel Sr. (1855–1927) and Mary Catherine Wilson (1859–1910). Her reported birth and death years are 1877 and 1939. These details have not yet been independently verified through historical records."
-  ]
+  "Louisa Elizabeth Daniel, known as Emma, was born on October 30, 1877, on Deal Island in Somerset County, Maryland. Her 1939 death certificate identifies her parents as James Daniel and Mary C. Wilson, corresponding to James Fairfax Daniel and Mary Catherine Wilson.",
+  "Emma married William E. Kelly, whose surname also appears as Kelley in historical records. William was born in 1870, according to their shared gravestone. The date and location of their marriage have not yet been established.",
+  "By 1910, Emma and William were living with their children at 2014 Walbrook Avenue in Baltimore, Maryland. Emma's father, James Fairfax Daniel, lived nearby at 2010 Walbrook Avenue. The neighboring residences document the geographic closeness of two generations of the Daniel family after leaving their roots on Deal Island.",
+  "Emma was living at 520 Eutaw Street in Baltimore at the time of her death on September 16, 1939. Her death certificate records her cause of death as carcinoma of the uterus. She was buried at Woodlawn Cemetery in Baltimore, where she shares a gravestone with William E. Kelly, who died in 1950."
+]
 },
 
 
@@ -655,7 +659,152 @@
   "James's death certificate identifies his father as Travers Daniel and appears to identify his mother as Molly Wallace. These names remain subject to further verification before the parent-child relationships are formally established in the family archive.",
   "James died at his residence in Wenona on February 10, 1902. His gravestone stands in St. John's Methodist Church Cemetery on Deal Island. Nellie Wallace Armstrong, who was approximately ten years old at the time of his death, later remembered him as a very fine man."
 ]
+},
+
+
+
+{
+  "id": "william-edward-kelly-1870",
+  "first_name": "William",
+  "middle_name": "Edward",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1870,
+  "birth_date": "1870-04-06",
+  "birth_place": "Deal Island, Somerset County, Maryland",
+  "death_year": 1950,
+  "death_date": "",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "louisa-elizabeth-daniel-1877"
+  ],
+  "biography": [
+    "William Edward Kelly was born on April 6, 1870, on Deal Island in Somerset County, Maryland, according to the United States Social Security Numerical Identification Files (NUMIDENT). An October 1942 Social Security record identifies him by his full name and records his birthplace.",
+    "William married Louisa Elizabeth Daniel, known as Emma. Her 1939 death certificate identifies her husband as William E. Kelley, reflecting an alternate spelling of the family surname.",
+    "By 1910, William and Emma were living with their children at 2014 Walbrook Avenue in Baltimore, Maryland, near Emma's father, James Fairfax Daniel, who lived at 2010 Walbrook Avenue.",
+    "William died on September 27, 1950, in Cambridge, Maryland. His death notice, published in The Baltimore Sun on September 30, 1950, identified him as the husband of the late Emma L. Kelly, née Daniels, and announced funeral services in Baltimore followed by interment at Woodlawn Cemetery. William and Emma share a gravestone at Woodlawn Cemetery bearing their names and years of birth and death."
+
+  ]
+},
+
+{
+  "id": "edward-maynard-kelly-1898",
+  "first_name": "Edward",
+  "middle_name": "Maynard",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1898,
+  "birth_date": "1898-10-03",
+  "birth_place": "Deal Island, Somerset County, Maryland",
+  "death_year": 1966,
+  "death_date": "",
+  "death_place": "",
+  "father": "william-edward-kelly-1870",
+  "mother": "louisa-elizabeth-daniel-1877",
+  "spouses": [],
+  "biography": [
+    "Edward Maynard Kelly was born on October 3, 1898, on Deal Island in Somerset County, Maryland, according to family tree information recorded on Ancestry. He is identified as a son of William Edward Kelly and Louisa Elizabeth Daniel, known as Emma.",
+    "Edward's family later lived in Baltimore, Maryland. His parents were recorded at 2014 Walbrook Avenue in 1910, near his maternal grandfather, James Fairfax Daniel.",
+    "Ancestry family tree information gives Edward's death year as 1966. His exact death date and place remain to be verified."
+  ]
+},
+
+
+{
+  "id": "william-daniel-kelly-1900",
+  "first_name": "William",
+  "middle_name": "Daniel",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1900,
+  "birth_date": "1900-10-04",
+  "birth_place": "Somerset County, Maryland",
+  "death_year": 1972,
+  "death_date": "",
+  "death_place": "",
+  "father": "william-edward-kelly-1870",
+  "mother": "louisa-elizabeth-daniel-1877",
+  "spouses": [],
+  "biography": [
+    "William Daniel Kelly was born on October 4, 1900, in Somerset County, Maryland, according to Ancestry family tree information. He was identified as a son of William Edward Kelly and Louisa Elizabeth Daniel, known as Emma.",
+    "William's parents later resided at 2014 Walbrook Avenue in Baltimore, Maryland, according to the 1910 United States Census. His maternal grandfather, James Fairfax Daniel, lived nearby at 2010 Walbrook Avenue.",
+    "Ancestry family tree information records William's death year as 1972. His exact death date and place remain to be verified."
+  ]
+},
+
+
+{
+  "id": "james-dryden-kelly-1903",
+  "first_name": "James",
+  "middle_name": "Dryden",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "Sr.",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1903,
+  "birth_date": "1903-01-07",
+  "birth_place": "Maryland",
+  "death_year": 1973,
+  "death_date": "",
+  "death_place": "",
+  "father": "william-edward-kelly-1870",
+  "mother": "louisa-elizabeth-daniel-1877",
+  "spouses": [],
+  "biography": [
+    "James Dryden Kelly Sr. was born on January 7, 1903, in Maryland, according to Ancestry family tree information. He is identified as a son of William Edward Kelly and Louisa Elizabeth Daniel, known as Emma.",
+    "In 1910, James's parents lived at 2014 Walbrook Avenue in Baltimore, Maryland, near his maternal grandfather, James Fairfax Daniel, who resided at 2010 Walbrook Avenue.",
+    "Ancestry family tree information records James's death year as 1973. His exact death date and place remain to be verified."
+  ]
+},
+
+
+{
+  "id": "george-roscoe-kelly-1910",
+  "first_name": "George",
+  "middle_name": "Roscoe",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1910,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1966,
+  "death_date": "",
+  "death_place": "",
+  "father": "william-edward-kelly-1870",
+  "mother": "louisa-elizabeth-daniel-1877",
+  "spouses": [],
+  "biography": [
+    "George Roscoe Kelly was born in 1910, according to Ancestry family tree information. He is identified as a son of William Edward Kelly and Louisa Elizabeth Daniel, known as Emma.",
+    "The 1910 United States Census places George's parents at 2014 Walbrook Avenue in Baltimore, Maryland, near his maternal grandfather, James Fairfax Daniel, who lived at 2010 Walbrook Avenue. George's presence in that household has not yet been independently verified.",
+    "Ancestry family tree information records George's death year as 1966. His exact birth and death dates and locations remain to be established through historical records."
+  ]
 }
+
 
 
 
