@@ -1,5 +1,194 @@
 [
     {
+        "id": "1779_james_daniel_rebecca_travers_marriage",
+        "type": "marriage",
+        "title": "1779 Marriage of James Daniel and Rebecca Travers",
+        "people": [],
+        "date": "1779-04-05",
+        "location": "",
+        "description": "Historical marriage register recording the marriage of James Daniel and Rebecca Travers on April 5, 1779. Rebecca is identified as a widow. David Woodson appears among the witnesses. Family research identifies Travers as Rebecca's maiden surname and James Daniel as her second husband; these details require separate supporting documentation. The register's jurisdiction remains to be verified.",
+        "supports": [
+            "Marriage of James Daniel and Rebecca Travers on April 5, 1779",
+            "Rebecca identified as a widow at the time of marriage",
+            "David Woodson recorded as a witness"
+        ],
+        "documents": [
+            "1779_james_daniel_rebecca_travers_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1808_travers_daniel_mary_wallace_marriage",
+        "type": "marriage",
+        "title": "1808 Marriage of Traverse Daniel and Mary Wallace",
+        "people": [
+            "travers-daniel-1780",
+            "mary-l-wallace-1789"
+        ],
+        "date": "1808-01-11",
+        "location": "Somerset County, Maryland",
+        "description": "Historical marriage register or compiled marriage listing recording the marriage of 'Daniel Traverse' and 'Wallace Mary' on January 11, 1808. The names appear in surname-first order. The groom's given name is recorded as Traverse, a spelling variation of Travers. The source supports the marriage of Travers Daniel and Mary Wallace; the original register or compilation title remains to be established.",
+        "supports": [
+            "Marriage of Traverse Daniel and Mary Wallace",
+            "Marriage date of January 11, 1808",
+            "Historical spelling of the groom's name as Traverse"
+        ],
+        "documents": [
+            "1808_travers_daniel_mary_wallace_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1808_john_webster_leah_white_marriage",
+        "type": "marriage",
+        "title": "1808 Marriage of John Webster and Leah White",
+        "people": [
+            "john-gabriel-webster-1784",
+            "leah-white-1776"
+        ],
+        "date": "1808-09-06",
+        "location": "Coventry Parish, Somerset County, Maryland",
+        "description": "Coventry Parish marriage register, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The register identifies the groom as John Webster and does not establish the middle name Gabriel or suffix III.",
+        "supports": [
+            "Marriage of John Webster and Leah White",
+            "Marriage date of September 6, 1808",
+            "Marriage recorded in Coventry Parish, Somerset County, Maryland"
+        ],
+        "documents": [
+            "1808_john_webster_leah_white_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1808_john_webster_leah_white_marriage",
+        "type": "marriage",
+        "title": "1808 Marriage Record – John Webster and Leah White",
+        "people": [],
+        "date": "1808-09-06",
+        "location": "Coventry Parish, Rehobeth, Somerset County, Maryland",
+        "description": "Historical marriage-register listing, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The entry reads 'Sep 6 — Webster John — White Leah.' The FamilySearch index identifies the location as Coventry Parish Church, Rehobeth, Somerset County, Maryland. FamilySearch record: https://www.familysearch.org/ark:/61903/1:1:F4NB-C44?lang=en. The register identifies the groom as John Webster; his identification as John Gabriel Webster III (1784–1844) remains to be corroborated.",
+        "supports": [
+            "John Webster married Leah White on September 6, 1808.",
+            "The marriage-register entry names John Webster and Leah White."
+        ],
+        "documents": [
+            "1808_john_webster_leah_white_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1825_deal_island_map",
+        "type": "map",
+        "title": "1825 Map of Great Devils Island (Deal Island), Maryland",
+        "people": [
+            "travers-daniel-1780"
+        ],
+        "date": "1825",
+        "location": "Great Devils Island (Deal Island), Somerset County, Maryland",
+        "description": "Historical map dated 1825 depicting Great Devils Island, now known as Deal Island, in Somerset County, Maryland. The map identifies land associated with 'Traverse Daniel' near the southern portion of the island, east of the road, above the word 'Great.' A nearby handwritten annotation appears to indicate a distance of one mile from Piney Point, although the wording requires further verification. The map provides historical evidence of land associated with Travers Daniel in 1825. The Daniel Family Cemetery is located in the general area, according to family observations, but its precise relationship to the mapped property has not yet been established through deeds or surveys. The map's creator and original repository have not yet been identified.",
+        "supports": [
+            "Identification of land associated with Traverse Daniel in 1825",
+            "Historical geography of Great Devils Island (Deal Island)",
+            "Research into Daniel family landownership near Wenona, Maryland",
+            "Historical context for the Daniel Family Cemetery"
+        ],
+        "documents": [
+            "1825_deal_island_map.jpg"
+        ]
+    },
+    {
+        "id": "1825_noah_kelly_elizabeth_daniel_marriage",
+        "type": "marriage",
+        "title": "1825 Marriage Record of Noah Kelly and Elizabeth Daniel",
+        "people": [
+            "noah-kelly-1802",
+            "elizabeth-daniel-1810"
+        ],
+        "date": "1825-07-13",
+        "location": "Somerset County, Maryland",
+        "description": "Marriage register or compiled marriage listing, page 43, recording the marriage of Noah Kelly and Elizabeth Daniel on July 13, 1825. The entry appears under the year 1825 and reads 'Jul. 13 — Kelly Noah — Daniel Elizabeth.' The original publication or register title has not yet been established. The record supports the marriage date and the identification of the couple, but does not independently establish their parents.",
+        "supports": [
+            "Marriage of Noah Kelly and Elizabeth Daniel",
+            "Marriage date of July 13, 1825"
+        ],
+        "documents": [
+            "1825_noah_kelly_elizabeth_daniel_marriage.jpg"
+        ]
+    },
+    {
+        "id": "1843_gabriel_rowe_eleanor_daniel_marriage",
+        "type": "marriage",
+        "title": "Marriage Record of Gabriel H. Rowe and Eleanor Daniels",
+        "people": [
+            "gabriel-h-rowe-1821"
+        ],
+        "date": "1843-11-27",
+        "location": "Somerset County, Maryland",
+        "description": "Marriage index entry recording Gabriel H. Rowe and Eleanor Daniels as spouses, married November 27, 1843, in Somerset County, Maryland. The bride's surname appears as 'Daniels' in the index, while family genealogical records identify her as Eleanor Ellen Daniel. The original marriage register and the index's publication details have not yet been examined.",
+        "supports": [
+            "Marriage of Gabriel H. Rowe and Eleanor Daniels",
+            "Marriage date of November 27, 1843",
+            "Marriage recorded in Somerset County, Maryland"
+        ],
+        "documents": []
+    },
+    {
+        "id": "1849_gabriel_s_webster_mary_a_jones_marriage",
+        "type": "marriage",
+        "title": "1849 Marriage Record – Gabriel S. Webster and Mary A. Jones",
+        "people": [
+            "gabriel-snead-webster-1822"
+        ],
+        "date": "1849-06-27",
+        "location": "Somerset County, Maryland",
+        "description": "Somerset County, Maryland, marriage register recording the marriage of Gabriel S. Webster and Mary A. Jones on June 27, 1849. The entry appears near the bottom of the right-hand page. The register identifies the bride as Mary A. Jones; her middle name Adeline is supplied by family research and is not spelled out in this record.",
+        "supports": [
+            "Gabriel S. Webster married Mary A. Jones on June 27, 1849.",
+            "The marriage was recorded in Somerset County, Maryland.",
+            "The bride's name was recorded as Mary A. Jones."
+        ],
+        "documents": [
+            "1849_gabriel_s_webster_mary_a_jones_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1850_snead_webster_household_census",
+        "type": "census",
+        "title": "1850 U.S. Census – Leah and Snead Webster Household",
+        "people": [
+            "leah-white-1776",
+            "gabriel-snead-webster-1822"
+        ],
+        "date": "1850-10-08",
+        "location": "Dames Quarter District, Somerset County, Maryland",
+        "description": "1850 United States Federal Census, Dames Quarter District, Somerset County, Maryland, page 450, dwelling 539, family 539, enumerated October 8, 1850. The household includes Leah Webster (65), Snead Webster (23), Adaline Webster (20), Elizabeth Gibson (17), Mary M. Webster (2), Margaret Webster (25), and Susan Webster (2). Snead was recorded as a farmer with real estate valued at $300. All household members were recorded as born in Maryland. The census does not identify relationships between household members. Leah's recorded age suggests a birth around 1784–1785, differing from the provisional 1776 birth year on her profile.",
+        "supports": [
+            "Leah Webster, age 65, lived in Dames Quarter District, Somerset County, Maryland, in 1850.",
+            "Snead Webster, age 23, lived in the same household.",
+            "Adaline Webster, age 20, lived in the same household.",
+            "Snead Webster was recorded as a farmer with real estate valued at $300.",
+            "The census does not establish the relationships among household members."
+        ],
+        "documents": [
+            "1850_snead_webster_household_census.jpg"
+        ]
+    },
+    {
+        "id": "1855_james_travers_daniel_louisa_rowe_marriage",
+        "type": "marriage",
+        "title": "1855 Marriage of James T. Daniel and Louisa E. Rowe",
+        "people": [
+            "james-travers-daniel-1830"
+        ],
+        "date": "1855-01-06",
+        "location": "Somerset County, Maryland",
+        "description": "Somerset County, Maryland, marriage register and corresponding marriage index recording the marriage of James T. Daniel and Louisa E. Rowe on January 6, 1855. The original register identifies the couple by their recorded names; the marriage index provides the date and county.",
+        "supports": [
+            "Marriage of James T. Daniel and Louisa E. Rowe",
+            "Marriage date of January 6, 1855",
+            "Marriage in Somerset County, Maryland"
+        ],
+        "documents": [
+            "1855_james_travers_daniel_louisa_rowe_marriage_record.jpg"
+        ]
+    },
+    {
         "id": "1855_james_travers_daniel_louisa_elizabeth_rowe_marriage",
         "type": "marriage_record",
         "title": "1855 Marriage Register – James T. Daniel and Louisa E. Rowe",
@@ -14,6 +203,50 @@
         ],
         "documents": [
             "1855_james_travers_daniel_louisa_elizabeth_rowe_marriage_record.jpg"
+        ]
+    },
+    {
+        "id": "1861_travers_daniel_probate",
+        "type": "probate",
+        "title": "1861 Last Will and Testament of Travers Daniel",
+        "people": [
+            "travers-daniel-1780",
+            "mary-l-wallace-1789",
+            "james-travers-daniel-1830"
+        ],
+        "date": "1861-05-24",
+        "location": "Somerset County, Maryland",
+        "description": "Last will and testament of Travers Daniel of Somerset County, Maryland, dated August 14, 1858, and proved May 24, 1861, before the Somerset County Register of Wills. The nine-image probate file includes the handwritten will and witness testimony. The will identifies his wife Mary, names sons including William Daniel and James Travers Daniel, and contains provisions for daughters and grandchildren. Estate number SDAT61UN0928. Original image file MARY0053D_14-Adams-Ward_M_00029.tif. Further transcription is needed to identify all beneficiaries and their relationships accurately.",
+        "supports": [
+            "Probate of Travers Daniel's will on May 24, 1861",
+            "Identification of Mary as his wife",
+            "Identification of William Daniel as his son and executor",
+            "Identification of James Travers Daniel as his son",
+            "Evidence concerning children, grandchildren, and property inheritance"
+        ],
+        "documents": [
+            "1861_travers_daniel_probate.pdf"
+        ]
+    },
+    {
+        "id": "1863_gabriel_snead_webster_civil_war_draft_registration",
+        "type": "military",
+        "title": "1863 Civil War Draft Registration – Gabriel S. Webster",
+        "people": [
+            "gabriel-snead-webster-1822"
+        ],
+        "date": "1863-08-31",
+        "location": "Tangier District, Somerset County, Maryland",
+        "description": "United States Civil War Draft Registration Records, 1863–1865. Consolidated List of Class II men subject to military duty in the First Congressional District of Maryland, covering Somerset and Worcester Counties. The entry for Gabriel S. Webster appears on line 11 under Tangier District. He was recorded as a 38-year-old white boatman born in Maryland. The register is dated August 31, 1863. His recorded age suggests a birth around 1824–1825, differing from the currently recorded birth year of 1822. Registration does not establish that he served in the military.",
+        "supports": [
+            "Gabriel S. Webster was recorded in Tangier District, Somerset County, Maryland, in 1863.",
+            "His occupation was boatman.",
+            "His birthplace was Maryland.",
+            "His age was recorded as 38.",
+            "He appeared on the Civil War draft registration list dated August 31, 1863."
+        ],
+        "documents": [
+            "1863_gabriel_snead_webster_civil_war_draft_registration.jpg"
         ]
     },
     {
@@ -55,6 +288,46 @@
         ],
         "documents": [
             "1875_james_fairfax_daniel_mary_catherine_wilson_marriage.jpg"
+        ]
+    },
+    {
+        "id": "1880_daniel_family_census",
+        "type": "census",
+        "title": "1880 U.S. Census — Daniel Family, Deal Island, Maryland",
+        "people": [
+            "james-travers-daniel-1830",
+            "james-fairfax-daniel-1855",
+            "louisa-elizabeth-daniel-1877"
+        ],
+        "date": "1880-06-05",
+        "location": "Deal Island, Somerset County, Maryland",
+        "description": "1880 United States Federal Census, Deal Island, Somerset County, Maryland, page 12, dwelling 85, family 74, lines 31–40. The Daniel household includes James Daniel, age 50, James F. Daniel, age 24, and Louisa E. Daniel, age 2. Additional household members are recorded on the same page.",
+        "supports": [
+            "Louisa E. Daniel enumerated in the Daniel household in 1880",
+            "Louisa E. Daniel approximately two years old in June 1880",
+            "Daniel family residing in Deal Island, Somerset County, Maryland"
+        ],
+        "documents": [
+            "1880_daniel_family_census.jpg"
+        ]
+    },
+    {
+        "id": "1892_deal_island_methodist_camp_meeting",
+        "type": "newspaper",
+        "title": "1892 On Deal's Island — Methodist Camp Meeting",
+        "people": [
+            "james-travers-daniel-1830"
+        ],
+        "date": "1892-08-01",
+        "location": "Deal Island, Somerset County, Maryland",
+        "description": "The Baltimore Sun, August 1, 1892, article titled 'On Deal's Island: The People Assemble in Steamers, Yachts, Bugeyes and Canoes.' The article describes a Methodist Episcopal camp meeting attended by an estimated 4,000 people. Among those mentioned is Rev. James T. Daniel, identified as the brother of William Daniel of Baltimore.",
+        "supports": [
+            "James T. Daniel identified as a reverend in 1892",
+            "Attendance at a Methodist Episcopal camp meeting on Deal Island",
+            "William Daniel of Baltimore identified as his brother"
+        ],
+        "documents": [
+            "1892_deal_island_methodist_camp_meeting_baltimore_sun.jpg"
         ]
     },
     {
@@ -157,6 +430,28 @@
         ]
     },
     {
+        "id": "1902_james_travers_daniel_death_certificate",
+        "type": "death",
+        "title": "1902 Death Certificate of James T. Daniel",
+        "people": [
+            "james-travers-daniel-1830"
+        ],
+        "date": "1902-02-10",
+        "location": "Deal Island, Somerset County, Maryland",
+        "description": "Maryland death certificate recording the death of James T. Daniel at Deal Island on February 10, 1902, at age 71 years, 11 months, and 26 days. His occupation is recorded as mail driver, his wife as Lizzie Daniel, his father as Travers Daniel, and his mother appears to be identified as Molly Wallace. The reported age differs slightly from the birth date inscribed on his gravestone.",
+        "supports": [
+            "Death of James T. Daniel on February 10, 1902",
+            "Death at Deal Island, Maryland",
+            "Occupation as mail driver",
+            "Wife identified as Lizzie Daniel",
+            "Father identified as Travers Daniel",
+            "Possible mother identified as Molly Wallace"
+        ],
+        "documents": [
+            "1902_james_travers_daniel_death_certificate.jpg"
+        ]
+    },
+    {
         "id": "1902_somerset_county_jurors_james_fairfax_daniel",
         "type": "newspaper",
         "title": "1902 Somerset Jurors – James Fairfax Daniel",
@@ -193,6 +488,48 @@
         ],
         "documents": [
             "1903_adam_johannes_kramer_birth_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1904_biddie_mister_death_certificate",
+        "type": "death",
+        "title": "Death Certificate of Biddie Mister, Baltimore, Maryland, 1904",
+        "people": [
+            "biddie-daniel-1824"
+        ],
+        "date": "1904-02-06",
+        "location": "Baltimore, Maryland",
+        "description": "Baltimore City Health Department, Office of Registrar of Vital Statistics, Certificate of Death, registration B65653. Records Biddie Mister's death on February 6, 1904, her reported birth date of October 15, 1824, and her mother's maiden name as Mary Wallace, born in Maryland. Her father is recorded as 'Daniel Mister,' born in North Carolina. This appears inconsistent with other evidence identifying her father as Travers Daniel. The certificate records her burial at Loudon Park Cemetery.",
+        "supports": [
+            "Death of Biddie Mister on February 6, 1904",
+            "Reported birth date of October 15, 1824",
+            "Identification of mother as Mary Wallace",
+            "Reported parental birthplaces",
+            "Burial at Loudon Park Cemetery"
+        ],
+        "documents": [
+            "1904_biddie_mister_death_certificate.jpg"
+        ]
+    },
+    {
+        "id": "1904_biddie_mister_death_notice",
+        "type": "obituary",
+        "title": "Death Notice of Biddie Mister, The Baltimore Sun, February 7, 1904",
+        "people": [
+            "biddie-daniel-1824"
+        ],
+        "date": "1904-02-07",
+        "location": "Baltimore, Maryland",
+        "description": "The Baltimore Sun, February 7, 1904, page 4. Death notice for Biddie Mister, who died on the morning of February 6, 1904, at 1021 Linden Avenue in Baltimore. The notice identifies her as aged 80 years and the widow of Severn Mister. The age differs from the more precise age recorded on her death certificate.",
+        "supports": [
+            "Death of Biddie Mister on February 6, 1904",
+            "Marriage to Severn Mister",
+            "Widowed status at death",
+            "Residence at 1021 Linden Avenue, Baltimore",
+            "Reported age of 80 years"
+        ],
+        "documents": [
+            "1904_biddie_mister_death_notice_baltimore_sun.jpg"
         ]
     },
     {
@@ -262,6 +599,39 @@
         ],
         "documents": [
             "1910_census_william_s_webster_family.jpg"
+        ]
+    },
+    {
+        "id": "1910_james_fairfax_daniel_family_census",
+        "type": "census",
+        "title": "1910 United States Census — Daniel and Kelley Families",
+        "people": [
+            "william-edward-kelly-1870",
+            "louisa-elizabeth-daniel-1877",
+            "edward-maynard-kelly-1898",
+            "william-daniel-kelly-1900",
+            "james-dryden-kelly-1903",
+            "james-fairfax-daniel-1855",
+            "mary-catherine-wilson-1859",
+            "james-fairfax-daniel-jr-1885",
+            "anna-wilson-daniel-1887",
+            "wilson-bounds-daniel-1897"
+        ],
+        "date": "1910-04-22",
+        "location": "Baltimore City, Maryland, United States",
+        "description": "Thirteenth Census of the United States, 1910, Baltimore City, Maryland, enumerated April 22, 1910. James F. Daniel, age 54, resided at 2010 Walbrook Avenue with his wife, Mary C. Daniel, age 50, and their children James F. Daniel, age 24, Annie W. Daniel, age 22, and Wilson B. Daniel, age 12. James F. Daniel was recorded as a retail oyster dealer. His daughter Emma Daniel Kelley resided nearby at 2014 Walbrook Avenue with her husband and children. The neighboring households document the proximity of two generations of the Daniel family in Baltimore.",
+        "supports": [
+            "Residence of James F. Daniel Sr. at 2010 Walbrook Avenue, Baltimore, in 1910",
+            "Mary C. Daniel identified as wife of James F. Daniel",
+            "James F. Daniel Jr. identified as son",
+            "Annie W. Daniel identified as daughter",
+            "Wilson B. Daniel identified as son",
+            "Occupation of James F. Daniel Sr. as retail oyster dealer",
+            "Residence of Emma Daniel Kelley and her family at 2014 Walbrook Avenue, Baltimore, in 1910",
+            "Proximity of the Daniel and Kelley households in Baltimore"
+        ],
+        "documents": [
+            "1910_james_fairfax_daniel_family_census.jpg"
         ]
     },
     {
@@ -691,6 +1061,29 @@
         ]
     },
     {
+        "id": "1939_emma_daniel_kelley_death_certificate",
+        "type": "death",
+        "title": "1939 Death Certificate of Emma L. Kelley",
+        "people": [
+            "louisa-elizabeth-daniel-1877"
+        ],
+        "date": "1939-09-16",
+        "location": "Baltimore City, Maryland",
+        "description": "Baltimore City death certificate no. 61318 for Emma L. Kelley, who died September 16, 1939, at age 61. The certificate records her birth on October 30, 1877, at Deal Island, Maryland, her residence at 520 Eutaw Street in Baltimore, her husband as William E. Kelley, and her parents as James Daniel and Mary C. Wilson. The recorded cause of death was carcinoma of the uterus, and burial was listed at Woodlawn Cemetery.",
+        "supports": [
+            "Death of Emma L. Kelley on September 16, 1939",
+            "Birth on October 30, 1877, at Deal Island, Maryland",
+            "James Daniel identified as her father",
+            "Mary C. Wilson identified as her mother",
+            "William E. Kelley identified as her husband",
+            "Residence in Baltimore City in 1939",
+            "Burial at Woodlawn Cemetery"
+        ],
+        "documents": [
+            "1939_emma_daniel_kelley_death_certificate.jpg"
+        ]
+    },
+    {
         "id": "1940_census_vernon_florence_adams_family",
         "type": "census",
         "title": "1940 United States Federal Census – Vernon and Florence Adams Family",
@@ -833,6 +1226,26 @@
         ]
     },
     {
+        "id": "1950_william_edward_kelly_obituary",
+        "type": "obituary",
+        "title": "1950 Obituary of William E. Kelly",
+        "people": [
+            "william-edward-kelly-1870"
+        ],
+        "date": "1950-09-30",
+        "location": "Cambridge, Maryland",
+        "description": "The Baltimore Sun, September 30, 1950, death notice for William E. Kelly, who died in Cambridge, Maryland, on September 27, 1950. He is identified as the beloved husband of the late Emma L. Kelly (née Daniels). Funeral services were scheduled for September 30 at Loring Byers Home, 5005 Park Heights Avenue, Baltimore, with interment at Woodlawn Cemetery.",
+        "supports": [
+            "Death of William E. Kelly on September 27, 1950",
+            "Death in Cambridge, Maryland",
+            "Marriage to Emma L. Kelly, née Daniels",
+            "Burial at Woodlawn Cemetery, Baltimore"
+        ],
+        "documents": [
+            "1950_william_edward_kelly_obituary.jpg"
+        ]
+    },
+    {
         "id": "1953_adam_johannes_kramer_coast_guard_license",
         "type": "professional_license",
         "title": "1953 United States Coast Guard Merchant Marine Officer License – Adam Kramer",
@@ -961,513 +1374,110 @@
             "1993_susie_catherine_webster_kramer_death_certificate.jpg"
         ]
     },
-
-{
-  "id": "1863_gabriel_snead_webster_civil_war_draft_registration",
-  "type": "military",
-  "title": "1863 Civil War Draft Registration – Gabriel S. Webster",
-  "people": [
-    "gabriel-snead-webster-1822"
-  ],
-  "date": "1863-08-31",
-  "location": "Tangier District, Somerset County, Maryland",
-  "description": "United States Civil War Draft Registration Records, 1863–1865. Consolidated List of Class II men subject to military duty in the First Congressional District of Maryland, covering Somerset and Worcester Counties. The entry for Gabriel S. Webster appears on line 11 under Tangier District. He was recorded as a 38-year-old white boatman born in Maryland. The register is dated August 31, 1863. His recorded age suggests a birth around 1824–1825, differing from the currently recorded birth year of 1822. Registration does not establish that he served in the military.",
-  "supports": [
-    "Gabriel S. Webster was recorded in Tangier District, Somerset County, Maryland, in 1863.",
-    "His occupation was boatman.",
-    "His birthplace was Maryland.",
-    "His age was recorded as 38.",
-    "He appeared on the Civil War draft registration list dated August 31, 1863."
-  ],
-  "documents": [
-    "1863_gabriel_snead_webster_civil_war_draft_registration.jpg"
-  ]
-},
-
-{
-  "id": "1849_gabriel_s_webster_mary_a_jones_marriage",
-  "type": "marriage",
-  "title": "1849 Marriage Record – Gabriel S. Webster and Mary A. Jones",
-  "people": [
-    "gabriel-snead-webster-1822"
-  ],
-  "date": "1849-06-27",
-  "location": "Somerset County, Maryland",
-  "description": "Somerset County, Maryland, marriage register recording the marriage of Gabriel S. Webster and Mary A. Jones on June 27, 1849. The entry appears near the bottom of the right-hand page. The register identifies the bride as Mary A. Jones; her middle name Adeline is supplied by family research and is not spelled out in this record.",
-  "supports": [
-    "Gabriel S. Webster married Mary A. Jones on June 27, 1849.",
-    "The marriage was recorded in Somerset County, Maryland.",
-    "The bride's name was recorded as Mary A. Jones."
-  ],
-  "documents": [
-    "1849_gabriel_s_webster_mary_a_jones_marriage_record.jpg"
-  ]
-},
-
-{
-  "id": "1871_snead_webster_family_typhoid_deaths",
-  "type": "newspaper",
-  "title": "1871 Newspaper Report – Typhoid Deaths in the Snead Webster Family",
-  "people": [
-    "gabriel-snead-webster-1822"
-  ],
-  "date": "",
-  "location": "Deal Island, Somerset County, Maryland",
-  "description": "Newspaper clipping under the heading 'SOMERSET,' from an unidentified newspaper and publication date. The article reports that Snead Webster and his son Snead, residents of Deal's Island, died within hours of each other on Monday the 11th of the publication month. A younger son reportedly died the preceding Thursday. The article attributes all three deaths to typhoid fever. Family research identifies the sons as Newton Snead Webster and Elmer Webster, but the clipping does not give their full names. The publication is believed to date from 1871; the exact month and newspaper remain to be established.",
-  "supports": [
-    "Snead Webster and a son also called Snead died within hours of each other.",
-    "A younger son died on the preceding Thursday.",
-    "The newspaper attributed all three deaths to typhoid fever.",
-    "The family resided on Deal's Island, Maryland."
-  ],
-  "documents": [
-    "1871_snead_webster_family_typhoid_deaths_newspaper.jpg"
-  ]
-},
-
-{
-  "id": "1808_john_webster_leah_white_marriage",
-  "type": "marriage",
-  "title": "1808 Marriage Record – John Webster and Leah White",
-  "people": [],
-  "date": "1808-09-06",
-  "location": "Coventry Parish, Rehobeth, Somerset County, Maryland",
-  "description": "Historical marriage-register listing, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The entry reads 'Sep 6 — Webster John — White Leah.' The FamilySearch index identifies the location as Coventry Parish Church, Rehobeth, Somerset County, Maryland. FamilySearch record: https://www.familysearch.org/ark:/61903/1:1:F4NB-C44?lang=en. The register identifies the groom as John Webster; his identification as John Gabriel Webster III (1784–1844) remains to be corroborated.",
-  "supports": [
-    "John Webster married Leah White on September 6, 1808.",
-    "The marriage-register entry names John Webster and Leah White."
-  ],
-  "documents": [
-    "1808_john_webster_leah_white_marriage_record.jpg"
-  ]
-},
-
-{
-  "id": "1850_snead_webster_household_census",
-  "type": "census",
-  "title": "1850 U.S. Census – Leah and Snead Webster Household",
-  "people": [
-    "leah-white-1776",
-    "gabriel-snead-webster-1822"
-  ],
-  "date": "1850-10-08",
-  "location": "Dames Quarter District, Somerset County, Maryland",
-  "description": "1850 United States Federal Census, Dames Quarter District, Somerset County, Maryland, page 450, dwelling 539, family 539, enumerated October 8, 1850. The household includes Leah Webster (65), Snead Webster (23), Adaline Webster (20), Elizabeth Gibson (17), Mary M. Webster (2), Margaret Webster (25), and Susan Webster (2). Snead was recorded as a farmer with real estate valued at $300. All household members were recorded as born in Maryland. The census does not identify relationships between household members. Leah's recorded age suggests a birth around 1784–1785, differing from the provisional 1776 birth year on her profile.",
-  "supports": [
-    "Leah Webster, age 65, lived in Dames Quarter District, Somerset County, Maryland, in 1850.",
-    "Snead Webster, age 23, lived in the same household.",
-    "Adaline Webster, age 20, lived in the same household.",
-    "Snead Webster was recorded as a farmer with real estate valued at $300.",
-    "The census does not establish the relationships among household members."
-  ],
-  "documents": [
-    "1850_snead_webster_household_census.jpg"
-  ]
-},
-
-
-{
-  "id": "1808_john_webster_leah_white_marriage",
-  "type": "marriage",
-  "title": "1808 Marriage of John Webster and Leah White",
-  "people": [
-    "john-gabriel-webster-1784",
-    "leah-white-1776"
-  ],
-  "date": "1808-09-06",
-  "location": "Coventry Parish, Somerset County, Maryland",
-  "description": "Coventry Parish marriage register, page 80, recording the marriage of John Webster and Leah White on September 6, 1808. The register identifies the groom as John Webster and does not establish the middle name Gabriel or suffix III.",
-  "supports": [
-    "Marriage of John Webster and Leah White",
-    "Marriage date of September 6, 1808",
-    "Marriage recorded in Coventry Parish, Somerset County, Maryland"
-  ],
-  "documents": [
-    "1808_john_webster_leah_white_marriage_record.jpg"
-  ]
-},
-
-{
-  "id": "1880_daniel_family_census",
-  "type": "census",
-  "title": "1880 U.S. Census — Daniel Family, Deal Island, Maryland",
-  "people": [
-    "james-travers-daniel-1830",
-    "james-fairfax-daniel-1855",
-    "louisa-elizabeth-daniel-1877"
-  ],
-  "date": "1880-06-05",
-  "location": "Deal Island, Somerset County, Maryland",
-  "description": "1880 United States Federal Census, Deal Island, Somerset County, Maryland, page 12, dwelling 85, family 74, lines 31–40. The Daniel household includes James Daniel, age 50, James F. Daniel, age 24, and Louisa E. Daniel, age 2. Additional household members are recorded on the same page.",
-  "supports": [
-    "Louisa E. Daniel enumerated in the Daniel household in 1880",
-    "Louisa E. Daniel approximately two years old in June 1880",
-    "Daniel family residing in Deal Island, Somerset County, Maryland"
-  ],
-  "documents": [
-    "1880_daniel_family_census.jpg"
-  ]
-},
-
-{
-  "id": "1855_james_travers_daniel_louisa_rowe_marriage",
-  "type": "marriage",
-  "title": "1855 Marriage of James T. Daniel and Louisa E. Rowe",
-  "people": [
-    "james-travers-daniel-1830"
-  ],
-  "date": "1855-01-06",
-  "location": "Somerset County, Maryland",
-  "description": "Somerset County, Maryland, marriage register and corresponding marriage index recording the marriage of James T. Daniel and Louisa E. Rowe on January 6, 1855. The original register identifies the couple by their recorded names; the marriage index provides the date and county.",
-  "supports": [
-    "Marriage of James T. Daniel and Louisa E. Rowe",
-    "Marriage date of January 6, 1855",
-    "Marriage in Somerset County, Maryland"
-  ],
-  "documents": [
-    "1855_james_travers_daniel_louisa_rowe_marriage_record.jpg"
-  ]
-},
-
-{
-  "id": "1902_james_travers_daniel_death_certificate",
-  "type": "death",
-  "title": "1902 Death Certificate of James T. Daniel",
-  "people": [
-    "james-travers-daniel-1830"
-  ],
-  "date": "1902-02-10",
-  "location": "Deal Island, Somerset County, Maryland",
-  "description": "Maryland death certificate recording the death of James T. Daniel at Deal Island on February 10, 1902, at age 71 years, 11 months, and 26 days. His occupation is recorded as mail driver, his wife as Lizzie Daniel, his father as Travers Daniel, and his mother appears to be identified as Molly Wallace. The reported age differs slightly from the birth date inscribed on his gravestone.",
-  "supports": [
-    "Death of James T. Daniel on February 10, 1902",
-    "Death at Deal Island, Maryland",
-    "Occupation as mail driver",
-    "Wife identified as Lizzie Daniel",
-    "Father identified as Travers Daniel",
-    "Possible mother identified as Molly Wallace"
-  ],
-  "documents": [
-    "1902_james_travers_daniel_death_certificate.jpg"
-  ]
-},
-
-{
-  "id": "1902_james_travers_daniel_obituary",
-  "type": "obituary",
-  "title": "1902 Obituary of James T. Daniel",
-  "people": [
-    "james-travers-daniel-1830"
-  ],
-  "date": "",
-  "location": "Wenona, Deal Island, Somerset County, Maryland",
-  "description": "Newspaper obituary reporting the death of James T. Daniel at his residence in Wenona, Deal Island, in February 1902. The obituary describes his involvement in the Prohibition Party, his participation in state and county conventions, and his consideration for the Maryland State Senate. It states that he was twice married and was survived by his widow and thirteen children. The newspaper title and publication date have not yet been independently verified.",
-  "supports": [
-    "Death of James T. Daniel in February 1902",
-    "Residence in Wenona, Deal Island, Maryland",
-    "Involvement in the Prohibition Party",
-    "Twice married",
-    "Survived by his widow and thirteen children"
-  ],
-  "documents": [
-    "1902_james_travers_daniel_obituary.jpg"
-  ]
-},
-
-
-{
-  "id": "1892_deal_island_methodist_camp_meeting",
-  "type": "newspaper",
-  "title": "1892 On Deal's Island — Methodist Camp Meeting",
-  "people": [
-    "james-travers-daniel-1830"
-  ],
-  "date": "1892-08-01",
-  "location": "Deal Island, Somerset County, Maryland",
-  "description": "The Baltimore Sun, August 1, 1892, article titled 'On Deal's Island: The People Assemble in Steamers, Yachts, Bugeyes and Canoes.' The article describes a Methodist Episcopal camp meeting attended by an estimated 4,000 people. Among those mentioned is Rev. James T. Daniel, identified as the brother of William Daniel of Baltimore.",
-  "supports": [
-    "James T. Daniel identified as a reverend in 1892",
-    "Attendance at a Methodist Episcopal camp meeting on Deal Island",
-    "William Daniel of Baltimore identified as his brother"
-  ],
-  "documents": [
-    "1892_deal_island_methodist_camp_meeting_baltimore_sun.jpg"
-  ]
-},
-
-{
-  "id": "1910_james_fairfax_daniel_family_census",
-  "type": "census",
-  "title": "1910 United States Census — Daniel and Kelley Families",
-  "people": [
-    "william-edward-kelly-1870",
-    "louisa-elizabeth-daniel-1877",
-    "edward-maynard-kelly-1898",
-    "william-daniel-kelly-1900",
-    "james-dryden-kelly-1903",
-    "james-fairfax-daniel-1855",
-    "mary-catherine-wilson-1859",
-    "james-fairfax-daniel-jr-1885",
-    "anna-wilson-daniel-1887",
-    "wilson-bounds-daniel-1897"
-  ],
-  "date": "1910-04-22",
-  "location": "Baltimore City, Maryland, United States",
-  "description": "Thirteenth Census of the United States, 1910, Baltimore City, Maryland, enumerated April 22, 1910. James F. Daniel, age 54, resided at 2010 Walbrook Avenue with his wife, Mary C. Daniel, age 50, and their children James F. Daniel, age 24, Annie W. Daniel, age 22, and Wilson B. Daniel, age 12. James F. Daniel was recorded as a retail oyster dealer. His daughter Emma Daniel Kelley resided nearby at 2014 Walbrook Avenue with her husband and children. The neighboring households document the proximity of two generations of the Daniel family in Baltimore.",
-  "supports": [
-    "Residence of James F. Daniel Sr. at 2010 Walbrook Avenue, Baltimore, in 1910",
-    "Mary C. Daniel identified as wife of James F. Daniel",
-    "James F. Daniel Jr. identified as son",
-    "Annie W. Daniel identified as daughter",
-    "Wilson B. Daniel identified as son",
-    "Occupation of James F. Daniel Sr. as retail oyster dealer",
-    "Residence of Emma Daniel Kelley and her family at 2014 Walbrook Avenue, Baltimore, in 1910",
-    "Proximity of the Daniel and Kelley households in Baltimore"
-  ],
-  "documents": [
-    "1910_james_fairfax_daniel_family_census.jpg"
-  ]
-},
-
-
-{
-  "id": "1939_emma_daniel_kelley_death_certificate",
-  "type": "death",
-  "title": "1939 Death Certificate of Emma L. Kelley",
-  "people": [
-    "louisa-elizabeth-daniel-1877"
-  ],
-  "date": "1939-09-16",
-  "location": "Baltimore City, Maryland",
-  "description": "Baltimore City death certificate no. 61318 for Emma L. Kelley, who died September 16, 1939, at age 61. The certificate records her birth on October 30, 1877, at Deal Island, Maryland, her residence at 520 Eutaw Street in Baltimore, her husband as William E. Kelley, and her parents as James Daniel and Mary C. Wilson. The recorded cause of death was carcinoma of the uterus, and burial was listed at Woodlawn Cemetery.",
-  "supports": [
-    "Death of Emma L. Kelley on September 16, 1939",
-    "Birth on October 30, 1877, at Deal Island, Maryland",
-    "James Daniel identified as her father",
-    "Mary C. Wilson identified as her mother",
-    "William E. Kelley identified as her husband",
-    "Residence in Baltimore City in 1939",
-    "Burial at Woodlawn Cemetery"
-  ],
-  "documents": [
-    "1939_emma_daniel_kelley_death_certificate.jpg"
-  ]
-},
-
-
-{
-  "id": "1950_william_edward_kelly_obituary",
-  "type": "obituary",
-  "title": "1950 Obituary of William E. Kelly",
-  "people": [
-    "william-edward-kelly-1870"
-  ],
-  "date": "1950-09-30",
-  "location": "Cambridge, Maryland",
-  "description": "The Baltimore Sun, September 30, 1950, death notice for William E. Kelly, who died in Cambridge, Maryland, on September 27, 1950. He is identified as the beloved husband of the late Emma L. Kelly (née Daniels). Funeral services were scheduled for September 30 at Loring Byers Home, 5005 Park Heights Avenue, Baltimore, with interment at Woodlawn Cemetery.",
-  "supports": [
-    "Death of William E. Kelly on September 27, 1950",
-    "Death in Cambridge, Maryland",
-    "Marriage to Emma L. Kelly, née Daniels",
-    "Burial at Woodlawn Cemetery, Baltimore"
-  ],
-  "documents": [
-    "1950_william_edward_kelly_obituary.jpg"
-  ]
-},
-
-
-{
-  "id": "1808_travers_daniel_mary_wallace_marriage",
-  "type": "marriage",
-  "title": "1808 Marriage of Traverse Daniel and Mary Wallace",
-  "people": [
-    "travers-daniel-1780",
-    "mary-l-wallace-1789"
-  ],
-  "date": "1808-01-11",
-  "location": "Somerset County, Maryland",
-  "description": "Historical marriage register or compiled marriage listing recording the marriage of 'Daniel Traverse' and 'Wallace Mary' on January 11, 1808. The names appear in surname-first order. The groom's given name is recorded as Traverse, a spelling variation of Travers. The source supports the marriage of Travers Daniel and Mary Wallace; the original register or compilation title remains to be established.",
-  "supports": [
-    "Marriage of Traverse Daniel and Mary Wallace",
-    "Marriage date of January 11, 1808",
-    "Historical spelling of the groom's name as Traverse"
-  ],
-  "documents": [
-    "1808_travers_daniel_mary_wallace_marriage_record.jpg"
-  ]
-},
-
-
-{
-  "id": "1779_james_daniel_rebecca_travers_marriage",
-  "type": "marriage",
-  "title": "1779 Marriage of James Daniel and Rebecca Travers",
-  "people": [],
-  "date": "1779-04-05",
-  "location": "",
-  "description": "Historical marriage register recording the marriage of James Daniel and Rebecca Travers on April 5, 1779. Rebecca is identified as a widow. David Woodson appears among the witnesses. Family research identifies Travers as Rebecca's maiden surname and James Daniel as her second husband; these details require separate supporting documentation. The register's jurisdiction remains to be verified.",
-  "supports": [
-    "Marriage of James Daniel and Rebecca Travers on April 5, 1779",
-    "Rebecca identified as a widow at the time of marriage",
-    "David Woodson recorded as a witness"
-  ],
-  "documents": [
-    "1779_james_daniel_rebecca_travers_marriage_record.jpg"
-  ]
-},
-
-{
-  "id": "daniel_family_genealogy",
-  "type": "family_history",
-  "title": "Daniel Family — Genealogical History",
-  "people": [
-    "james-daniel-1752",
-    "rebecca-travers-1756",
-    "travers-daniel-1780",
-    "mary-l-wallace-1789",
-    "james-travers-daniel-1830",
-    "james-fairfax-daniel-1855"
-  ],
-  "date": "",
-  "location": "Rowan County, North Carolina; Somerset County, Maryland",
-  "description": "Privately compiled family genealogy titled The Daniel Name, probably prepared by Daniel Leroy Drake, son of Anna Wilson Daniel Drake and grandson of James Fairfax Daniel. The author identifies Anna Wilson Daniel as his mother, describes personally knowing James Fairfax Daniel, and references family records in his possession. The genealogy traces the Daniel family from Rowan County, North Carolina, to Deal Island, Maryland, and documents later generations of the Daniel, Drake, Webster, and related families. The latest date identified in the document is 1977, suggesting compilation or revision no earlier than that year. Copies were circulated among family members. According to family recollection, a copy was held by the Kramer-Webster family during the 1980s and certainly before 1993. The exact author attribution, compilation date, and original distribution date have not been independently verified.",
-  "supports": [
-    "Compiled genealogy of James Daniel and Rebecca Travers Adderton",
-    "Identification of Travers Daniel as their son",
-    "Marriage of Travers Daniel and Mary Wallace",
-    "Daniel family migration and connections between North Carolina and Maryland",
-    "Family relationships across subsequent Daniel generations"
-  ],
-  "documents": []
-},
-
-{
-  "id": "dar_james_daniel_a029613",
-  "type": "lineage_record",
-  "title": "DAR Ancestor Record — James Daniel (A029613)",
-  "people": [
-    "james-daniel-1752"
-  ],
-  "date": "",
-  "location": "North Carolina",
-  "description": [
-    "Daughters of the American Revolution ancestor record A029613 for James Daniel, also recorded as James Daniels. The DAR recognizes his Revolutionary War patriotic service in North Carolina through furnishing money and supplies. The ancestor information identifies his birth as approximately 1755 in Northumberland County, Virginia, and his death as February 11, 1817, in Rowan County, North Carolina. The record references North Carolina Revolutionary War accounts as supporting documentation. The DAR birth estimate differs from the 1752 birth year used in the family genealogy and should be evaluated against original records.",
-    "Archival references cited in the DAR documentation for James Daniel's patriotic service include North Carolina Revolutionary Army Accounts, Volume XII, Book A, Part XII, page 1631; and Accounts of the United States with North Carolina for the Revolutionary War, Book C, page 151, Roll S.115.45. These references are retained as research leads. The original account entries have not yet been independently located or examined."
-  ],
-
-  "supports": [
-    "Recognition of James Daniel as a Revolutionary War patriot",
-    "Patriotic service through furnishing money and supplies in North Carolina",
-    "Reported death on February 11, 1817, in Rowan County, North Carolina",
-    "Identification of James Daniel under DAR Ancestor Number A029613"
-  ],
-  "documents": []
-},
-
-
-{
-  "id": "1861_travers_daniel_probate",
-  "type": "probate",
-  "title": "1861 Last Will and Testament of Travers Daniel",
-  "people": [
-    "travers-daniel-1780",
-    "mary-l-wallace-1789",
-    "james-travers-daniel-1830"
-  ],
-  "date": "1861-05-24",
-  "location": "Somerset County, Maryland",
-  "description": "Last will and testament of Travers Daniel of Somerset County, Maryland, dated August 14, 1858, and proved May 24, 1861, before the Somerset County Register of Wills. The nine-image probate file includes the handwritten will and witness testimony. The will identifies his wife Mary, names sons including William Daniel and James Travers Daniel, and contains provisions for daughters and grandchildren. Estate number SDAT61UN0928. Original image file MARY0053D_14-Adams-Ward_M_00029.tif. Further transcription is needed to identify all beneficiaries and their relationships accurately.",
-  "supports": [
-    "Probate of Travers Daniel's will on May 24, 1861",
-    "Identification of Mary as his wife",
-    "Identification of William Daniel as his son and executor",
-    "Identification of James Travers Daniel as his son",
-    "Evidence concerning children, grandchildren, and property inheritance"
-  ],
-  "documents": [
-    "1861_travers_daniel_probate.pdf"
-  ]
-},
-
-{
-  "id": "1825_noah_kelly_elizabeth_daniel_marriage",
-  "type": "marriage",
-  "title": "1825 Marriage Record of Noah Kelly and Elizabeth Daniel",
-  "people": [
-    "noah-kelly-1802",
-    "elizabeth-daniel-1810"
-  ],
-  "date": "1825-07-13",
-  "location": "Somerset County, Maryland",
-  "description": "Marriage register or compiled marriage listing, page 43, recording the marriage of Noah Kelly and Elizabeth Daniel on July 13, 1825. The entry appears under the year 1825 and reads 'Jul. 13 — Kelly Noah — Daniel Elizabeth.' The original publication or register title has not yet been established. The record supports the marriage date and the identification of the couple, but does not independently establish their parents.",
-  "supports": [
-    "Marriage of Noah Kelly and Elizabeth Daniel",
-    "Marriage date of July 13, 1825"
-  ],
-  "documents": [
-    "1825_noah_kelly_elizabeth_daniel_marriage.jpg"
-  ]
-},
-
-{
-  "id": "1825_deal_island_map",
-  "type": "map",
-  "title": "1825 Map of Great Devils Island (Deal Island), Maryland",
-  "people": [
-    "travers-daniel-1780"
-  ],
-  "date": "1825",
-  "location": "Great Devils Island (Deal Island), Somerset County, Maryland",
-  "description": "Historical map dated 1825 depicting Great Devils Island, now known as Deal Island, in Somerset County, Maryland. The map identifies land associated with 'Traverse Daniel' near the southern portion of the island, east of the road, above the word 'Great.' A nearby handwritten annotation appears to indicate a distance of one mile from Piney Point, although the wording requires further verification. The map provides historical evidence of land associated with Travers Daniel in 1825. The Daniel Family Cemetery is located in the general area, according to family observations, but its precise relationship to the mapped property has not yet been established through deeds or surveys. The map's creator and original repository have not yet been identified.",
-  "supports": [
-    "Identification of land associated with Traverse Daniel in 1825",
-    "Historical geography of Great Devils Island (Deal Island)",
-    "Research into Daniel family landownership near Wenona, Maryland",
-    "Historical context for the Daniel Family Cemetery"
-  ],
-  "documents": [
-    "1825_deal_island_map.jpg"
-  ]
-},
-
-{
-  "id": "1843_gabriel_rowe_eleanor_daniel_marriage",
-  "type": "marriage",
-  "title": "Marriage Record of Gabriel H. Rowe and Eleanor Daniels",
-  "people": [
-    "gabriel-h-rowe-1821"
-  ],
-  "date": "1843-11-27",
-  "location": "Somerset County, Maryland",
-  "description": "Marriage index entry recording Gabriel H. Rowe and Eleanor Daniels as spouses, married November 27, 1843, in Somerset County, Maryland. The bride's surname appears as 'Daniels' in the index, while family genealogical records identify her as Eleanor Ellen Daniel. The original marriage register and the index's publication details have not yet been examined.",
-  "supports": [
-    "Marriage of Gabriel H. Rowe and Eleanor Daniels",
-    "Marriage date of November 27, 1843",
-    "Marriage recorded in Somerset County, Maryland"
-  ],
-  "documents": []
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+        "id": "1812_maryland_militia_travis_daniel",
+        "type": "military",
+        "title": "Maryland Militia in the War of 1812 – Travis Daniel, Somerset County",
+        "people": [
+            "travers-daniel-1780"
+        ],
+        "date": "",
+        "location": "Somerset County, Maryland",
+        "description": "Maryland Militia in the War of 1812, Volume 1 (Eastern Shore Counties), PDF page 11, printed page 4. Under the Tenth Brigade, a detachment return from the 23rd Regiment of the Somerset County Militia lists 'Travis Daniel' among the privates of the 2nd Battalion. The return refers to division orders dated May 15, but the year of those orders is not specified in the excerpt. Travis Daniel is believed to be Travers Daniel (1780–1861), whose given name also appears as Traverse in other historical records. The identification is supported by family research and a previous inquiry concerning a commemorative wreath for his gravestone at Daniel Family Cemetery, Wenona, Maryland. The roster does not establish the duration of his service or participation in combat.",
+        "supports": [
+            "A man recorded as Travis Daniel was listed as a private in the 2nd Battalion of the 23rd Regiment, Somerset County Militia.",
+            "The detachment was associated with the Tenth Brigade of the Maryland Militia.",
+            "The return was prepared pursuant to orders dated May 15.",
+            "The identification of Travis Daniel as Travers Daniel (1780–1861) is supported by family research but is not explicitly established by the roster."
+        ],
+        "documents": [
+            "1812_maryland_eastern_shore_militia_travers_daniel.pdf"
+        ]
+    },
+    {
+        "id": "1871_snead_webster_family_typhoid_deaths",
+        "type": "newspaper",
+        "title": "1871 Newspaper Report – Typhoid Deaths in the Snead Webster Family",
+        "people": [
+            "gabriel-snead-webster-1822"
+        ],
+        "date": "",
+        "location": "Deal Island, Somerset County, Maryland",
+        "description": "Newspaper clipping under the heading 'SOMERSET,' from an unidentified newspaper and publication date. The article reports that Snead Webster and his son Snead, residents of Deal's Island, died within hours of each other on Monday the 11th of the publication month. A younger son reportedly died the preceding Thursday. The article attributes all three deaths to typhoid fever. Family research identifies the sons as Newton Snead Webster and Elmer Webster, but the clipping does not give their full names. The publication is believed to date from 1871; the exact month and newspaper remain to be established.",
+        "supports": [
+            "Snead Webster and a son also called Snead died within hours of each other.",
+            "A younger son died on the preceding Thursday.",
+            "The newspaper attributed all three deaths to typhoid fever.",
+            "The family resided on Deal's Island, Maryland."
+        ],
+        "documents": [
+            "1871_snead_webster_family_typhoid_deaths_newspaper.jpg"
+        ]
+    },
+    {
+        "id": "1902_james_travers_daniel_obituary",
+        "type": "obituary",
+        "title": "1902 Obituary of James T. Daniel",
+        "people": [
+            "james-travers-daniel-1830"
+        ],
+        "date": "",
+        "location": "Wenona, Deal Island, Somerset County, Maryland",
+        "description": "Newspaper obituary reporting the death of James T. Daniel at his residence in Wenona, Deal Island, in February 1902. The obituary describes his involvement in the Prohibition Party, his participation in state and county conventions, and his consideration for the Maryland State Senate. It states that he was twice married and was survived by his widow and thirteen children. The newspaper title and publication date have not yet been independently verified.",
+        "supports": [
+            "Death of James T. Daniel in February 1902",
+            "Residence in Wenona, Deal Island, Maryland",
+            "Involvement in the Prohibition Party",
+            "Twice married",
+            "Survived by his widow and thirteen children"
+        ],
+        "documents": [
+            "1902_james_travers_daniel_obituary.jpg"
+        ]
+    },
+    {
+        "id": "daniel_family_genealogy",
+        "type": "family_history",
+        "title": "Daniel Family — Genealogical History",
+        "people": [
+            "james-daniel-1752",
+            "rebecca-travers-1756",
+            "travers-daniel-1780",
+            "mary-l-wallace-1789",
+            "james-travers-daniel-1830",
+            "james-fairfax-daniel-1855"
+        ],
+        "date": "",
+        "location": "Rowan County, North Carolina; Somerset County, Maryland",
+        "description": "Privately compiled family genealogy titled The Daniel Name, probably prepared by Daniel Leroy Drake, son of Anna Wilson Daniel Drake and grandson of James Fairfax Daniel. The author identifies Anna Wilson Daniel as his mother, describes personally knowing James Fairfax Daniel, and references family records in his possession. The genealogy traces the Daniel family from Rowan County, North Carolina, to Deal Island, Maryland, and documents later generations of the Daniel, Drake, Webster, and related families. The latest date identified in the document is 1977, suggesting compilation or revision no earlier than that year. Copies were circulated among family members. According to family recollection, a copy was held by the Kramer-Webster family during the 1980s and certainly before 1993. The exact author attribution, compilation date, and original distribution date have not been independently verified.",
+        "supports": [
+            "Compiled genealogy of James Daniel and Rebecca Travers Adderton",
+            "Identification of Travers Daniel as their son",
+            "Marriage of Travers Daniel and Mary Wallace",
+            "Daniel family migration and connections between North Carolina and Maryland",
+            "Family relationships across subsequent Daniel generations"
+        ],
+        "documents": []
+    },
+    {
+        "id": "dar_james_daniel_a029613",
+        "type": "lineage_record",
+        "title": "DAR Ancestor Record — James Daniel (A029613)",
+        "people": [
+            "james-daniel-1752"
+        ],
+        "date": "",
+        "location": "North Carolina",
+        "description": [
+            "Daughters of the American Revolution ancestor record A029613 for James Daniel, also recorded as James Daniels. The DAR recognizes his Revolutionary War patriotic service in North Carolina through furnishing money and supplies. The ancestor information identifies his birth as approximately 1755 in Northumberland County, Virginia, and his death as February 11, 1817, in Rowan County, North Carolina. The record references North Carolina Revolutionary War accounts as supporting documentation. The DAR birth estimate differs from the 1752 birth year used in the family genealogy and should be evaluated against original records.",
+            "Archival references cited in the DAR documentation for James Daniel's patriotic service include North Carolina Revolutionary Army Accounts, Volume XII, Book A, Part XII, page 1631; and Accounts of the United States with North Carolina for the Revolutionary War, Book C, page 151, Roll S.115.45. These references are retained as research leads. The original account entries have not yet been independently located or examined."
+        ],
+        "supports": [
+            "Recognition of James Daniel as a Revolutionary War patriot",
+            "Patriotic service through furnishing money and supplies in North Carolina",
+            "Reported death on February 11, 1817, in Rowan County, North Carolina",
+            "Identification of James Daniel under DAR Ancestor Number A029613"
+        ],
+        "documents": []
+    }
 ]

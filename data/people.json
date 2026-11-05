@@ -827,11 +827,15 @@
   "mother": "rebecca-travers-1756",
   "spouses": ["mary-l-wallace-1789"],
   "biography": [
-    "Travers Daniel was born around 1780 and died in 1861, according to FamilySearch family tree information. His exact birth and death dates and locations remain to be verified.",
-    "FamilySearch identifies his wife as Mary L. Wallace (1789–1862) and records their marriage as January 11, 1808, in Somerset County, Maryland. The marriage date and location have not yet been confirmed against an original marriage record.",
-    "Travers is identified as the father of James Travers Daniel (1830–1902) on James's Maryland death certificate. That certificate also appears to identify James's mother as Molly Wallace, possibly referring to Mary L. Wallace.",
-    "FamilySearch identifies James Daniel (1752–1817) and Rebecca Travers (1756–1815) as Travers's parents. These relationships remain research leads pending verification against historical records."
-  ]
+    "Travers Daniel was born around 1780 and died in 1861. His exact birth and death dates and locations remain to be verified. FamilySearch identifies James Daniel (1752–1817) and Rebecca Travers (1756–1815) as his parents. These relationships are also described in the privately compiled family history *The Daniel Name*, but remain subject to verification against contemporary records.",
+    "Travers married Mary L. Wallace (1789–1862) on January 11, 1808, in Somerset County, Maryland, according to a historical marriage listing that records their names as \"Daniel Traverse\" and \"Wallace Mary.\" The spelling \"Traverse\" is one of several variations of his given name found in historical records.",
+    "During the War of 1812, Travers Daniel is believed to have served as a private in the Maryland Militia. A surviving detachment return for the 23rd Regiment of the Somerset County Militia, Tenth Brigade, lists \"Travis Daniel\" among the privates of its 2nd Battalion. The return was prepared pursuant to brigade and division orders dated May 15. Although the document uses the name Travis rather than Travers, the identification is strongly supported by the documented variations of his given name, his association with Somerset County, and family genealogical research. The surviving roster establishes his inclusion in a militia detachment but does not specify his length of service or establish participation in a particular battle.",
+    "Additional family research supports this identification. A researcher previously contacted a descendant of Travers Daniel about placing a commemorative wreath on his gravestone at Daniel Family Cemetery in Wenona, Maryland, and supplied a copy of the Maryland militia roster. The original correspondence has not been preserved, and the researcher's identity and supporting documentation remain unknown.",
+    "An 1825 historical map of Great Devils Island, now known as Deal Island, identifies land associated with \"Traverse Daniel\" near the southern portion of the island. The map provides evidence of his connection to the area where the Daniel family lived. The precise relationship between this mapped property and the Daniel Family Cemetery has not yet been established through land records.",
+    "Travers's last will and testament, dated August 14, 1858, was proved in Somerset County on May 24, 1861. The will identifies his wife Mary and sons William Daniel and James Travers Daniel, and contains provisions for additional family members, including daughters and grandchildren. The document provides important contemporary evidence of his family relationships and property arrangements.",
+    "Travers is also identified as the father of James Travers Daniel (1830–1902) on James's Maryland death certificate. That certificate appears to identify James's mother as Molly Wallace, possibly another name for Mary L. Wallace.",
+    "Travers Daniel is buried at Daniel Family Cemetery in Wenona, Somerset County, Maryland. His gravestone, bearing the years 1780–1861, has fallen and deteriorated. Surviving fragments have been photographed and preserved in the family archive."
+  ] 
 },
 
 
@@ -1135,10 +1139,62 @@
     "Their daughter Gabraella Rowe died on September 30, 1868, at approximately fourteen years of age and was buried in Daniel Family Cemetery in Wenona, Somerset County, Maryland.",
     "Eleanor's husband Gabriel died on February 15, 1871, and is also recorded as buried in Daniel Family Cemetery. Eleanor reportedly died in 1892, although her exact death date and burial location have not yet been established."
   ]
+},
+
+
+{
+  "id": "biddie-daniel-1824",
+  "first_name": "Biddie",
+  "middle_name": "",
+  "last_name": "Daniel",
+  "married_name": "Mister",
+  "nickname": "Biddy",
+  "suffix": "",
+  "family_lines": ["webster"],
+  "birth_year": 1824,
+  "birth_date": "1824-10-15",
+  "birth_place": "Maryland",
+  "death_year": 1904,
+  "death_date": "1904-02-06",
+  "death_place": "Baltimore, Maryland",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": [],
+  "biography": [
+    "Biddie Daniel was a daughter of Travers Daniel and Mary L. Wallace. Her father's 1858 will identifies her as Biddy Mister, providing direct evidence of her relationship to Travers Daniel and her married surname.",
+    "Her Baltimore death certificate records a birth date of October 15, 1824, in Maryland. The certificate identifies her father as 'Daniel Mister,' born in North Carolina, and her mother as Mary Wallace, born in Maryland. The father's name appears to contain an error, but the names and birthplaces are consistent with the family identification supported by Travers Daniel's will.",
+    "Biddie married Severn Mister, who died before her. Their marriage date has not yet been established.",
+    "Biddie died on February 6, 1904, in Baltimore, Maryland. Her death certificate records her age as 79 years, 3 months, and 22 days, while her death notice in The Baltimore Sun reports her age as 80. The newspaper identifies her residence as 1021 Linden Avenue.",
+    "Her death certificate records burial at Loudon Park Cemetery in Baltimore, with burial scheduled for February 8, 1904. The burial entry should be checked against cemetery records."
+  ]
+},
+
+{
+  "id": "david-w-daniel-1813",
+  "first_name": "David",
+  "middle_name": "W.",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1813,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1831,
+  "death_date": "1831-09-26",
+  "death_place": "",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": [],
+  "biography": [
+    "David W. Daniel was born around 1813 and was a son of Travers Daniel and Mary L. Wallace, according to family genealogical research.",
+    "David died at a young age. His gravestone at Daniel Family Cemetery in Wenona, Somerset County, Maryland, appears to record his death on September 26, 1831, in the nineteenth year of his age. The inscription is weathered, and the exact reading of the death date should be confirmed.",
+    "David was buried at Daniel Family Cemetery in Wenona, near Deal Island, Maryland. He died many years before his father Travers Daniel, whose will was written in 1858."
+  ]
 }
-
-
-
 
 
 

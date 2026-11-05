@@ -276,33 +276,6 @@
 },
 
 {
-  "id": "david-w-daniel-1813",
-  "first_name": "David",
-  "middle_name": "W.",
-  "last_name": "Daniel",
-  "married_name": "",
-  "nickname": "",
-  "suffix": "",
-  "family_lines": [
-    "webster"
-  ],
-  "birth_year": 1813,
-  "birth_date": "",
-  "birth_place": "",
-  "death_year": 1831,
-  "death_date": "1831-09-26",
-  "death_place": "",
-  "father": "travers-daniel-1780",
-  "mother": "mary-l-wallace-1789",
-  "spouses": [],
-  "biography": [
-    "David W. Daniel was born around 1813 and was a son of Travers Daniel and Mary L. Wallace, according to family genealogical research.",
-    "David died at a young age. His gravestone at Daniel Family Cemetery in Wenona, Somerset County, Maryland, appears to record his death on September 26, 1831, in the nineteenth year of his age. The inscription is weathered, and the exact reading of the death date should be confirmed.",
-    "David was buried at Daniel Family Cemetery in Wenona, near Deal Island, Maryland. He died many years before his father Travers Daniel, whose will was written in 1858."
-  ]
-},
-
-{
   "id": "travers_daniel_gravestone",
   "file": "travers_daniel_gravestone.jpg",
   "type": "grave",
@@ -321,7 +294,22 @@
     "gabraella-rowe-1854"
   ],
   "caption": "Gravestone of Gabraella Rowe (February 27, 1854 – September 30, 1868) at Daniel Family Cemetery, Wenona, Somerset County, Maryland. The inscription is heavily weathered but appears to preserve her birth and death dates. Family genealogical records identify her as the daughter of Gabriel H. Rowe and Eleanor Ellen Daniel."
+},
+
+
+{
+  "id": "david_w_daniel_gravestone",
+  "file": "david_w_daniel_gravestone.jpg",
+  "type": "grave",
+  "title": "Gravestone of David W. Daniel",
+  "people": [
+    "david-w-daniel-1813"
+  ],
+  "date": "",
+  "location": "Daniel Family Cemetery, Wenona, Somerset County, Maryland",
+  "caption": "Gravestone of David W. Daniel (approximately 1813–1831) at Daniel Family Cemetery in Wenona, Somerset County, Maryland. The weathered inscription appears to record his death on September 26, 1831, in the nineteenth year of his age. David is identified in family genealogical research as a son of Travers Daniel and Mary L. Wallace."
 }
+
 
 
 
