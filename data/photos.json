@@ -252,8 +252,76 @@
   "caption": "Shared gravestone of William E. Kelly (1870–1950) and Emma L. Kelly (1877–1939) at Woodlawn Cemetery, Baltimore, Maryland. The gravestone bears a Masonic square-and-compasses emblem.",
   "type": "grave",
   "date": ""
-}
+},
 
+{
+  "id": "julia_ann_daniel_gravestone",
+  "file": "julia_ann_daniel_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "julia-ann-daniel-1812"
+  ],
+  "caption": "Gravestone of Julia A. Daniel (1812–1893) at Saint Johns Cemetery, Deal Island, Somerset County, Maryland. The inscription identifies her as the daughter of Travers and Mary Daniel and records her birth on February 21, 1812. The death inscription indicates December 1893, although the exact day is difficult to read."
+},
+
+
+{
+  "id": "jacob_parks_gravestone",
+  "file": "jacob_parks_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "jacob-parks-1801"
+  ],
+  "caption": "Gravestone of Jacob Parks (August 3, 1801 – September 29, 1885) at Saint Johns Methodist Church Cemetery, Deal Island, Somerset County, Maryland. Jacob Parks is identified in family genealogical research as the husband of Julia Ann Daniel (1812–1893)."
+},
+
+{
+  "id": "david-w-daniel-1813",
+  "first_name": "David",
+  "middle_name": "W.",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1813,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1831,
+  "death_date": "1831-09-26",
+  "death_place": "",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": [],
+  "biography": [
+    "David W. Daniel was born around 1813 and was a son of Travers Daniel and Mary L. Wallace, according to family genealogical research.",
+    "David died at a young age. His gravestone at Daniel Family Cemetery in Wenona, Somerset County, Maryland, appears to record his death on September 26, 1831, in the nineteenth year of his age. The inscription is weathered, and the exact reading of the death date should be confirmed.",
+    "David was buried at Daniel Family Cemetery in Wenona, near Deal Island, Maryland. He died many years before his father Travers Daniel, whose will was written in 1858."
+  ]
+},
+
+{
+  "id": "travers_daniel_gravestone",
+  "file": "travers_daniel_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "travers-daniel-1780"
+  ],
+  "caption": "Gravestone bearing the name Travers Daniel (1780–1861) at Daniel Family Cemetery, Wenona, Somerset County, Maryland. The fragments were photographed after the original gravestone had fallen and deteriorated. The cemetery contains several Daniel family burials, and none of its historic gravestones remain standing, according to firsthand family observations."
+},
+
+
+{
+  "id": "gabraella_rowe_gravestone",
+  "file": "gabraella_rowe_gravestone.jpg",
+  "type": "grave",
+  "people": [
+    "gabraella-rowe-1854"
+  ],
+  "caption": "Gravestone of Gabraella Rowe (February 27, 1854 – September 30, 1868) at Daniel Family Cemetery, Wenona, Somerset County, Maryland. The inscription is heavily weathered but appears to preserve her birth and death dates. Family genealogical records identify her as the daughter of Gabriel H. Rowe and Eleanor Ellen Daniel."
+}
 
 
 

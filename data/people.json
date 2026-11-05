@@ -645,8 +645,8 @@
   "death_year": 1902,
   "death_date": "1902-02-10",
   "death_place": "Deal Island, Somerset County, Maryland",
-  "father": null,
-  "mother": null,
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
   "spouses": [],
 "biography": [
   "James Travers Daniel was born on February 14, 1830, according to his gravestone, and spent his life in the Wenona area of Deal Island, Somerset County, Maryland. He died there on February 10, 1902, just four days before his seventy-second birthday. His death certificate confirms his death date, although the age recorded on the certificate differs slightly from the dates inscribed on his gravestone.",
@@ -803,9 +803,339 @@
     "The 1910 United States Census places George's parents at 2014 Walbrook Avenue in Baltimore, Maryland, near his maternal grandfather, James Fairfax Daniel, who lived at 2010 Walbrook Avenue. George's presence in that household has not yet been independently verified.",
     "Ancestry family tree information records George's death year as 1966. His exact birth and death dates and locations remain to be established through historical records."
   ]
+},
+
+
+{
+  "id": "travers-daniel-1780",
+  "first_name": "Travers",
+  "middle_name": "",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1780,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1861,
+  "death_date": "",
+  "death_place": "",
+  "father": "james-daniel-1752",
+  "mother": "rebecca-travers-1756",
+  "spouses": ["mary-l-wallace-1789"],
+  "biography": [
+    "Travers Daniel was born around 1780 and died in 1861, according to FamilySearch family tree information. His exact birth and death dates and locations remain to be verified.",
+    "FamilySearch identifies his wife as Mary L. Wallace (1789–1862) and records their marriage as January 11, 1808, in Somerset County, Maryland. The marriage date and location have not yet been confirmed against an original marriage record.",
+    "Travers is identified as the father of James Travers Daniel (1830–1902) on James's Maryland death certificate. That certificate also appears to identify James's mother as Molly Wallace, possibly referring to Mary L. Wallace.",
+    "FamilySearch identifies James Daniel (1752–1817) and Rebecca Travers (1756–1815) as Travers's parents. These relationships remain research leads pending verification against historical records."
+  ]
+},
+
+
+{
+  "id": "mary-l-wallace-1789",
+  "first_name": "Mary",
+  "middle_name": "L.",
+  "last_name": "Wallace",
+  "married_name": "Daniel",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1789,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1862,
+  "death_date": "",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "travers-daniel-1780"
+  ],
+  "biography": [
+    "Mary L. Wallace was born around 1789 and died in 1862, according to FamilySearch family tree information. Her exact birth and death dates and locations remain to be verified.",
+    "A historical marriage listing records the marriage of Mary Wallace and Traverse Daniel on January 11, 1808. The listing uses the spelling 'Traverse' for her husband's given name. The marriage is associated with Somerset County, Maryland.",
+    "Mary is identified in FamilySearch as the mother of James Travers Daniel (1830–1902). His Maryland death certificate appears to identify his mother as Molly Wallace, which may refer to Mary L. Wallace. This identification remains provisional pending additional evidence.",
+    "FamilySearch identifies ten children of Travers Daniel and Mary Wallace, including William G. W. Daniel (1826–1897) and James Travers Daniel (1830–1902). The complete list of children and their relationships require verification against historical records."
+  ]
+},
+
+{
+  "id": "james-daniel-1752",
+  "first_name": "James",
+  "middle_name": "",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1752,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1817,
+  "death_date": "1817-02-11",
+  "death_place": "Rowan County, North Carolina",
+  "father": null,
+  "mother": null,
+  "spouses": [ "rebecca-travers-1756"],
+  "biography": [
+    "James Daniel was born around 1752, according to FamilySearch genealogical information. Other lineage research places his birth around 1755 in Northumberland County, Virginia. His exact birth date and birthplace remain to be established.",
+    "James Daniel lived in Rowan County, North Carolina, during the American Revolutionary War. He is recognized as a Revolutionary War patriot by the Daughters of the American Revolution (DAR Ancestor A029613) and through an approved lineage application to the Sons of the American Revolution (SAR). The DAR recognizes his patriotic service for furnishing money and supplies in North Carolina during the Revolution. Family genealogical accounts also describe service as a lieutenant in the North Carolina militia, but this military service has not yet been independently verified against original military records. His DAR ancestor record references North Carolina Revolutionary War accounts as evidence of his patriotic contributions.",
+    "On April 5, 1779, James married Rebecca, the widow of Jeremiah Adderton, in Rowan County, North Carolina. Their surviving marriage records identify her as Rebecca Atherton or Adderton, while another historical marriage listing uses the name Rebecca Travers. Family genealogical research identifies Travers as her maiden surname.",
+    "According to the Daniel family genealogy, James and Rebecca had nine children: Travers, Woodson, Elizabeth, James, Mary (Polly), Rebecca, Nancy, Jayphus, and Poindexter Daniel. These relationships are also represented in lineage research, although individual parent-child connections should be verified against supporting historical records.",
+    "The Daniel family genealogy reports that James served in public office in Rowan County, including service associated with the county courts and tax collection. The underlying court records should be examined to establish the dates and nature of these appointments.",
+    "James died on February 11, 1817, in Rowan County, North Carolina, according to the family genealogy and lineage research. His descendants later settled on Deal Island in Somerset County, Maryland, including the family of Travers Daniel and his son James Travers Daniel.",
+    "Further research is needed to locate and examine the original North Carolina Revolutionary War financial records cited in the DAR ancestor documentation. These references include North Carolina Revolutionary Army Accounts, Volume XII, Book A, Part XII, page 1631, and Accounts of the United States with North Carolina for the Revolutionary War, Book C, page 151, Roll S.115.45. The original entries have not yet been examined."
+  ]
+},
+
+{
+  "id": "rebecca-travers-1756",
+  "first_name": "Rebecca",
+  "middle_name": "",
+  "last_name": "Travers",
+  "married_name": "Daniel",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1756,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1815,
+  "death_date": "",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "james-daniel-1752"
+  ],
+  "biography": [
+    "Rebecca Travers was born around 1756, according to FamilySearch genealogical information. Her exact birth date and birthplace remain unverified. Family histories associate her early life with Maryland, including Charles County and the Eastern Shore.",
+    "According to Richard Walser's genealogical account, Jeremiah Adderton and Some of His Descendants, Rebecca left Maryland as a teenager with Jeremiah Adderton, a widower who had five children from his earlier marriage to Ann Price. The couple traveled down the Potomac River through Virginia before settling in the Yadkin River region of Rowan County, North Carolina.",
+    "Rebecca and Jeremiah Adderton reportedly had two sons, Jeremiah Ira Adderton Jr. and John Adderton. Jeremiah's will was dated January 5, 1779, and recorded in Salisbury, North Carolina, on May 4, 1779. The probate account identifies Rebecca as having remarried by the time the will was recorded.",
+    "On April 5, 1779, Rebecca married James Daniel in Rowan County, North Carolina. Their marriage bond identifies her as Rebecca Atherton, while a historical marriage listing identifies her as Rebecca Travers and describes her as a widow. Family genealogical research identifies Travers as her maiden surname and Adderton as her surname from her first marriage.",
+    "According to the Daniel family genealogy, Rebecca and James Daniel had nine children: Travers, Woodson, Elizabeth, James, Mary (Polly), Rebecca, Nancy, Jayphus, and Poindexter Daniel. These relationships are supported by family lineage research, although the underlying evidence for each child should be reviewed individually.",
+    "FamilySearch records Rebecca's death year as 1815. Her exact death date, location, and burial place remain to be verified."
+  ]
+},
+
+
+{
+  "id": "elizabeth-daniel-1810",
+  "first_name": "Elizabeth",
+  "middle_name": "",
+  "last_name": "Daniel",
+  "married_name": "Kelly",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1810,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1858,
+  "death_date": "",
+  "death_place": "",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": ["noah-kelly-1802"],
+  "biography": [
+    "Elizabeth Daniel was born around 1810, according to family genealogical records. She was a daughter of Travers Daniel and Mary L. Wallace, whose family lived in Somerset County, Maryland.",
+    "Elizabeth married Noah Kelly on July 13, 1825, according to a historical marriage listing on page 43 that records the couple as 'Kelly Noah' and 'Daniel Elizabeth.' FamilySearch identifies the marriage location as Coventry Parish, Rehobeth, Somerset County, Maryland, although that precise location is not stated on the supplied record page.",
+    "The family tree identifies nine children of Elizabeth and Noah Kelly: Sara Annie, Louisa Elizabeth, William D., Mary C., Elmira, Julia A., James Emory, Noah Travers, and Susan Kelly. These names and relationships remain to be verified against historical records.",
+    "Elizabeth is identified as the deceased daughter of Travers Daniel in his last will and testament, dated August 14, 1858, and proved May 24, 1861, in Somerset County, Maryland. The will provides an inheritance for her children, establishing that Elizabeth had died before the will was executed and that she had surviving descendants.",
+    "Family genealogical information places Elizabeth's death in 1858. Her exact death date and burial place remain unknown."
+  ]
+},
+
+
+{
+  "id": "noah-kelly-1802",
+  "first_name": "Noah",
+  "middle_name": "",
+  "last_name": "Kelly",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1802,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1869,
+  "death_date": "",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "elizabeth-daniel-1810"
+  ],
+  "biography": [
+    "Noah Kelly was born around 1802, according to FamilySearch genealogical information. His parents and exact birthplace have not yet been verified.",
+    "FamilySearch identifies Noah as the husband of Elizabeth Daniel, daughter of Travers Daniel and Mary L. Wallace. Their marriage is recorded in the family tree as July 13, 1825, in Coventry Parish, Rehobeth, Somerset County, Maryland. The original marriage record has not yet been examined.",
+    "The family tree identifies nine children of Noah and Elizabeth: Sara Annie, Louisa Elizabeth, William D., Mary C., Elmira, Julia A., James Emory, Noah Travers, and Susan Kelly. These relationships require confirmation through historical records.",
+    "Noah's death is reported as occurring in 1869. His exact death date, location, and burial place remain to be established."
+  ]
+},
+
+
+{
+  "id": "julia-ann-daniel-1812",
+  "first_name": "Julia",
+  "middle_name": "Ann",
+  "last_name": "Daniel",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1812,
+  "birth_date": "1812-02-21",
+  "birth_place": "",
+  "death_year": 1893,
+  "death_date": "",
+  "death_place": "",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": ["jacob-parks-1801"],
+  "biography": [
+    "Julia Ann Daniel was born on February 21, 1812, according to the inscription on her gravestone at Saint Johns Cemetery on Deal Island, Somerset County, Maryland.",
+    "Her gravestone identifies her as the daughter of Travers and Mary Daniel. This provides direct historical evidence of her parentage and supports her identification as a daughter of Travers Daniel and Mary L. Wallace.",
+    "Julia was one of ten children attributed to Travers Daniel and Mary Wallace in the compiled Daniel family genealogy. The family was associated with Deal Island in Somerset County, Maryland.",
+    "Julia died in December 1893, according to her gravestone. The exact day of death remains uncertain because the inscription is difficult to read. She was buried at Saint Johns Cemetery, Deal Island, Somerset County, Maryland."
+  ]
+},
+
+
+{
+  "id": "jacob-parks-1801",
+  "first_name": "Jacob",
+  "middle_name": "",
+  "last_name": "Parks",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1801,
+  "birth_date": "1801-08-03",
+  "birth_place": "",
+  "death_year": 1885,
+  "death_date": "1885-09-29",
+  "death_place": "",
+  "father": null,
+  "mother": null,
+  "spouses": [
+    "julia-ann-daniel-1812"
+  ],
+  "biography": [
+    "Jacob Parks was born on August 3, 1801, according to the inscription on his gravestone at Saint Johns Methodist Church Cemetery on Deal Island, Somerset County, Maryland.",
+    "Family genealogical information identifies Jacob Parks as the husband of Julia Ann Daniel, daughter of Travers Daniel and Mary L. Wallace. Their marriage date and location have not yet been established through a historical marriage record.",
+    "Jacob died on September 29, 1885, and was buried at Saint Johns Methodist Church Cemetery, Deal Island, Somerset County, Maryland."
+  ]
+},
+
+{
+  "id": "gabraella-rowe-1854",
+  "first_name": "Gabraella",
+  "middle_name": "",
+  "last_name": "Rowe",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1854,
+  "birth_date": "1854-02-27",
+  "birth_place": "",
+  "death_year": 1868,
+  "death_date": "1868-09-30",
+  "death_place": "",
+  "father": "gabriel-h-rowe-1821",
+  "mother": "eleanor-ellen-daniel-1828",
+  "spouses": [],
+  "biography": [
+    "Gabraella Rowe was born on February 27, 1854, according to her gravestone at Daniel Family Cemetery in Wenona, Somerset County, Maryland.",
+    "Family genealogical records identify Gabraella as the daughter of Gabriel H. Rowe (1821–1871) and Eleanor Ellen Daniel (1828–1892). Eleanor was a daughter of Travers Daniel and Mary L. Wallace, making Gabraella their granddaughter. These relationships are recorded in the family tree and require confirmation through historical records.",
+    "Gabraella died on September 30, 1868, at approximately fourteen years of age. She was buried at Daniel Family Cemetery in Wenona, Maryland, where her gravestone was photographed before the cemetery's historic markers deteriorated."
+  ]
+},
+
+
+{
+  "id": "gabriel-h-rowe-1821",
+  "first_name": "Gabriel",
+  "middle_name": "H.",
+  "last_name": "Rowe",
+  "married_name": "",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1821,
+  "birth_date": "1821-10-05",
+  "birth_place": "Somerset County, Maryland",
+  "death_year": 1871,
+  "death_date": "1871-02-15",
+  "death_place": "Maryland",
+  "father": null,
+  "mother": null,
+  "spouses": ["eleanor-ellen-daniel-1828"],
+  "biography": [
+    "Gabriel H. Rowe was born on October 5, 1821, in Somerset County, Maryland, according to family genealogical records. He was a son of George H. Rowe (1783–1844) and Nancy Webster (1797–1847), as identified in the family tree.",
+    "Gabriel married Eleanor Ellen Daniel on November 27, 1843, in Somerset County, Maryland, according to Ancestry family-tree information. Eleanor was a daughter of Travers Daniel and Mary L. Wallace. The original marriage record has not yet been examined.",
+    "The family tree identifies four children of Gabriel and Eleanor: Emily J. Rowe, Gabraella Rowe, Pinkney C. Rowe, and Gabriel Rowe. These relationships require verification through historical records.",
+    "Gabriel was a brother of Louisa Elizabeth (Lizzie) Rowe, who married James Travers Daniel. These marriages connected the Rowe and Daniel families across two generations.",
+    "Gabriel died on February 15, 1871, according to family genealogical information. He is recorded as buried in Daniel Family Cemetery in Wenona, Somerset County, Maryland. His exact burial location within the cemetery has not been established."
+  ]
+},
+
+
+{
+  "id": "eleanor-ellen-daniel-1828",
+  "first_name": "Eleanor",
+  "middle_name": "Ellen",
+  "last_name": "Daniel",
+  "married_name": "Rowe",
+  "nickname": "",
+  "suffix": "",
+  "family_lines": [
+    "webster"
+  ],
+  "birth_year": 1828,
+  "birth_date": "",
+  "birth_place": "",
+  "death_year": 1892,
+  "death_date": "",
+  "death_place": "",
+  "father": "travers-daniel-1780",
+  "mother": "mary-l-wallace-1789",
+  "spouses": [
+    "gabriel-h-rowe-1821"
+  ],
+  "biography": [
+    "Eleanor Ellen Daniel was born around 1828, according to family genealogical records. She was a daughter of Travers Daniel and Mary L. Wallace, whose family lived in Somerset County, Maryland.",
+    "Eleanor married Gabriel H. Rowe on November 27, 1843, in Somerset County, Maryland. A historical marriage index records the bride as 'Eleanor Daniels,' preserving a variant spelling of her maiden surname.",
+    "Family genealogical records identify four children of Eleanor and Gabriel: Emily J. Rowe, Gabraella Rowe, Pinkney C. Rowe, and Gabriel Rowe. These relationships have not yet been independently verified against original records.",
+    "Their daughter Gabraella Rowe died on September 30, 1868, at approximately fourteen years of age and was buried in Daniel Family Cemetery in Wenona, Somerset County, Maryland.",
+    "Eleanor's husband Gabriel died on February 15, 1871, and is also recorded as buried in Daniel Family Cemetery. Eleanor reportedly died in 1892, although her exact death date and burial location have not yet been established."
+  ]
 }
-
-
 
 
 
