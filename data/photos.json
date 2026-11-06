@@ -308,11 +308,139 @@
   "date": "",
   "location": "Daniel Family Cemetery, Wenona, Somerset County, Maryland",
   "caption": "Gravestone of David W. Daniel (approximately 1813–1831) at Daniel Family Cemetery in Wenona, Somerset County, Maryland. The weathered inscription appears to record his death on September 26, 1831, in the nineteenth year of his age. David is identified in family genealogical research as a son of Travers Daniel and Mary L. Wallace."
+},
+
+
+{
+  "id": "margaret_dix_gravestone",
+  "file": "margaret_dix_gravestone.jpg",
+  "type": "grave",
+  "title": "Gravestone of Margaret Daniel Dix",
+  "people": [
+    "margaret-daniel"
+  ],
+  "date": "",
+  "location": "St. Johns United Methodist Church Cemetery, Deal Island, Somerset County, Maryland",
+  "caption": "Gravestone of Margaret Daniel Dix (approximately 1818–1888) at St. Johns United Methodist Church Cemetery, Deal Island, Somerset County, Maryland. The inscription records her death on October 15, 1888, in the 70th year of her age."
+},
+
+
+{
+  "id": "john_dix_gravestone",
+  "file": "john_dix_gravestone.jpg",
+  "type": "grave",
+  "title": "Gravestone of John Dix",
+  "people": [
+    "john-dix-1814"
+  ],
+  "date": "",
+  "location": "Saint Johns Cemetery, Deal Island, Somerset County, Maryland",
+  "caption": "Gravestone of John Dix (1814–1868) at Saint Johns Cemetery, Deal Island, Somerset County, Maryland. The inscription records his birth on November 15, 1814, and death on April 20, 1868, at the age of 53. John married Margaret Daniel on June 3, 1834, in Somerset County, Maryland."
+},
+
+
+{
+  "id": "1884_william_daniel_portrait",
+  "file": "1884_william_daniel_portrait.jpg",
+  "type": "portrait",
+  "title": "William Daniel — 1884 Vice-Presidential Candidate",
+  "people": [
+    "william-daniel-1826"
+  ],
+  "date": "1884",
+  "location": "",
+  "caption": "Historical portrait of William Daniel (1826–1897), Maryland attorney, legislator, and Prohibition Party candidate for Vice President of the United States in 1884. The illustration is captioned 'Hon. William Daniel — Prohibition Candidate for Vice President.' The original artist and publication have not yet been identified."
+},
+
+
+{
+  "id": "mary_catherine_webster_joseph_lawrence_jackson",
+  "file": "mary_catherine_webster_joseph_lawrence_jackson.jpg",
+  "type": "photo",
+  "title": "Mary Catherine Webster and Joseph Lawrence Jackson Jr.",
+  "people": [
+    "mary-catherine-webster-1916",
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "",
+  "location": "",
+  "caption": "Mary Catherine Webster (1916–1995) with Joseph Lawrence Jackson Jr. (1918–1992), photographed outdoors. Joseph is wearing a U.S. Army uniform. A National Jewish Welfare Board record identifies him as a Technical Sergeant during World War II. The photograph's date and location have not been established."
+},
+  {
+    "id": "mary_catherine_webster_outdoors",
+    "file": "mary_catherine_webster_outdoors.jpg",
+    "type": "photo",
+    "title": "Mary Catherine Webster Outdoors",
+    "people": ["mary-catherine-webster-1916"],
+    "date": "",
+    "location": "",
+    "caption": "Mary Catherine Webster standing outdoors in a light-colored dress with a bow at the neckline. Date and location unknown."
+  },
+  {
+    "id": "mary_catherine_webster_portrait",
+    "file": "mary_catherine_webster_portrait.jpg",
+    "type": "photo",
+    "title": "Portrait of Mary Catherine Webster",
+    "people": ["mary-catherine-webster-1916"],
+    "date": "",
+    "location": "",
+    "caption": "Close-up portrait of Mary Catherine Webster wearing a necklace. Date unknown."
+  },
+  {
+    "id": "mary_catherine_webster_joseph_jackson_wedding",
+    "file": "mary_catherine_webster_joseph_jackson_wedding.jpg",
+    "type": "photo",
+    "title": "Wedding Portrait of Mary Catherine Webster and Joseph Lawrence Jackson Jr.",
+    "people": ["mary-catherine-webster-1916", "joseph-lawrence-jackson-1918"],
+    "date": "",
+    "location": "",
+    "caption": "Wedding portrait of Mary Catherine Webster and Joseph Lawrence Jackson Jr. Mary Catherine wears a wedding gown and veil, while Lawrence wears his United States Army uniform. Their wedding date and location remain to be established."
+  },
+  {
+    "id": "mary_catherine_webster_seated",
+    "file": "mary_catherine_webster_seated.jpg",
+    "type": "photo",
+    "title": "Mary Catherine Webster Seated Outdoors",
+    "people": ["mary-catherine-webster-1916"],
+    "date": "",
+    "location": "",
+    "caption": "Mary Catherine Webster seated outdoors, wearing a dark suit with a floral corsage. Date and location unknown."
+  },
+  {
+    "id": "mary_catherine_webster_joseph_jackson_outdoors",
+    "file": "mary_catherine_webster_joseph_jackson_outdoors.jpg",
+    "type": "photo",
+    "title": "Mary Catherine Webster and Joseph Lawrence Jackson Jr.",
+    "people": ["mary-catherine-webster-1916", "joseph-lawrence-jackson-1918"],
+    "date": "",
+    "location": "",
+    "caption": "Mary Catherine Webster and Joseph Lawrence Jackson Jr. standing together outdoors, dressed in coats. Date and location unknown."
+  },
+  {
+    "id": "mary_catherine_webster_with_baby",
+    "file": "mary_catherine_webster_with_baby.jpg",
+    "type": "photo",
+    "title": "Mary Catherine Webster Holding a Baby",
+    "people": ["mary-catherine-webster-1916"],
+    "date": "",
+    "location": "",
+    "caption": "Mary Catherine Webster holding an infant outside a brick building. The child's identity and photograph date have not been established."
+  },
+
+
+{
+  "id": "mary_catherine_joseph_jackson_gravestone",
+  "file": "mary_catherine_webster_joseph_jackson_gravestone.jpg",
+  "type": "grave",
+  "title": "Gravestone of Joseph Lawrence and Mary Catherine Jackson",
+  "people": [
+    "mary-catherine-webster-1916",
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "",
+  "location": "Moreland Memorial Park, Maryland",
+  "caption": "Shared gravestone of Joseph L. Jackson (1918–1992) and Mary C. Jackson (1916–1995) at Moreland Memorial Park, Maryland. The marker bears the inscription 'Together Forever.'"
 }
-
-
-
-
 
 
 ]

@@ -1479,5 +1479,261 @@
             "Identification of James Daniel under DAR Ancestor Number A029613"
         ],
         "documents": []
-    }
+    },
+
+
+{
+  "id": "1834_margaret_daniel_john_dix_marriage",
+  "type": "marriage",
+  "title": "1834 Marriage of Margaret Daniel and John Dix",
+  "people": [
+    "margaret-daniel"
+  ],
+  "date": "1834-06-03",
+  "location": "Somerset County, Maryland",
+  "description": "Historical marriage index or record identifying Margaret Daniel and John Dix as married on June 3, 1834, in Somerset County, Maryland. The record identifies the bride as Margaret Daniel and the groom as John Dix. The original register, publication title, and repository have not yet been established.",
+  "supports": [
+    "Marriage of Margaret Daniel and John Dix",
+    "Marriage date of June 3, 1834",
+    "Marriage location in Somerset County, Maryland",
+    "Identification of John Dix as Margaret Daniel's husband"
+  ],
+  "documents": []
+},
+
+
+{
+  "id": "1906_ella_guiteau_daniel_obituary",
+  "type": "obituary",
+  "title": "1906 Obituary of Ella Young Guiteau Daniel — Baltimore American",
+  "people": [
+    "ella-young-guiteau-1838",
+    "william-daniel-1826"
+  ],
+  "date": "1906-03-08",
+  "location": "Baltimore, Maryland",
+  "description": "Obituary published in the Baltimore American on March 8, 1906, page 14, reporting the death of Mrs. Ella Y. Daniel, widow of William Daniel, the Prohibition Party's 1884 vice-presidential candidate. The obituary states that Ella died in Ocean City, Maryland, after spending nearly two years there seeking improved health. It identifies her father as the Reverend Sheridan Guiteau, her grandfather as Dr. Thomas Kelso, and a surviving sister as Mrs. Theodore Cook. Her funeral was held from 914 North Charles Street, Baltimore, with Reverend De Witt M. Benham officiating, followed by burial at Green Mount Cemetery.",
+  "supports": [
+    "Ella Young Guiteau Daniel was the widow of William Daniel.",
+    "William Daniel was the Prohibition Party's vice-presidential candidate in 1884.",
+    "Ella died in Ocean City, Maryland, before March 8, 1906.",
+    "Ella's father was Reverend Sheridan Guiteau.",
+    "Ella's grandfather was Dr. Thomas Kelso.",
+    "Ella had a surviving sister identified as Mrs. Theodore Cook.",
+    "Ella was buried at Green Mount Cemetery in Baltimore."
+  ],
+  "documents": []
+},
+
+{
+  "id": "1884_william_daniel_vice_president_newspaper",
+  "type": "newspaper",
+  "title": "William Daniel, Candidate for Vice President",
+  "people": [
+    "william-daniel-1826"
+  ],
+  "date": "",
+  "location": "Maryland",
+  "description": "Historical newspaper biographical article titled 'William Daniel, Candidate for Vice President.' Describes William Daniel as a resident of Mount Washington in Baltimore County, Maryland, born on Deal Island in Somerset County. Identifies him as a practicing attorney who began practicing law in Baltimore in 1860, a Union supporter during the Civil War, a former member of the Maryland House of Delegates and State Senate, and a leading advocate of temperance and prohibition. The article discusses his organization and presidency of the Maryland State Temperance Alliance and his nomination for vice president. The newspaper name, publication date, and page number have not yet been established.",
+  "supports": [
+    "William Daniel was born on Deal Island in Somerset County, Maryland.",
+    "William Daniel resided in Mount Washington, Baltimore County.",
+    "William Daniel practiced law in Baltimore.",
+    "William Daniel served in the Maryland House of Delegates and State Senate.",
+    "William Daniel supported the Union during the Civil War.",
+    "William Daniel organized and led the Maryland State Temperance Alliance.",
+    "William Daniel was a Prohibition candidate for vice president."
+  ],
+  "documents": [
+    "1884_william_daniel_vice_president_newspaper.jpg"
+  ]
+},
+
+{
+  "id": "1887_william_daniel_appletons_biography",
+  "type": "biography",
+  "title": "William Daniel — Appletons' Cyclopædia of American Biography",
+  "people": [
+    "william-daniel-1826"
+  ],
+  "date": "1887",
+  "location": "New York",
+  "description": "Biographical entry for William Daniel in Appletons' Cyclopædia of American Biography, Volume II (Crane–Grimshaw), published in New York in 1887. Describes Daniel's birth on Deal Island, Maryland, education at Dickinson College, admission to the bar, service in the Maryland legislature, support for the Union during the Civil War, participation in the Maryland constitutional convention of 1864, leadership in the temperance movement, and nomination as the Prohibition Party's vice-presidential candidate in 1884. The entry reports that the St. John–Daniel ticket received 150,369 popular votes.",
+  "supports": [
+    "William Daniel was born on Deal Island, Somerset County, Maryland.",
+    "William Daniel graduated from Dickinson College in 1848.",
+    "William Daniel was admitted to the bar in 1851.",
+    "William Daniel served in the Maryland legislature.",
+    "William Daniel participated in Maryland's 1864 constitutional convention.",
+    "William Daniel was active in the temperance movement.",
+    "William Daniel was the Prohibition Party's vice-presidential candidate in 1884."
+  ],
+  "documents": [
+    "1887_william_daniel_appletons_biography.jpg"
+  ]
+},
+
+
+{
+  "id": "1930_mary_catherine_webster_kelso_home_census",
+  "type": "census",
+  "title": "1930 U.S. Census — Mary Catherine Webster at Kelso Home for Girls",
+  "people": [
+    "mary-catherine-webster-1916"
+  ],
+  "date": "1930",
+  "location": "Baltimore, Maryland",
+  "description": "Fifteenth Census of the United States, 1930, Maryland, Baltimore City, Enumeration District 3-46, sheet 18A. Mary Catherine Webster appears on line 19, recorded under the surname Webster, age 14, as a resident of the Kelso Home for Girls. The census establishes her residence at the institution in 1930 but does not identify her admission date.",
+  "supports": [
+    "Mary Catherine Webster was residing at the Kelso Home for Girls in 1930.",
+    "Mary Catherine Webster was recorded under the surname Webster.",
+    "Mary Catherine Webster was reported as 14 years old in the 1930 census."
+  ],
+  "documents": [
+    "1930_mary_catherine_webster_kelso_home_census.jpg"
+  ]
+},
+
+
+{
+  "id": "1944_joseph_lawrence_jackson_pow_record",
+  "type": "military",
+  "title": "World War II Prisoner of War Record — Joseph Lawrence Jackson Jr.",
+  "people": [
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "1944-07-12",
+  "location": "Germany",
+  "description": "National Archives and Records Administration, Record Group 389, World War II Prisoners of War Data File. Record for Joseph L. Jackson Jr., Army serial number 20349483, identified as a Technical Sergeant serving in an Army Air Corps heavy bomber organization. Germany is listed as the detaining power. The record includes a report date of July 12, 1944, and a latest report date of June 12, 1945. His recorded disposition indicates that he was returned to military control, liberated, or repatriated. These reporting dates should not be interpreted as exact capture or liberation dates.",
+  "supports": [
+    "Joseph Lawrence Jackson Jr. was a Technical Sergeant during World War II.",
+    "His military service number was 20349483.",
+    "He served in an Army Air Corps heavy bomber organization.",
+    "He was held as a prisoner of war by Germany.",
+    "He was subsequently returned to military control, liberated, or repatriated."
+  ],
+  "documents": [
+    "1944_joseph_lawrence_jackson_pow_record.png"
+  ]
+},
+
+
+{
+  "id": "1945_joseph_lawrence_jackson_draft_registration",
+  "type": "military",
+  "title": "1945 Draft Registration — Joseph Lawrence Jackson Jr.",
+  "people": [
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "1945-09-27",
+  "location": "Baltimore, Maryland",
+  "description": "World War II draft registration card for Joseph Lawrence Jackson Jr., dated September 27, 1945. Records his birth on September 23, 1918, in Baltimore, Maryland, and his residence at 2927 Clearview Avenue, Baltimore. Identifies Mrs. Elva M. Jackson as his mother and indicates that he was unemployed but returning to Continental Can Company. The reverse records his physical description, including a height of 5 feet 7 inches, weight of 144 pounds, blue eyes, and brown hair. The registration was completed shortly after his recorded military discharge on September 21, 1945.",
+  "supports": [
+    "Joseph Lawrence Jackson Jr. was born September 23, 1918, in Baltimore, Maryland.",
+    "Joseph resided at 2927 Clearview Avenue in Baltimore in September 1945.",
+    "His mother was identified as Mrs. Elva M. Jackson.",
+    "He expected to return to employment at Continental Can Company.",
+    "His draft registration was dated September 27, 1945."
+  ],
+  "documents": [
+    "1945_joseph_lawrence_jackson_draft_registration_front.jpg",
+    "1945_joseph_lawrence_jackson_draft_registration_back.jpg"
+  ]
+},
+
+
+{
+  "id": "1992_joseph_lawrence_jackson_veterans_record",
+  "type": "military",
+  "title": "Veterans Service and Death Record — Joseph Lawrence Jackson Jr.",
+  "people": [
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "1992-11-14",
+  "location": "",
+  "description": "Veterans service and death record for Joseph L. Jackson, page 4. Records his birth on September 23, 1918, death on November 14, 1992, and cause of death as natural. Identifies his enlistment branch as the United States Army, with an enlistment date of October 15, 1940, and discharge date of September 21, 1945. The original database or publication containing this record has not yet been identified.",
+  "supports": [
+    "Joseph Lawrence Jackson Jr. was born on September 23, 1918.",
+    "Joseph Lawrence Jackson Jr. died on November 14, 1992.",
+    "His recorded cause of death was natural.",
+    "He enlisted in the United States Army on October 15, 1940.",
+    "He was discharged from the United States Army on September 21, 1945."
+  ],
+  "documents": []
+},
+
+
+{
+  "id": "1995_mary_catherine_webster_jackson_obituary",
+  "type": "obituary",
+  "title": "Death Notice of Mary Catherine Webster Jackson, 1995",
+  "people": [
+    "mary-catherine-webster-1916"
+  ],
+  "date": "1995-10-24",
+  "location": "Baltimore, Maryland",
+  "description": "Newspaper death notice for Mary C. Jackson (née Webster), who died October 24, 1995. Identifies her as the widow of Joseph L. Jackson Jr., mother of Carol L. Padro, grandmother of Timothy and Todd Krausman, and great-grandmother of Shane, Christopher, Breana, Jennifer, and Edward. Announces funeral services at Altenburg Funeral Home, Baltimore, and interment at Moreland Memorial Park. Newspaper name and publication date have not yet been verified.",
+  "supports": [
+    "Mary Catherine Webster Jackson died October 24, 1995.",
+    "Her husband was Joseph Lawrence Jackson Jr.",
+    "She was the mother of Carol L. Padro.",
+    "Her grandchildren included Timothy and Todd Krausman.",
+    "She was buried at Moreland Memorial Park."
+  ],
+  "documents": [
+    "1995_mary_catherine_webster_jackson_obituary.jpg"
+  ]
+},
+
+
+{
+  "id": "1992_joseph_lawrence_jackson_obituary",
+  "type": "obituary",
+  "title": "Death Notice of Joseph Lawrence Jackson Jr. — The Baltimore Sun, November 18, 1992",
+  "people": [
+    "joseph-lawrence-jackson-1918"
+  ],
+  "date": "1992-11-18",
+  "location": "Baltimore, Maryland",
+  "description": "The Baltimore Sun, November 18, 1992, death notice for Joseph Lawrence Jackson Jr., who died November 14, 1992. Identifies his wife as Mary Catherine Jackson (née Webster), his daughter as Carol L. Padro, his grandchildren as Timothy and Todd Krausman, his great-grandson as Shane Krausman, and his sisters as Emma Steiner and Evelyn Adams. Funeral services were scheduled at Bethesda United Methodist Church, with interment at Moreland Memorial Park.",
+  "supports": [
+    "Joseph Lawrence Jackson Jr. died November 14, 1992.",
+    "His wife was Mary Catherine Webster Jackson.",
+    "His daughter was Carol L. Padro.",
+    "His sisters were Emma Steiner and Evelyn Adams.",
+    "He was buried at Moreland Memorial Park."
+  ],
+  "documents": [
+    "1992_joseph_lawrence_jackson_obituary.jpg"
+  ]
+},
+
+
+{
+  "id": "1995_mary_catherine_webster_jackson_funeral_card",
+  "type": "funeral",
+  "title": "Funeral Memorial Card — Mary Catherine Webster Jackson",
+  "people": [
+    "mary-catherine-webster-1916"
+  ],
+  "date": "1995-10-24",
+  "location": "Baltimore, Maryland",
+  "description": "Memorial card prepared by Altenburg Funeral Home, 6009 Harford Road, Baltimore, Maryland, for Mary Catherine Jackson. Records her birth on January 2, 1916, and death on October 24, 1995. Includes a memorial poem attributed to Jessie Home Fairweather.",
+  "supports": [
+    "Mary Catherine Webster Jackson was born January 2, 1916.",
+    "Mary Catherine Webster Jackson died October 24, 1995."
+  ],
+  "documents": [
+    "1995_mary_catherine_webster_jackson_funeral_card.jpg"
+  ]
+}
+
+
+
+
+
+
+
+
+
 ]

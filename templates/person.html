@@ -218,13 +218,23 @@
                             <strong>Rank:</strong>
                             {{ service.rank }}
                         </p>
-                    {% elif service.rank_in %}
+                    {% elif service.rank_in and service.rank_out %}
                         <p>
                             <strong>Rank:</strong>
                             {{ service.rank_in }}
-                            {% if service.rank_out and service.rank_out != service.rank_in %}
+                            {% if service.rank_in != service.rank_out %}
                                 → {{ service.rank_out }}
                             {% endif %}
+                        </p>
+                    {% elif service.rank_out %}
+                        <p>
+                            <strong>Rank at Discharge:</strong>
+                            {{ service.rank_out }}
+                        </p>
+                    {% elif service.rank_in %}
+                        <p>
+                            <strong>Rank at Enlistment:</strong>
+                            {{ service.rank_in }}
                         </p>
                     {% endif %}
 
@@ -262,6 +272,39 @@
                             {{ service.discharge_date | format_date }}
                         </p>
                     {% endif %}
+
+                    {% if service.service_number %}
+                        <p>
+                            <strong>Service Number:</strong>
+                            {{ service.service_number }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.theater %}
+                        <p>
+                            <strong>Theater:</strong>
+                            {{ service.theater }}
+                        </p>
+                    {% endif %}
+
+                    {% if service.pow is defined %}
+                        <p>
+                            <strong>Prisoner of War:</strong>
+                            {% if service.pow %}
+                                Yes
+                            {% else %}
+                                No
+                            {% endif %}
+                        </p>
+                    {% endif %}
+
+                    {% if service.detaining_power %}
+                        <p>
+                            <strong>Detaining Power:</strong>
+                            {{ service.detaining_power }}
+                        </p>
+                    {% endif %}
+
 
                     {% if service.pension_application %}
                         <p>
