@@ -45,9 +45,9 @@
             <article class="gallery-item"
                      data-families="{{ photo.family_lines | join(' ') }}">
 
-                <a href="photos/{{ photo.file }}" target="_blank"
+                <a href="{{ media_url }}/photos/{{ photo.file }}" target="_blank"
                    rel="noopener noreferrer">
-                    <img src="photos/{{ photo.file }}"
+                    <img src="{{ media_url }}/photos/{{ photo.file }}"
                          alt="{{ photo.title }}"
                          loading="lazy">
                 </a>

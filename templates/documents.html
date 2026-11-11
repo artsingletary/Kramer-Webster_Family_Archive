@@ -87,7 +87,7 @@
 
                 {% for filename in source.documents %}
                 <p>
-                    <a href="documents/{{ filename }}"
+                    <a href="{{ media_url }}/documents/{{ filename }}"
                        target="_blank"
                        rel="noopener noreferrer">
                         View Document{% if source.documents | length > 1 %} {{ loop.index }}{% endif %}

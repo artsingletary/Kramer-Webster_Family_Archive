@@ -38,7 +38,7 @@
 
                 {% if story.cover_photo %}
                 <img
-                    src="photos/{{ story.cover_photo }}"
+                    src="{{ media_url }}/photos/{{ story.cover_photo }}"
                     alt="{{ story.title }}"
                     loading="lazy"
                 >

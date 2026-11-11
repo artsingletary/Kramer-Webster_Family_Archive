@@ -32,7 +32,7 @@
 
         {% if story.cover_photo %}
         <div class="story-cover">
-            <img src="../photos/{{ story.cover_photo }}"
+            <img src="{{ media_url }}/photos/{{ story.cover_photo }}"
                  alt="{{ story.title }}">
         </div>
         {% endif %}
@@ -57,7 +57,7 @@
 
             {% if section.photo %}
             <figure>
-                <img src="../photos/{{ section.photo }}"
+                <img src="{{ media_url }}/photos/{{ section.photo }}"
                      alt="{{ section.caption | default('Family photograph') }}">
 
                 {% if section.caption %}
