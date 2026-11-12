@@ -4,8 +4,9 @@ from pathlib import Path
 from shutil import copy2
 
 # File locations
-PEOPLE_FILE = Path("data/people.json")
-BACKUP_FILE = Path("data/people_backup.json")
+BASE_DIR = Path(__file__).resolve().parent
+PEOPLE_FILE = BASE_DIR / "data" / "people.json"
+BACKUP_FILE = BASE_DIR / "data" / "people_backup.json"
 
 
 def sort_by_name(person):
@@ -41,20 +42,17 @@ def main():
     args = parser.parse_args()
 
     if not PEOPLE_FILE.exists():
-        print(f"File not found: {PEOPLE_FILE}")
-        return
+        raise FileNotFoundError(f"File not found: {PEOPLE_FILE})")
 
     # Read existing people
     with PEOPLE_FILE.open("r", encoding="utf-8") as file:
         people = json.load(file)
 
     if not isinstance(people, list):
-        print("Error: people.json must contain a list.")
-        return
+        raise ValueError("people.json must contain a list.")
 
     if not all(isinstance(person, dict) for person in people):
-        print("Error: Every person must be a JSON object.")
-        return
+        raise ValueError("Every person must ba a JSON object.")
 
     # Select sorting method
     if args.by == "year":

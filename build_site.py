@@ -104,6 +104,10 @@ def get_children(person_id):
         ):
             children.append(person)
 
+    children.sort(
+        key=lambda child: child.get("birth_year") or 9999
+    )
+
     return children
 
 
