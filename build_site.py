@@ -635,6 +635,16 @@ for person in people:
 
     # Find children
     children = get_children(person["id"])
+
+    # Find children whose primary profiles are in another archive
+    external_children = [
+        relative
+        for relative in person.get("external_relatives", [])
+        if relative.get("relationship") == "child"
+    ]
+
+
+
     person_sources = get_sources(person["id"])
     siblings = get_siblings(person)
     person_photos = get_photos(person["id"])
@@ -647,6 +657,7 @@ for person in people:
         mother=mother,
         spouses=spouses,
         children=children,
+        external_children=external_children,
         siblings=siblings,
         sources=person_sources,
         photos=person_photos,

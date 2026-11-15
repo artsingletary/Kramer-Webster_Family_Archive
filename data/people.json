@@ -793,6 +793,16 @@
     ],
     "father": "adam-johannes-kramer-1903",
     "mother": "susie-catherine-webster-1902",
+
+    "external_relatives": [
+      {
+        "relationship": "child",
+        "person_id": "arthur-singletary-jr",
+        "name": "Arthur Singletary Jr.",
+        "archive": "Singletary-Herrin",
+        "url": "https://artsingletary.github.io/Singletary-Herrin_Family_Archive/people/arthur-singletary-jr.html"
+      }
+    ],
     "biography": [
       "Bette Ann Kramer is the daughter of Adam Johannes Krämer and Susie Catherine Webster Kramer. She appears with her parents and brother Robert in the 1940 United States Federal Census in Baltimore, Maryland."
     ]

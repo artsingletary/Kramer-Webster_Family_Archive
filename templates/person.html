@@ -148,22 +148,29 @@
                 </ul>
             {% endif %}
 
-            {% if children %}
+            {% if children or external_children %}
 
                 <h3>Children</h3>
 
                 <ul>
-
                     {% for child in children %}
-
                         <li>
                             <a href="{{ child.id }}.html">
                                 {{ child.display_name }}
                             </a>
                         </li>
-
                     {% endfor %}
 
+                    {% for child in external_children %}
+                        <li>
+                            <a href="{{ child.url }}">
+                                {{ child.name }}
+                            </a>
+                            <small>
+                                 ({{ child.archive }} Family Archive)
+                            </small>
+                        </li>
+                    {% endfor %}
                 </ul>
 
             {% endif %}
