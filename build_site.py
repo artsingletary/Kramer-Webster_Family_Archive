@@ -222,6 +222,57 @@ for person in people:
     people_by_id[person["id"]] = person
 
 
+ROOT_PERSON_ID = "bette-ann-kramer"
+
+
+def get_direct_ancestor_ids(person_id):
+    """
+    Return the IDs of all recorded direct ancestors.
+
+    Follows father and mother relationships recursively.
+    Each ancestor is included only once.
+    """
+
+    ancestors = set()
+    visited = {person_id}
+    pending = [person_id]
+
+    while pending:
+        current_id = pending.pop()
+        current = people_by_id.get(current_id)
+
+        if current is None:
+            raise ValueError(
+                f"Missing person profile: {current_id}"
+            )
+
+        for relationship in ("father", "mother"):
+            parent_id = current.get(relationship)
+
+            if not parent_id:
+                continue
+
+            if parent_id not in people_by_id:
+                raise ValueError(
+                    f"Missing {relationship} profile "
+                    f"{parent_id} for {current_id}"
+                )
+
+            if parent_id in visited:
+                continue
+
+            visited.add(parent_id)
+            ancestors.add(parent_id)
+            pending.append(parent_id)
+
+    return ancestors
+
+
+direct_ancestor_ids = get_direct_ancestor_ids(ROOT_PERSON_ID)
+
+print(f"Direct ancestors identified: {len(direct_ancestor_ids)}")
+
+
 # --------------------------------------------------
 # Set up Jinja templates
 # --------------------------------------------------
@@ -362,7 +413,8 @@ for family in family_pages:
     html = family_template.render(
         family_name=family["family_name"],
         family_people=family["people"],
-        people_by_id=people_by_id
+        people_by_id=people_by_id,
+        direct_ancestor_ids=direct_ancestor_ids
     )
 
     family_file = OUTPUT_DIR / family["filename"]
@@ -670,6 +722,79 @@ for person in people:
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(html)
+
+
+# --------------------------------------------------
+# Generate Cemetery Pages
+# --------------------------------------------------
+
+CEMETERIES_FILE = BASE_DIR / "data" / "cemeteries.json"
+
+with open(CEMETERIES_FILE, "r", encoding="utf-8") as file:
+    cemeteries = json.load(file)
+CEMETERIES_DIR = OUTPUT_DIR / "cemeteries"
+
+
+CEMETERIES_DIR.mkdir(exist_ok=True)
+
+# Generate the main Cemetery Directory
+cemeteries_template = environment.get_template("cemeteries.html")
+
+directory_html = cemeteries_template.render(
+    cemeteries=sorted(
+        cemeteries,
+        key=lambda cemetery: cemetery["name"].casefold()
+    )
+)
+
+with open(OUTPUT_DIR / "cemeteries.html", "w", encoding="utf-8") as file:
+    file.write(directory_html)
+
+cemetery_template = environment.get_template("cemetery.html")
+
+for cemetery in cemeteries:
+    burials = []
+
+    for burial in cemetery.get("burials", []):
+        burial_record = burial.copy()
+        burial_record["person"] = people_by_id.get(
+            burial.get("person_id")
+        )
+        burials.append(burial_record)
+
+    burials.sort(
+        key=lambda burial: (
+            (
+                burial.get("last_name")
+                or (
+                    burial["person"].get("last_name", "")
+                    if burial["person"]
+                    else ""
+                )
+            ).casefold(),
+            (
+                burial.get("name")
+                or (
+                    burial["person"]["display_name"]
+                    if burial["person"]
+                    else ""
+                )
+            ).casefold()
+        )
+    )
+
+
+    html = cemetery_template.render(
+        cemetery=cemetery,
+        burials=burials
+    )
+
+    output_file = CEMETERIES_DIR / f"{cemetery['id']}.html"
+
+    with open(output_file, "w", encoding="utf-8") as file:
+        file.write(html)
+
+
 
 
 # --------------------------------------------------

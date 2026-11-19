@@ -224,6 +224,7 @@
         <a href="photos.html">Photos</a>
         <a href="stories.html">Stories</a>
         <a href="documents.html">Documents</a>
+        <a href="cemeteries.html">Cemeteries</a>
     </nav>
 
     <main>
@@ -249,15 +250,26 @@
             </select>
         </div>
 
+        <div class="family-ancestor-filter">
+            <label for="direct-ancestors-only">
+                <input type="checkbox" id="direct-ancestors-only">
+                Direct Ancestors Only
+            </label>
+        </div>
+
         <ul class="family-list">
 
            
 
             <li
+                class=""
+                data-direct-ancestor="false"
                 data-last-name="kramer"
                 data-first-name="bette"
                 data-birth-year=""
             >
+                
+
                  <a href="people/bette-ann-kramer.html">
                     Bette Ann Kramer
                 </a>
@@ -268,10 +280,14 @@
            
 
             <li
+                class=""
+                data-direct-ancestor="false"
                 data-last-name="kramer"
                 data-first-name="robert"
                 data-birth-year="1936"
             >
+                
+
                  <a href="people/robert-adam-kramer-1936.html">
                     Robert Adam Kramer
                 </a>
@@ -284,10 +300,18 @@
            
 
             <li
+                class="direct-ancestor"
+                data-direct-ancestor="true"
                 data-last-name="krämer"
                 data-first-name="adam"
                 data-birth-year="1903"
             >
+                
+                    <span class="direct-ancestor-star"
+                          title="Direct Ancestor"
+                          aria-label="Direct Ancestor">★</span>
+                
+
                  <a href="people/adam-johannes-kramer-1903.html">
                     Adam Johannes Krämer
                 </a>
@@ -300,10 +324,18 @@
            
 
             <li
+                class="direct-ancestor"
+                data-direct-ancestor="true"
                 data-last-name="webster"
                 data-first-name="susie"
                 data-birth-year="1902"
             >
+                
+                    <span class="direct-ancestor-star"
+                          title="Direct Ancestor"
+                          aria-label="Direct Ancestor">★</span>
+                
+
                  <a href="people/susie-catherine-webster-1902.html">
                     Susie Catherine "Sue" Webster
                 </a>
@@ -332,6 +364,20 @@
     <script>
         const sortSelect = document.getElementById("sort-order");
         const familyList = document.querySelector(".family-list");
+
+        const ancestorCheckbox = document.getElementById("direct-ancestors-only");
+
+        ancestorCheckbox.addEventListener("change", function () {
+            const people = familyList.querySelectorAll("li");
+
+            people.forEach(function (person) {
+                const isDirectAncestor =
+                    person.dataset.directAncestor === "true";
+
+                person.hidden =
+                    ancestorCheckbox.checked && !isDirectAncestor;
+            });
+        });
 
         sortSelect.addEventListener("change", function () {
 

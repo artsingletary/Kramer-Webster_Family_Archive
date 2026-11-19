@@ -680,3 +680,25 @@ footer {
     background-color: #b8a58c;
     margin: 0 auto 15px;
 }
+
+
+/* Direct Ancestor Highlighting */
+
+.direct-ancestor-star {
+    color: #b8860b;
+    font-size: 1.15rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.family-list li.direct-ancestor {
+    background-color: #fffaf0;
+    border-left: 4px solid #b8860b;
+    padding-left: 17px;
+}
+
+/* Keep filtered family members hidden */
+
+.family-list li[hidden] {
+    display: none;
+}

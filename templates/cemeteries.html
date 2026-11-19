@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "google-analytics.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cemeteries | Kramer-Webster Family Archive</title>
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Kramer and Webster families across generations.
+        </p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="family-tree.html">Family Tree</a>
+        <a href="photos.html">Photos</a>
+        <a href="stories.html">Stories</a>
+        <a href="documents.html">Documents</a>
+        <a href="cemeteries.html">Cemeteries</a>
+    </nav>
+
+    <main>
+        <h2>Cemetery Directory</h2>
+
+        <p>
+            Explore the cemeteries where members of the
+            Kramer and Webster families and their relatives
+            are buried or memorialized.
+        </p>
+
+        {% if cemeteries %}
+        <ul class="family-list">
+            {% for cemetery in cemeteries %}
+            <li>
+                <a href="cemeteries/{{ cemetery.id }}.html">
+                    {{ cemetery.name }}
+                </a>
+
+                — {{ cemetery.city }},
+                {{ cemetery.county }} County,
+                {{ cemetery.state }}
+
+                ({{ cemetery.burials | length }}
+                {% if cemetery.burials | length == 1 %}burial{% else %}burials{% endif %})
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No cemetery records have been added yet.</p>
+        {% endif %}
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p><a href="privacy.html">Privacy Notice</a></p>
+    </footer>
+
+</body>
+</html>

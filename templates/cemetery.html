@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include "google-analytics.html" %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ cemetery.name }} | Kramer-Webster Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Kramer and Webster families across generations.
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+    </nav>
+
+    <main>
+        <h2>{{ cemetery.name }}</h2>
+
+        <p>
+            {{ cemetery.city }},
+            {{ cemetery.county }} County,
+            {{ cemetery.state }}
+        </p>
+
+        {% if cemetery.description %}
+        <p>{{ cemetery.description }}</p>
+        {% endif %}
+
+        <h3>Family Members Buried or Memorialized Here</h3>
+
+
+        {% if burials %}
+        <ul class="family-list">
+            {% for burial in burials %}
+            <li>
+
+	{% if burial.person %}
+    		<a href="../people/{{ burial.person.id }}.html">
+        		{{ burial.name or burial.person.display_name }}
+    		</a>
+
+
+    		{% if burial.person.years or burial.years %}
+        	   — {{ burial.years or burial.person.years }}
+    		{% endif %}
+	{% else %}
+    		{{ burial.name }}
+
+    		{% if burial.years %}
+        		— {{ burial.years }}
+    		{% endif %}
+	{% endif %}
+
+                {% if burial.findagrave_url %}
+                    — <a href="{{ burial.findagrave_url }}">Find a Grave</a>
+                {% endif %}
+
+                {% if burial.note %}
+                    <div class="cemetery-note">
+                        <em>{{ burial.note }}</em>
+                    </div>
+                {% endif %}
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No burial records have been added yet.</p>
+        {% endif %}
+
+        <p>
+            <a href="../cemeteries.html">Return to Cemetery Directory</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+    </footer>
+
+</body>
+</html>
