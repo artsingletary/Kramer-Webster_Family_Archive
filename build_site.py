@@ -222,6 +222,28 @@ for person in people:
     people_by_id[person["id"]] = person
 
 
+# --------------------------------------------------
+# Associate people with their burial cemeteries
+# --------------------------------------------------
+
+CEMETERIES_FILE = BASE_DIR / "data" / "cemeteries.json"
+
+with open(CEMETERIES_FILE, "r", encoding="utf-8") as file:
+    cemeteries = json.load(file)
+
+burial_by_person_id = {}
+
+for cemetery in cemeteries:
+    for burial in cemetery.get("burials", []):
+        person_id = burial.get("person_id")
+
+        if person_id:
+            if person_id in burial_by_person_id:
+                raise ValueError(f"Duplicate burial assignment: {person_id}")
+
+            burial_by_person_id[person_id] = cemetery
+
+
 ROOT_PERSON_ID = "bette-ann-kramer"
 
 
@@ -714,6 +736,7 @@ for person in people:
         sources=person_sources,
         photos=person_photos,
         grave_photos=grave_photos,
+        cemetery=burial_by_person_id.get(person["id"]),
     )
 
 
@@ -728,10 +751,6 @@ for person in people:
 # Generate Cemetery Pages
 # --------------------------------------------------
 
-CEMETERIES_FILE = BASE_DIR / "data" / "cemeteries.json"
-
-with open(CEMETERIES_FILE, "r", encoding="utf-8") as file:
-    cemeteries = json.load(file)
 CEMETERIES_DIR = OUTPUT_DIR / "cemeteries"
 
 
