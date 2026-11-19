@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<!-- Google Analytics 4 - Consent Controlled -->
+<script>
+    const GA_MEASUREMENT_ID = "G-HEEEWCFZD1";
+
+    function loadGoogleAnalytics() {
+        if (window.gaAnalyticsLoaded) return;
+
+        window.gaAnalyticsLoaded = true;
+        window.dataLayer = window.dataLayer || [];
+
+        window.gtag = function () {
+            window.dataLayer.push(arguments);
+        };
+
+        gtag("js", new Date());
+        gtag("config", GA_MEASUREMENT_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src =
+            "https://www.googletagmanager.com/gtag/js?id=" +
+            GA_MEASUREMENT_ID;
+
+        document.head.appendChild(script);
+    }
+
+    // Load Analytics only if consent was previously granted.
+    try {
+        if (localStorage.getItem("kramer-webster-analytics-consent") === "accepted") {
+            loadGoogleAnalytics();
+        }
+    } catch (error) {
+        // Analytics remains disabled if storage is unavailable.
+    }
+</script>
+
+
+<!-- Analytics Cookie Consent Banner -->
+<style>
+    #cookie-consent-banner {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+        background: #f8f7f3;
+        border-top: 2px solid #b8a58c;
+        padding: 15px 25px;
+        box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.12);
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    #cookie-consent-banner p {
+        margin: 0;
+        flex: 1;
+        min-width: 240px;
+        color: #333;
+    }
+
+    #cookie-consent-banner a {
+        color: #3d4b3a;
+        text-decoration: underline;
+    }
+
+    #cookie-consent-banner button {
+        padding: 9px 18px;
+        border: 1px solid #8a6c48;
+        border-radius: 5px;
+        background: #fff;
+        color: #333;
+        cursor: pointer;
+    }
+
+    #cookie-consent-banner button:hover {
+        background: #f0e7d8;
+    }
+
+    #cookie-consent-banner button:focus-visible {
+        outline: 2px solid #3d4b3a;
+        outline-offset: 2px;
+    }
+</style>
+
+
+<!-- Cookie Consent Banner Behavior -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Create the banner.
+        const banner = document.createElement("div");
+        banner.id = "cookie-consent-banner";
+        banner.setAttribute("role", "region");
+        banner.setAttribute("aria-label", "Analytics cookie preferences");
+
+        // Create the message.
+        const message = document.createElement("p");
+        message.textContent =
+            "This website uses optional analytics cookies to understand visitor activity. ";
+
+        // Create the Privacy Notice link.
+        const privacyLink = document.createElement("a");
+        privacyLink.textContent = "Privacy Notice";
+
+        // Use the correct relative path for each page.
+        const inSubdirectory =
+            window.location.pathname.includes("/people/") ||
+            window.location.pathname.includes("/stories/");
+
+        privacyLink.href = inSubdirectory
+            ? "../privacy.html"
+            : "privacy.html";
+
+        message.appendChild(privacyLink);
+
+        // Create the Accept button.
+        const acceptButton = document.createElement("button");
+        acceptButton.type = "button";
+        acceptButton.textContent = "Accept";
+
+        // Create the Reject button.
+        const rejectButton = document.createElement("button");
+        rejectButton.type = "button";
+        rejectButton.textContent = "Reject";
+
+        // Add everything to the banner.
+        banner.append(message, acceptButton, rejectButton);
+        document.body.appendChild(banner);
+
+        // Check for an existing consent choice.
+        let consent = null;
+
+        try {
+            consent = localStorage.getItem("kramer-webster-analytics-consent");
+        } catch (error) {
+            // Storage may be unavailable.
+        }
+
+        // Show the banner if no choice has been saved.
+        if (consent !== "accepted" && consent !== "rejected") {
+            banner.style.display = "flex";
+        }
+
+        // Accept analytics cookies.
+        acceptButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("kramer-webster-analytics-consent", "accepted");
+
+                banner.style.display = "none";
+                loadGoogleAnalytics();
+            } catch (error) {
+                // Do not enable analytics if consent cannot be saved.
+            }
+        });
+
+
+        // Reject analytics cookies.
+        rejectButton.addEventListener("click", function () {
+            try {
+                localStorage.setItem("kramer-webster-analytics-consent", "rejected");
+
+                // Disable further Google Analytics collection.
+                window["ga-disable-" + GA_MEASUREMENT_ID] = true;
+
+                document.cookie.split(";").forEach(function (cookie) {
+                    const name = cookie.split("=")[0].trim();
+
+                    if (name === "_ga" || name.startsWith("_ga_")) {
+                        // Clear host-only cookies.
+                        document.cookie =
+                        name + "=; Max-Age=0; path=/";
+
+                        // Clear cookies scoped to this website's domain.
+                         document.cookie =
+                            name +
+                            "=; Max-Age=0; path=/; domain=artsingletary.github.io";
+                    }
+                });
+
+                banner.style.display = "none";
+
+                // Stop the previously loaded Analytics session.
+                window.location.reload();
+
+            } catch (error) {
+                // Analytics remains disabled if storage is unavailable.
+            }
+        });
+
+
+    });
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Saint Johns Cemetery | Kramer-Webster Family Archive</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Kramer-Webster Family Archive</h1>
+
+        <p>
+            Preserving the history, photographs, records, and stories
+            of the Kramer and Webster families across generations.
+        </p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../family-tree.html">Family Tree</a>
+        <a href="../photos.html">Photos</a>
+        <a href="../stories.html">Stories</a>
+        <a href="../documents.html">Documents</a>
+        <a href="../cemeteries.html">Cemeteries</a>
+    </nav>
+
+    <main>
+        <h2>Saint Johns Cemetery</h2>
+
+        <p>
+            Deal Island,
+            Somerset County,
+            Maryland
+        </p>
+
+        
+        <p>Historic cemetery associated with St. John's Methodist Episcopal Church and Joshua Thomas Chapel on Deal Island.</p>
+        
+
+        <h3>Family Members Buried or Memorialized Here</h3>
+
+
+        
+        <ul class="family-list">
+            
+            <li>
+
+	
+    		Agnes Lee Anderson
+
+    		
+        		— 1898–1933
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185966724/agnes_l-anderson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Arianna Gertrude Andrews
+
+    		
+        		— 1865–1914
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/181570179/gertrude_arianna_andrews">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Arthur Stanley Andrews
+
+    		
+        		— 1862–1945
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/181569962/arthur_andrews">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 2nd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Percy Elwood Andrews
+
+    		
+        		— 1888–1964
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/181570315/percy_elwood_andrews">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Margaret Elizabeth Bozman
+
+    		
+        		— 1889–1980
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/35762311/elizabeth_a-bozman">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Warren B. Bozman
+
+    		
+        		— 1890–1950
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/35762188/warren_b-bozman">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Catherine Katie Bradshaw
+
+    		
+        		— 1866–1931
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/144420769/katie_a_bradshaw">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elizabeth Collier
+
+    		
+        		— 1839–1911
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098789/elizabeth_j-collier">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elizabeth A. "Lizzie" Cullison
+
+    		
+        		— 1865–1920
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106714901/elizabeth-a-cullison">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Evalina S. Cullison
+
+    		
+        		— 1860–1898
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106714125/evalina_s-cullison">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Harry A. Cullison
+
+    		
+        		— 1859–1916
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106714684/harry_a_cullison">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Sadie Theresa Cullison
+
+    		
+        		— 1865–1939
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106713923/sadie_theresa-cullison">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Frederick C. Daniel
+
+    		
+        		— 1874–1893
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/179014401/frederick-c-daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/james-fairfax-daniel-1855.html">
+        		James Fairfax Daniel Sr.
+    		</a>
+
+
+    		
+        	   — 1855–1927
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97581254/james_fairfax_daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandfather</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/james-travers-daniel-1830.html">
+        		James Travers Daniel
+    		</a>
+
+
+    		
+        	   — 1830–1902
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97597009/james_travers_daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Grandfather</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/mary-catherine-wilson-1859.html">
+        		Mary Catherine Daniel
+    		</a>
+
+
+    		
+        	   — 1859–1910
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97581821/mary_catherine_daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandmother</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/wilson-bounds-daniel-1897.html">
+        		Wilson Bounds Daniel
+    		</a>
+
+
+    		
+        	   — 1897–1918
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97599221/wilson_bounds_daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		David Wallace Dix
+
+    		
+        		— 1855–1921
+    		
+	
+
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/john-dix-1814.html">
+        		John Dix
+    		</a>
+
+
+    		
+        	   — 1814–1868
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117085608/john-dix">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 3rd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Margaret Dix
+
+    		
+        		— 1818–1888
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97598393/margaret_dix">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Sarah M. Dix
+
+    		
+        		— 1847–1911
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117085838/sarah-m-dix">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William Seymore Dix
+
+    		
+        		— 1842–1914
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117085716/william_seymore_dix">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Tenie Edwards
+
+    		
+        		— 1888–1954
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/178917210/tenie-rowe-edwards">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Marcellus R. Evans
+
+    		
+        		— 1841–1905
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/275750278/marcillus_r-evans">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William Thomas Evans
+
+    		
+        		— 1829–1906
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/154756221/william-thomas-evans">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elija Gibson
+
+    		
+        		— 1811–1853
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/93242322/elijah-gibson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elizabeth C. Gibson
+
+    		
+        		— 1836–1914
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185958051/elizabeth_c-gibson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Aunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		George A. Gibson Sr.
+
+    		
+        		— 1831–1910
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185958045/george_a-gibson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		George Washington Horseman
+
+    		
+        		— 1864–1936
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/127547355/george-washington-horseman">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Julia Ann Horseman
+
+    		
+        		— 1842–1935
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/251471181/julia_ann-horseman">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Mary Elinor Horseman
+
+    		
+        		— 1866–1923
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/127547228/mary-e-horseman">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Mary Travers Kirwin
+
+    		
+        		— 1856–1934
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185988374/mary-t-kirwin">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Maurice Lee Kirwin
+
+    		
+        		— 1880–1936
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185988306/maurice_lee-kirwin">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Thomas Henry Kirwin
+
+    		
+        		— 1856–1917
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185988366/thomas_henry-kirwan">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 2nd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Mamie A. Mister
+
+    		
+        		— 1888–1973
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106345986/mamie_a-mister">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Thelma Mister
+
+    		
+        		— 1900–1966
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/106344997/thelma_mister">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/jacob-parks-1801.html">
+        		Jacob Parks
+    		</a>
+
+
+    		
+        	   — 1804–1885
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117007985/jacob-parks">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 3rd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/julia-ann-daniel-1812.html">
+        		Julia Ann Parks
+    		</a>
+
+
+    		
+        	   — 1812–1893
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/112328284/julia-ann-daniel">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Carrie Virginia Rowe
+
+    		
+        		— 1871–1954
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/277007970/carrie-virginia-rowe">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		George Thomas Rowe
+
+    		
+        		— 1831–1891
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117008825/george-thomas-rowe">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 5x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Thomas J.H. Rowe
+
+    		
+        		— 1863–1871
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185928378/thomas_j_h_rowe">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Evaline Shena Shores
+
+    		
+        		— 1859–1916
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/183872480/evaline_shena-shores">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William Lorenzo Shores
+
+    		
+        		— 1856–1914
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/183872505/william_lorenzo-shores">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Frank Benjamin Vetra
+
+    		
+        		— 1888–1974
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/237770069/frank_benjamin-vetra">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Margaret D. Vetra
+
+    		
+        		— 1890–1972
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/237770437/margaret_d-vetra">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Alma May Webster
+
+    		
+        		— 1897–1901
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098818/alma_may-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousinn 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Benjamin Franklin Webster
+
+    		
+        		— 1854–1904
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098827/benjamin_f-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Delia Webster
+
+    		
+        		— 1881–1881
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098848/delia-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elmer Webster
+
+    		
+        		— 1861–1871
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185941790/elmer_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/gabriel-snead-webster-1822.html">
+        		Gabriel Snead Webster
+    		</a>
+
+
+    		
+        	   — d. 1871 (birth year uncertain)
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116925757/gabriel-snead-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandfather; birth year uncertain (profile estimates circa 1822)</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Harlan Cook Webster
+
+    		
+        		— 1885–1953
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098871/harlan-cook-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/isadora-franklin-daniel-1880.html">
+        		Isadora Franklin Webster
+    		</a>
+
+
+    		
+        	   — 1880–1967
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97599442/isadora-franklin-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Julia Capitola Webster
+
+    		
+        		— 1859–1912
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185929789/julia_catherine_capitola-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Lennie Gardner Webster Jr.
+
+    		
+        		— 1915–1915
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116849421/lennie-gardner-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Lennie Gardner Webster Sr.
+
+    		
+        		— 1876–1952
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116849042/lennie-gardner-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>4th Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Lottie Bell Webster
+
+    		
+        		— 1881–1949
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098897/lottie_bell_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>4th Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Marion Delmas Webster
+
+    		
+        		— 1916–1954
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/195287072/marion_delmas_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Mary Emma Webster
+
+    		
+        		— 1870–1912
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098907/mary_e-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>4th Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Mary Wesley Webster
+
+    		
+        		— 1858–1929
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098903/mary_wesley-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Minnie Estelle Webster
+
+    		
+        		— 1888–1953
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185982026/minnie-estelle-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Wife of 2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Newton Snead Webster
+
+    		
+        		— 1855–1871
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117008411/newton_snead_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Robert Levin Webster
+
+    		
+        		— 1879–1958
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098920/robert_levin-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		<a href="../people/susan-a-windsor-1843.html">
+        		Susan A. Webster
+    		</a>
+
+
+    		
+        	   — 1843–1911
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116898403/susan_a_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandmother</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Tilden Samuel Webster
+
+    		
+        		— 1876–1939
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185981978/tilden_samuel-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Tressie Webster
+
+    		
+        		— 1890–1903
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098944/tressie-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Cousin 2x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Walter Edelen Webster Sr.
+
+    		
+        		— 1895–1986
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/133973467/walter_edelen_webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>4th Cousin</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William Jacob Webster
+
+    		
+        		— 1838–1910
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116991379/william-jacob-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William L. Webster
+
+    		
+        		— 1863–1943
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/130098951/william-l-webster">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William E. White
+
+    		
+        		— 1849–1931
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/78483483/william_e-white">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Husband of 2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Annie E. Wilson
+
+    		
+        		— 1864–1923
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117088664/annie-e-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Wife of 2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Edgerton Granville Wilson
+
+    		
+        		— 1865–1920
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/95287131/edgerton_granville_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Elizabeth S. Wilson
+
+    		
+        		— 1831–1905
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117089090/elizabeth-s-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Wife of 3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		George W. Wilson
+
+    		
+        		— 1862–1878
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117087603/george-w-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		James Lazarus Wilson
+
+    		
+        		— 1818–1896
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116977588/james_lazarus_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		John W. Wilson
+
+    		
+        		— 1860–1862
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117087455/john-w-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		John W. Wilson
+
+    		
+        		— 1867–1869
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117087250/john-w-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		John W. Wilson Jr.
+
+    		
+        		— 1828–1898
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117088437/john_w_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Keziah Jane Wilson
+
+    		
+        		— 1855–1943
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/109772556/keziah_jane_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Grandaunt</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Lazarus Benjamin Wilson
+
+    		
+        		— 1857–1922
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/109098136/lazarus-benjamin-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Marcellus T. Wilson
+
+    		
+        		— 1862–1910
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/109772942/marcellus_t_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Margaret T. Wilson
+
+    		
+        		— 1825–1855
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116977701/margaret_t_horner">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>Wife of 3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Samuel David Wilson
+
+    		
+        		— 1823–1914
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/97582504/samuel_david_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Grandfather</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Theresa F. Wilson
+
+    		
+        		— 1874–1874
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117088275/theresa-f-wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		George Washington Windsor
+
+    		
+        		— 1849–1892
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/185950514/george_w-windsor">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		John Henry Windsor
+
+    		
+        		— 1805–1870
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/116899222/john-henry-windsor">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>3rd Great Granduncle</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Samuel J. Windsor
+
+    		
+        		— 1872–1892
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/277019939/samuel-j-windsor">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		William Bolen Windsor
+
+    		
+        		— 1841–1863
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/117089465/william-bolen-windsor">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>1st Cousin 4x Removed</em>
+                    </div>
+                
+            </li>
+            
+            <li>
+
+	
+    		Winifred Helen Windsor
+
+    		
+        		— 1867–1946
+    		
+	
+
+                
+                    — <a href="https://www.findagrave.com/memorial/95286174/winifred_helen_wilson">Find a Grave</a>
+                
+
+                
+                    <div class="cemetery-note">
+                        <em>2nd Cousin 3x Removed</em>
+                    </div>
+                
+            </li>
+            
+        </ul>
+        
+
+        <p>
+            <a href="../cemeteries.html">Return to Cemetery Directory</a>
+        </p>
+    </main>
+
+    <footer>
+        <p>Kramer-Webster Family Archive</p>
+
+        <p>
+            <a href="../privacy.html">Privacy Notice</a>
+        </p>
+    </footer>
+
+</body>
+</html>
